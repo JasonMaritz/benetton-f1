@@ -1,0 +1,1 @@
+Use this to store in progress or completed files regarding the design of the project(UML, activity and sequence diagrams)

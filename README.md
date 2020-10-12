@@ -18,7 +18,7 @@ the goal of this project is to, using design patterns, implement a management sy
 * clone repository locally in IDE of choice or to local repository:
 
 ```
-    git clone https://D4rkT1d3@bitbucket.org/cos-214/benetton-f1.git
+    git clone https://github.com/D4rkT1d3/benetton-f1
 ```
 
 * use the following to synch local repository with hosted version :

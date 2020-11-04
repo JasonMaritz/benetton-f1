@@ -12,6 +12,7 @@ class HardTyreFactory : public TyreFactory
 {
 private:
 public:
+    HardTyreFactory();
     Tyre* makeTyre() override;
 };
 

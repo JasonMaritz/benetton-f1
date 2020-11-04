@@ -12,6 +12,7 @@ class MediumTyreFactory : public TyreFactory
 {
 private:
 public:
+    MediumTyreFactory();
     Tyre* makeTyre() override;
 };
 

@@ -5,6 +5,12 @@
 #include "SoftTyreFactory.h"
 #include "../Tyres/SoftTyre.h"
 
+SoftTyreFactory::SoftTyreFactory()
+{
+    Tyre* softTyre = new SoftTyre();
+    this->setTyre(softTyre->make());
+}
+
 Tyre *SoftTyreFactory::makeTyre()
 {
     Tyre* softTyre = new SoftTyre();

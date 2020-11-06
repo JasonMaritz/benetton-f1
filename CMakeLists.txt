@@ -46,4 +46,20 @@ add_executable(cos214 src/Aerodynamics.cpp
         include/RaceBuilderDir.h
         include/ResearchAndDevelopmentDepartment.h
         include/TestBuilderDir.h
-        include/Director.h)
+        include/Director.h
+        ElecFactory.cpp
+        ElecFactory.h
+        ElecFactoryExperimental.cpp
+        ElecFactoryExperimental.h
+        EngFactory.cpp
+        EngFactory.h
+        EngFactoryExperimental.cpp
+        EngFactoryExperimental.h
+        ChaFactoryExperimental.h
+        ChaFactoryExperimental.cpp
+        ChaFactory.h
+        ChaFactory.cpp
+        AFactoryExperimental.h
+        AFactoryExperimental.cpp
+        AFactory.h
+        AFactory.cpp)

@@ -6,9 +6,12 @@
 #define COS214_MGUK_H
 
 
-class MGUK {
+#include "Part.h"
+
+class MGUK: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

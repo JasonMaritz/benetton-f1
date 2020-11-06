@@ -6,9 +6,12 @@
 #define COS214_BARGEBOARD_H
 
 
-class Bargeboard {
+#include "Part.h"
+
+class Bargeboard: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

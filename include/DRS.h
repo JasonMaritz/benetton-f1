@@ -6,9 +6,12 @@
 #define COS214_DRS_H
 
 
-class DRS {
+#include "Part.h"
+
+class DRS: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

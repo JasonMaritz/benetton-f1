@@ -10,8 +10,8 @@
 class EnginePart: public Part {
 public:
     EnginePart();
-    EnginePart(EnginePart* clone);
     virtual double getPerformance() = 0;
+    virtual Part* clone() = 0;
 };
 
 

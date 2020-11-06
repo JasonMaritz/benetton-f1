@@ -6,9 +6,12 @@
 #define COS214_ERS_H
 
 
-class ERS {
+#include "Part.h"
+
+class ERS: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

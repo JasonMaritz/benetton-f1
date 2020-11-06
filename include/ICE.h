@@ -6,9 +6,12 @@
 #define COS214_ICE_H
 
 
-class ICE {
+#include "Part.h"
+
+class ICE: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

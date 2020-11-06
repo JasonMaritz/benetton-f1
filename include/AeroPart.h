@@ -10,8 +10,8 @@
 class AeroPart: public Part {
 public:
     AeroPart();
-    AeroPart(AeroPart* clone);
     virtual double getPerformance() = 0;
+    virtual Part* clone() = 0;
 };
 
 

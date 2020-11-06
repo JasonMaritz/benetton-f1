@@ -10,8 +10,8 @@
 class ElectronicsPart: public Part {
 public:
     ElectronicsPart();
-    ElectronicsPart(ElectronicsPart* clone);
     virtual double getPerformance() = 0;
+    virtual Part* clone() = 0;
 };
 
 

@@ -11,8 +11,8 @@
 class ChassisPart: public Part {
 public:
     ChassisPart();
-    ChassisPart(ChassisPart* clone);
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

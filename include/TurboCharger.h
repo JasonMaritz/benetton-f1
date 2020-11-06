@@ -6,9 +6,12 @@
 #define COS214_TURBOCHARGER_H
 
 
-class TurboCharger {
+#include "Part.h"
+
+class TurboCharger: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

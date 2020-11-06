@@ -15,6 +15,7 @@ public:
     double WindTunnelTest(int WTSpeed);
     double SoftwareTest(int timeSpeed);
     std::string getType();
+    virtual Part* clone() = 0;
 private:
     std::string type;
     TestingCenter* TC;

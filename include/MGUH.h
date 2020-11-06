@@ -6,9 +6,12 @@
 #define COS214_MGUH_H
 
 
-class MGUH {
+#include "Part.h"
+
+class MGUH: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

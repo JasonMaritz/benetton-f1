@@ -6,9 +6,12 @@
 #define COS214_ENERGYSTORE_H
 
 
-class EnergyStore {
+#include "Part.h"
+
+class EnergyStore: public Part {
 public:
     virtual double getPerformance();
+    virtual Part* clone();
 };
 
 

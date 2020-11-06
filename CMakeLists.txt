@@ -62,4 +62,22 @@ add_executable(cos214 src/Aerodynamics.cpp
         include/AFactoryExperimental.h
         src/AFactoryExperimental.cpp
         include/AFactory.h
-        src/AFactory.cpp)
+        src/AFactory.cpp
+        src/Bargeboard.cpp
+        include/Bargeboard.h
+        src/DRS.cpp
+        include/DRS.h
+        src/ICE.cpp
+        include/ICE.h
+        src/TurboCharger.cpp
+        include/TurboCharger.h
+        src/ChassisPart.cpp
+        include/ChassisPart.h
+        src/ERS.cpp include/ERS.h
+        src/MGUH.cpp
+        include/MGUH.h
+        src/MGUK.cpp
+        include/MGUK.h
+        src/EnergyStore.cpp
+        include/EnergyStore.h
+        )

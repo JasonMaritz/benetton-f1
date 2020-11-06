@@ -5,9 +5,13 @@
 #ifndef BENETTON_F1_ELECTRONICSPART_H
 #define BENETTON_F1_ELECTRONICSPART_H
 
+#include "Part.h"
 
-class ElectronicsPart {
-
+class ElectronicsPart: public Part {
+public:
+    ElectronicsPart();
+    ElectronicsPart(ElectronicsPart* clone);
+    virtual double getPerformance() = 0;
 };
 
 

@@ -11,6 +11,7 @@ class Engineering {
 public:
     static Engineering* getInstance();
     void setBudget(double budget);
+    void setBest(Part* newBest);
 protected:
     Engineering();
 private:

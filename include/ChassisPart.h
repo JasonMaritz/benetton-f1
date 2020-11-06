@@ -1,14 +1,19 @@
 //
-// Created by jason on 2020/11/03.
+// Created by jason on 2020/11/06.
 //
 
-#ifndef BENETTON_F1_CHASSISPART_H
-#define BENETTON_F1_CHASSISPART_H
+#ifndef COS214_CHASSISPART_H
+#define COS214_CHASSISPART_H
 
 
-class ChassisPart {
+#include "Part.h"
 
+class ChassisPart: public Part {
+public:
+    ChassisPart();
+    ChassisPart(ChassisPart* clone);
+    virtual double getPerformance();
 };
 
 
-#endif //BENETTON_F1_CHASSISPART_H
+#endif //COS214_CHASSISPART_H

@@ -5,8 +5,20 @@
 #ifndef BENETTON_F1_F1CAR_H
 #define BENETTON_F1_F1CAR_H
 
-class F1Car {
+#include <vector>
+#include "Part.h"
 
+class F1Car {
+    friend class F1Builder;
+public:
+    F1Car();
+    ~F1Car();
+    double getPerformance();
+    void setResult(Result* result);
+    void generateReport();
+private:
+    Result* res;
+    std::vector<Part*> parts;
 };
 
 #endif //BENETTON_F1_F1CAR_H

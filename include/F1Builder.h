@@ -5,8 +5,12 @@
 #ifndef BENETTON_F1_F1BUILDER_H
 #define BENETTON_F1_F1BUILDER_H
 
-class F1Builder {
+#include "F1Car.h"
 
+class F1Builder {
+public:
+    F1Car* getResult();
+    void buildPart(Part* carPart);
 };
 
 #endif //BENETTON_F1_F1BUILDER_H

@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(cos214 src/Aerodynamics.cpp
         src/AeroFactory.cpp
         src/AeroPart.cpp
-        src/Builder.cpp
         src/Chassis.cpp
         src/ChassisFactory.cpp
         src/ChassisPart.cpp
@@ -24,11 +23,9 @@ add_executable(cos214 src/Aerodynamics.cpp
         src/RaceBuilderDir.cpp
         src/ResearchAndDevelopmentDepartment.cpp
         src/TestBuilderDir.cpp
-        src/Director.cpp
         include/Aerodynamics.h
         include/AeroFactory.h
         include/AeroPart.h
-        include/Builder.h
         include/Chassis.h
         include/ChassisFactory.h
         include/ChassisPart.h
@@ -46,7 +43,6 @@ add_executable(cos214 src/Aerodynamics.cpp
         include/RaceBuilderDir.h
         include/ResearchAndDevelopmentDepartment.h
         include/TestBuilderDir.h
-        include/Director.h
         src/ElecFactory.cpp
         include/ElecFactory.h
         src/ElecFactoryExperimental.cpp

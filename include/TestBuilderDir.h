@@ -5,10 +5,11 @@
 #ifndef BENETTON_F1_TESTBUILDERDIR_H
 #define BENETTON_F1_TESTBUILDERDIR_H
 
+#include <map>
 #include "F1Car.h"
 
 static class TestBuilderDir{
-    static F1Car* buildCar(std::vector<Part*> parts);
+    static std::map<Part*,F1Car*> buildCar(std::vector<Part*> parts);
 };
 
 

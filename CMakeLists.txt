@@ -47,19 +47,19 @@ add_executable(cos214 src/Aerodynamics.cpp
         include/ResearchAndDevelopmentDepartment.h
         include/TestBuilderDir.h
         include/Director.h
-        ElecFactory.cpp
-        ElecFactory.h
-        ElecFactoryExperimental.cpp
-        ElecFactoryExperimental.h
-        EngFactory.cpp
-        EngFactory.h
-        EngFactoryExperimental.cpp
-        EngFactoryExperimental.h
-        ChaFactoryExperimental.h
-        ChaFactoryExperimental.cpp
-        ChaFactory.h
-        ChaFactory.cpp
-        AFactoryExperimental.h
-        AFactoryExperimental.cpp
-        AFactory.h
-        AFactory.cpp)
+        src/ElecFactory.cpp
+        include/ElecFactory.h
+        src/ElecFactoryExperimental.cpp
+        include/ElecFactoryExperimental.h
+        src/EngFactory.cpp
+        include/EngFactory.h
+        src/EngFactoryExperimental.cpp
+        include/EngFactoryExperimental.h
+        include/ChaFactoryExperimental.h
+        src/ChaFactoryExperimental.cpp
+        include/ChaFactory.h
+        src/ChaFactory.cpp
+        include/AFactoryExperimental.h
+        src/AFactoryExperimental.cpp
+        include/AFactory.h
+        src/AFactory.cpp)

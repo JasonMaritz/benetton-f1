@@ -5,9 +5,12 @@
 #ifndef BENETTON_F1_PARTSFACTORY_H
 #define BENETTON_F1_PARTSFACTORY_H
 
+#include <string>
+#include "Part.h"
 
 class PartsFactory {
-
+public:
+    virtual Part* produce(std::string type) = 0;
 };
 
 

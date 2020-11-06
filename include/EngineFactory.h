@@ -5,9 +5,17 @@
 #ifndef BENETTON_F1_ENGINEFACTORY_H
 #define BENETTON_F1_ENGINEFACTORY_H
 
+#include "PartsFactory.h"
+#include "EnginePart.h"
 
-class EngineFactory {
-
+class EngineFactory: public PartsFactory {
+    friend class Engine;
+public:
+    EngineFactory();
+    virtual Part* produce(std::string type) = 0;
+private:
+    static EnginePart* defaultICE;
+    static EnginePart* defaultTurbo;
 };
 
 

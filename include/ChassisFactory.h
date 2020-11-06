@@ -5,9 +5,16 @@
 #ifndef BENETTON_F1_CHASSISFACTORY_H
 #define BENETTON_F1_CHASSISFACTORY_H
 
+#include "PartsFactory.h"
+#include "ChassisPart.h"
 
-class ChassisFactory {
-
+class ChassisFactory: public PartsFactory {
+    friend class Chassis;
+public:
+    ChassisFactory();
+    virtual Part* produce(std::string type) = 0;
+private:
+    static ChassisPart* defaultChassis;
 };
 
 

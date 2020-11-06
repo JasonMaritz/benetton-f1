@@ -5,9 +5,11 @@
 
 class Track
 {
+private:
 	Result* result;
 
 public:
+	void setResult(Result* result);
 	void generateReport();
 };
 

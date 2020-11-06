@@ -6,7 +6,7 @@
 class EuropeTestArea : public TestingCenter
 {
 public:
-	Parts* TestParts();
+	void TestParts();
 };
 
 #endif // !EuropeTestArea_h

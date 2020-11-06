@@ -19,6 +19,6 @@ public:
 	void addToTestQueue(Parts* part);
 	Memento* createMemento();
 	void setMemento(Memento* m);
-	virtual Parts*  TestParts()=0;
+	virtual void  TestParts()=0;
 };
 #endif // !TestingCenter_h

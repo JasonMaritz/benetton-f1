@@ -48,3 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+#cmake files
+cmake-build-debug/
+CMakeLists.txt

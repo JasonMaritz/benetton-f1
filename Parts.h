@@ -3,7 +3,9 @@
 
 class Parts
 {
-
+public:
+	Parts* clone();
+	double getPerformance();
 };
 
 #endif // !Parts_h

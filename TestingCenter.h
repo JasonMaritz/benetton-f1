@@ -4,12 +4,13 @@
 #include "WindTunnelCounter.h"
 #include "Memento.h"
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
 class TestingCenter
 {
-private:
+protected:
 	vector<Parts*> PartList;
 	WindTunnelCounter* WTCounter;
 	vector<Memento*> MementoList;

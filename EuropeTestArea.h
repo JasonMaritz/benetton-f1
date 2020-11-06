@@ -3,6 +3,8 @@
 
 #include "TestingCenter.h"
 
+using namespace std;
+
 class EuropeTestArea : public TestingCenter
 {
 public:

@@ -12,3 +12,13 @@ Part *MGUH::clone() {
     nMGUH->wear = this->wear;
     return dynamic_cast<Part*>(nMGUH);
 }
+
+double MGUH::getPerformance() {
+    double temp = 8;
+    temp += 21*powerContribution;
+    temp += 71*efficiency;
+    temp -= 8*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

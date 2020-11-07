@@ -3,3 +3,7 @@
 //
 
 #include "../include/ChassisFactory.h"
+ChassisFactory::ChassisFactory() {
+    if(!defaultChassis)
+        defaultChassis = new ChassisPart();
+}

@@ -12,3 +12,13 @@ Part *MGUK::clone() {
     nMGUK->wear = this->wear;
     return dynamic_cast<Part*>(nMGUK);
 }
+
+double MGUK::getPerformance() {
+    double temp = 4;
+    temp += 53*powerContribution;
+    temp += 43*efficiency;
+    temp -= 4*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

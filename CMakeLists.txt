@@ -19,7 +19,6 @@ add_executable(cos214 R&D/src/Aerodynamics.cpp
         F1Car/src/F1Builder.cpp
         F1Car/src/F1Car.cpp
         Parts/src/Part.cpp
-        PartsFactory/src/PartsFactory.cpp
         F1Car/src/RaceBuilderDir.cpp
         R&D/src/ResearchAndDevelopmentDepartment.cpp
         F1Car/src/TestBuilderDir.cpp

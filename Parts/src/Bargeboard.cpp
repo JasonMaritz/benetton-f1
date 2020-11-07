@@ -12,3 +12,13 @@ Part *Bargeboard::clone() {
     nBBoard->wear = this->wear;
     return dynamic_cast<Part*>(nBBoard);
 }
+
+double Bargeboard::getPerformance() {
+    double temp = 10;
+    temp += 10*powerContribution;
+    temp += 80*efficiency;
+    temp -= 10*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

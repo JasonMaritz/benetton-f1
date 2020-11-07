@@ -20,3 +20,13 @@ Part *ChassisPart::clone() {
     nChassis->wear = this->wear;
     return dynamic_cast<Part*>(nChassis);
 }
+
+double ChassisPart::getPerformance() {
+    double temp = 5;
+    temp += 35*powerContribution;
+    temp += 60*efficiency;
+    temp -= 5*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

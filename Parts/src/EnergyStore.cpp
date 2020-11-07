@@ -12,3 +12,13 @@ Part *EnergyStore::clone() {
     nES->wear = this->wear;
     return dynamic_cast<Part*>(nES);
 }
+
+double EnergyStore::getPerformance() {
+    double temp = 43;
+    temp += 20*powerContribution;
+    temp += 28*efficiency;
+    temp -= 29*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

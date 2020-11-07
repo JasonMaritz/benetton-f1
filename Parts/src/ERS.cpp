@@ -12,3 +12,13 @@ Part *ERS::clone() {
     nERS->wear = this->wear;
     return dynamic_cast<Part*>(nERS);
 }
+
+double ERS::getPerformance() {
+    double temp = 25;
+    temp += 36*powerContribution;
+    temp += 39*efficiency;
+    temp -= 25*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

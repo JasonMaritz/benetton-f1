@@ -12,3 +12,13 @@ Part *ICE::clone() {
     nICE->wear = this->wear;
     return dynamic_cast<Part*>(nICE);
 }
+
+double ICE::getPerformance() {
+    double temp = 20;
+    temp += 20*powerContribution;
+    temp += 60*efficiency;
+    temp -= 20*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

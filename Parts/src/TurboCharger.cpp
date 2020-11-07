@@ -12,3 +12,13 @@ Part *TurboCharger::clone() {
     nTC->wear = this->wear;
     return dynamic_cast<Part*>(nTC);
 }
+
+double TurboCharger::getPerformance() {
+    double temp = 16;
+    temp += 39*powerContribution;
+    temp += 45*efficiency;
+    temp -= 16*powerDraw;
+    temp /= 100;
+    temp -= 0.1*wear;
+    return  temp;
+}

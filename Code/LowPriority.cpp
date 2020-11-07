@@ -101,8 +101,14 @@ void LowPriority::setupRoutes() {
 			bool addedDest = false;
 			for (auto it = nonEu.begin(); it != nonEu.end();) {
 				if ((*it)->startDate > currTime) {
-					thisRoute->push_back(*it);
-					
+					if ((*it)->location.name == "eu") {  //"eu" is a stand-in for all the europe-races
+						for (auto it2 = euSegment.begin(); it2 != euSegment.end(); it++)
+							thisRoute->push_back(*it);
+					}
+					else {
+						thisRoute->push_back(*it);
+					}
+
 					currTime = (*it)->endDate; //Departure time
 					currTime += months3; //3 months travel time added
 					

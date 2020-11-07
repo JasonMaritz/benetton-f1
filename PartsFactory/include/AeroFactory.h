@@ -6,7 +6,7 @@
 #define BENETTON_F1_AEROFACTORY_H
 
 #include "PartsFactory.h"
-#include "AeroPart.h"
+#include "../../Parts/include/AeroPart.h"
 
 class AeroFactory: public PartsFactory {
     friend class Aerodynamics;

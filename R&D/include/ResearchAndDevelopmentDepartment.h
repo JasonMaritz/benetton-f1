@@ -7,8 +7,8 @@
 
 #include <vector>
 #include <string>
-#include "Part.h"
-#include "PartsFactory.h"
+#include "../../Parts/include/Part.h"
+#include "../../PartsFactory/include/PartsFactory.h"
 
 class ResearchAndDevelopmentDepartment {
 public:

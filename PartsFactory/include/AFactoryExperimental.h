@@ -6,7 +6,7 @@
 #define COS214_AFACTORYEXPERIMENTAL_H
 
 #include <string>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 #include "AFactory.h"
 
 class AFactoryExperimental: public AFactory {

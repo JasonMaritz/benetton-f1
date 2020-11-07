@@ -6,7 +6,7 @@
 #define BENETTON_F1_PARTSFACTORY_H
 
 #include <string>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 
 class PartsFactory {
 public:

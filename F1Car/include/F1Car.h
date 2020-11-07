@@ -6,7 +6,7 @@
 #define BENETTON_F1_F1CAR_H
 
 #include <vector>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 
 class F1Car {
     friend class F1Builder;

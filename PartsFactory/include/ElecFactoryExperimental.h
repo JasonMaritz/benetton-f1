@@ -6,7 +6,7 @@
 #define COS214_ELECFACTORYEXPERIMENTAL_H
 
 #include <string>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 #include "ElecFactory.h"
 
 class ElecFactoryExperimental: public ElecFactory {

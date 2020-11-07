@@ -6,7 +6,7 @@
 #define BENETTON_F1_ENGINEFACTORY_H
 
 #include "PartsFactory.h"
-#include "EnginePart.h"
+#include "../../Parts/include/EnginePart.h"
 
 class EngineFactory: public PartsFactory {
     friend class Engine;

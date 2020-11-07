@@ -6,7 +6,7 @@
 #define COS214_CHAFACTORY_H
 
 #include <string>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 
 class ChaFactory {
 public:

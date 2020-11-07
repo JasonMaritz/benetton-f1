@@ -6,7 +6,7 @@
 #define BENETTON_F1_CHASSISFACTORY_H
 
 #include "PartsFactory.h"
-#include "ChassisPart.h"
+#include "../../Parts/include/ChassisPart.h"
 
 class ChassisFactory: public PartsFactory {
     friend class Chassis;

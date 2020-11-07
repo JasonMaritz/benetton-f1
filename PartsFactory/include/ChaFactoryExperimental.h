@@ -6,7 +6,7 @@
 #define COS214_CHAFACTORYEXPERIMENTAL_H
 
 #include <string>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 #include "ChaFactory.h"
 
 class ChaFactoryExperimental: public ChaFactory {

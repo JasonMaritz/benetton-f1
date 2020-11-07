@@ -6,7 +6,7 @@
 #define COS214_ENGFACTORYEXPERIMENTAL_H
 
 #include <string>
-#include "Part.h"
+#include "../../Parts/include/Part.h"
 #include "EngFactory.h"
 
 class EngFactoryExperimental: public EngFactory {

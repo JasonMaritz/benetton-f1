@@ -6,7 +6,7 @@
 #define BENETTON_F1_ELECTRONICSFACTORY_H
 
 #include "PartsFactory.h"
-#include "ElectronicsPart.h"
+#include "../../Parts/include/ElectronicsPart.h"
 
 class ElectronicsFactory: public PartsFactory {
     friend class Electronics;

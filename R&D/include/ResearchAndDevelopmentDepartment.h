@@ -15,7 +15,7 @@ public:
     std::vector<Part*> getExperimentalParts();
     void developParts();
     Part* makePart(std::string type);
-    Part* makePartExperimental(std::string type, int wear, double efficiency, double pcontrib, double pdraw);
+    static Part* makePartExperimental(std::string type, double efficiency, double pcontrib, double pdraw, double wear = 1);
 private:
     PartsFactory* myFactory;
     std::vector<Part*> experimentalParts;

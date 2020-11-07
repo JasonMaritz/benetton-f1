@@ -5,10 +5,16 @@
 #ifndef BENETTON_F1_RACEBUILDERDIR_H
 #define BENETTON_F1_RACEBUILDERDIR_H
 
+#include <vector>
 #include "F1Car.h"
+#include "F1Builder.h"
 
-static class RaceBuilderDir {
-    static F1Car* buildCar(std::vector<Part*> parts);
+class RaceBuilderDir {
+public:
+    RaceBuilderDir();
+    F1Car* buildCar(std::vector<Part*> parts);
+private:
+    F1Builder* build;
 };
 
 

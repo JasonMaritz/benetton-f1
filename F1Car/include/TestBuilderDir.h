@@ -6,10 +6,16 @@
 #define BENETTON_F1_TESTBUILDERDIR_H
 
 #include <map>
+#include <vector>
 #include "F1Car.h"
+#include "F1Builder.h"
 
-static class TestBuilderDir{
-    static std::map<Part*,F1Car*> buildCar(std::vector<Part*> parts);
+class TestBuilderDir{
+public:
+    TestBuilderDir();
+    std::map<Part*,F1Car*> buildCars(std::vector<Part*> parts);
+private:
+    F1Builder* build;
 };
 
 

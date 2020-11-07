@@ -9,6 +9,7 @@
 
 class Engine: public ResearchAndDevelopmentDepartment{
 public:
+    Engine();
     Part* makePart(std::string type);
     Part* makePartExperimental(std::string type, int wear, double efficiency, double pcontrib, double pdraw);
     void developParts();

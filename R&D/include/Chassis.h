@@ -9,6 +9,7 @@
 
 class Chassis: public ResearchAndDevelopmentDepartment{
 public:
+    Chassis();
     Part* makePart(std::string type);
     Part* makePartExperimental(std::string type, int wear, double efficiency, double pcontrib, double pdraw);
     void developParts();

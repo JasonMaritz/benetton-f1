@@ -13,7 +13,7 @@ class ChassisFactory: public PartsFactory {
 public:
     ChassisFactory();
     virtual Part* produce(std::string type) = 0;
-private:
+protected:
     static ChassisPart* defaultChassis;
 };
 

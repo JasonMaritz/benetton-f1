@@ -7,8 +7,9 @@
 
 #include <string>
 #include "../../Parts/include/Part.h"
+#include "EngineFactory.h"
 
-class EngFactory {
+class EngFactory: public EngineFactory {
 public:
     virtual Part* produce(std::string type);
 };

@@ -13,7 +13,7 @@ class AeroFactory: public PartsFactory {
 public:
     AeroFactory();
     virtual Part* produce(std::string type) = 0;
-private:
+protected:
     static AeroPart* defaultBargeboard;
     static AeroPart* defaultDRS;
 };

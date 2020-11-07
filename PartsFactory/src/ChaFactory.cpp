@@ -3,3 +3,7 @@
 //
 
 #include "../include/ChaFactory.h"
+
+Part *ChaFactory::produce(std::string type) {
+    return dynamic_cast<Part*>(defaultChassis->clone());
+}

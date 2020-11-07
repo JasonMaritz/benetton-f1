@@ -9,9 +9,11 @@ using namespace std;
 
 class Destination{
 public:
-	time_t date;
+	time_t startDate;
+	time_t endDate;
 	Location location;
 
+	Destination();
 	Destination(Destination*);
 };
 

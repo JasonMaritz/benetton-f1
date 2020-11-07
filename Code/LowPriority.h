@@ -2,6 +2,7 @@
 #define LOWPRIORITY_H
 
 #include <vector>
+#include <list>
 
 #include "Destination.h"
 #include "ContainerRoute.h"
@@ -13,6 +14,8 @@ private:
 	vector<Destination*> destinations;
 	vector<ContainerRoute*> routes;
 	ContainerSet* prototypeContainer = 0;
+
+	void orderDestinations(vector<Destination*>& vec, bool byStart);
 
 public:
 	void setupRoutes();

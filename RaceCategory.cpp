@@ -1,16 +1,48 @@
 #include "RaceCategory.h"
 
-void RaceCategory::TrackType(int* RaceTrack) {
-	// TODO - implement RaceCategory::TrackType
-	throw "Not yet implemented";
-}
+
 
 RaceCategory::RaceCategory() {
 	// TODO - implement RaceCategory::RaceCategory
-	throw "Not yet implemented";
+}
+void RaceCategory::add(Track* track){
+
+}
+int RaceCategory::trackLaps(){
+
+
+		 return getLaps();
+
+}
+int RaceCategory::trackWear(){
+
+			 return getWear();
+
+}
+int RaceCategory::trackSpeed(){
+
+			 return getSpeed();
+
+}
+int RaceCategory::trackCorner(){
+
+			 return getCorners();
+
+}
+int RaceCategory::trackLength(){
+
+			 return getLength();
+
+ }
+int RaceCategory::trackFatigues(){
+
+			 return getFatigue();
+
+}
+string RaceCategory::trackCity(){
+
+			 return getCity();
+
 }
 
-void RaceCategory::add(Track* track) {
-	// TODO - implement RaceCategory::add
-	throw "Not yet implemented";
-}
+

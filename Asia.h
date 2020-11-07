@@ -1,17 +1,15 @@
-#ifndef AFRICA_H
-#define AFRICA_H
+#ifndef ASIA_H
+#define ASIA_H
 #include"TrackContinent.h"
 #include<iostream>
 #include<string>
 using namespace std;
 
-
-class africa : public TrackContinent {
+class Asia : public TrackContinent {
 
 
 public:
-	africa();
-
+	Asia();
 };
 
 #endif

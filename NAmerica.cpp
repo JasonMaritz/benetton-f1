@@ -1,6 +1,20 @@
 #include "NAmerica.h"
 
-NAmerica::NAmerica() {
+NAmerica::NAmerica():TrackContinent() {
 	// TODO - implement NAmerica::NAmerica
-	throw "Not yet implemented";
+
+	cout << "North America Race Track" << endl;
+			setLaps(5);
+			setWear(11);
+
+			setSpeed(15);
+
+			setCorners(4);
+
+			setLength(8);
+
+
+			setFatigue(3);
+
+			setCity("New york");
 }

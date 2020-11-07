@@ -1,6 +1,20 @@
 #include "SAmerica.h"
 
-SAmerica::SAmerica() {
+SAmerica::SAmerica():TrackContinent() {
 	// TODO - implement SAmerica::SAmerica
-	throw "Not yet implemented";
+
+	cout << "South america Race Track" << endl;
+			setLaps(5);
+			setWear(9);
+
+			setSpeed(4);
+
+			setCorners(5);
+
+			setLength(8);
+
+
+			setFatigue(3);
+
+			setCity("Rio");
 }

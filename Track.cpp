@@ -2,7 +2,20 @@
 
 Track::Track() {
 	// TODO - implement Track::Track
-	throw "Not yet implemented";
+
+	 city="";
+	laps=0;
+	speed=0;
+	corners=0;
+	length=0;
+	fatigue=0;
+	wear=0;
+}
+int Track::getWear() {
+	return this->wear;
+}
+void Track::setWear(int w) {
+	this->wear = w;
 }
 
 int Track::getLaps() {
@@ -37,7 +50,7 @@ void Track::setLength(int length) {
 	this->length = length;
 }
 
-string Track::getFatigue() {
+int Track::getFatigue() {
 	// TODO - implement Track::getFatigue
 	throw "Not yet implemented";
 }
@@ -46,10 +59,10 @@ void Track::setFatigue(int fatigue) {
 	this->fatigue = fatigue;
 }
 
-String Track::getCity() {
+string Track::getCity() {
 	return this->city;
 }
 
-void Track::setCity(String city) {
+void Track::setCity(string city) {
 	this->city = city;
 }

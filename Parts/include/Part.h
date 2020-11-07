@@ -10,20 +10,20 @@
 class Part: public PackedItem{
 public:
     virtual double getPerformance() = 0;
-    void setResult(Result* res);
+    void setResult(Result* res){result = res;};
     void mutate(double powerContributionMut, double efficiencyMut, double powerDrawMut);
     double WindTunnelTest(int WTSpeed);
     double SoftwareTest(int timeSpeed);
-    std::string getType();
+    std::string getType(){return type;};
     virtual Part* clone() = 0;
-private:
+protected:
     std::string type;
-    TestingCenter* TC;
+    TestingCenter* TC = nullptr;
     double wear;
     double powerContribution;
     double powerDraw;
     double efficiency;
-    Result* result;
+    Result* result = nullptr;
 };
 
 #endif //BENETTON_F1_PARTS_H

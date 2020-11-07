@@ -10,6 +10,7 @@
 
 class TurboCharger: public Part {
 public:
+    TurboCharger(){type="turbocharger";};
     virtual double getPerformance();
     virtual Part* clone();
 };

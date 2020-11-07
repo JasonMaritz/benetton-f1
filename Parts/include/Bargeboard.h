@@ -7,9 +7,11 @@
 
 
 #include "Part.h"
+#include "AeroPart.h"
 
-class Bargeboard: public Part {
+class Bargeboard: public AeroPart {
 public:
+    Bargeboard(){type = "bargeboard";};
     virtual double getPerformance();
     virtual Part* clone();
 };

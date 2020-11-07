@@ -7,9 +7,11 @@
 
 
 #include "Part.h"
+#include "AeroPart.h"
 
-class DRS: public Part {
+class DRS: public AeroPart {
 public:
+    DRS(){type = "drs";};
     virtual double getPerformance();
     virtual Part* clone();
 };

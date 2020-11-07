@@ -10,6 +10,7 @@
 
 class MGUK: public Part {
 public:
+    MGUK(){type = "mguk";};
     virtual double getPerformance();
     virtual Part* clone();
 };

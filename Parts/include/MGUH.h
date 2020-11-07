@@ -10,6 +10,7 @@
 
 class MGUH: public Part {
 public:
+    MGUH(){type = "mguh";};
     virtual double getPerformance();
     virtual Part* clone();
 };

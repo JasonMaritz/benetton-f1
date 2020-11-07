@@ -10,6 +10,7 @@
 
 class EnergyStore: public Part {
 public:
+    EnergyStore(){type = "energystore";};
     virtual double getPerformance();
     virtual Part* clone();
 };

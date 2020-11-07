@@ -10,6 +10,7 @@
 
 class ICE: public Part {
 public:
+    ICE(){type="ice";};
     virtual double getPerformance();
     virtual Part* clone();
 };

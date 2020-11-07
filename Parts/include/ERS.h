@@ -10,6 +10,7 @@
 
 class ERS: public Part {
 public:
+    ERS(){type = "ers";};
     virtual double getPerformance();
     virtual Part* clone();
 };

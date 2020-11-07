@@ -133,3 +133,13 @@ void LowPriority::setupRoutes() {
 
 	delete eu;
 }
+
+int LowPriority::getNumRoutes() {
+	return routes.size();
+}
+
+ContainerRoute* LowPriority::getRoute(int index) {
+	if (index < 0 || index >= getNumRoutes())
+		return 0;
+	return routes[index];
+}

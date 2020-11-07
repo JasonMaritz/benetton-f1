@@ -22,6 +22,8 @@ public:
 
 	void setDestinations(Destination*, int nDestinations); //Array of Destinations (not ptrs)
 	void setPrototype(ContainerSet* p); //Makes deep copy
+	int getNumRoutes();
+	ContainerRoute* getRoute(int index);
 };
 
 #endif

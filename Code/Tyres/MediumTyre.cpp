@@ -12,6 +12,24 @@ Tyre *MediumTyre::make()
 
 double MediumTyre::getPerformance()
 {
-    //TODO-DO the necessary calculation for tyre performance
-    return 0;
+    double data = 0;
+    if(this->getTemp() < 100)
+    {
+        int w = this->getWear();
+        if(w > 5)
+        {
+            w /= 2;
+        }
+        data = w/10.0;
+    }
+    else
+    {
+        int w = this->getWear();
+        if(w < 5)
+        {
+            w *= 2;
+        }
+        data = w/10.0;
+    }
+    return data;
 }

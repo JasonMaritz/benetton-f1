@@ -7,6 +7,7 @@
 
 
 #include "RacingStrategy.h"
+#include "../Container/ContainerSet.h"
 
 class RacingStrategyInterface
 {
@@ -21,6 +22,7 @@ public:
     void addMediumTyre();
     void addHardTyre();
     void addName(string name);
+    ContainerSet* buildAndGetContainerSet();
     string getStrategy();
 };
 

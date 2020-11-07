@@ -6,14 +6,14 @@
 #define RACINGSTRATEGY_TYRE_H
 
 #include <iostream>
+#include "../Container/PackedItem.h"
 
 using namespace std;
 
-class Tyre
+class Tyre : public PackedItem
 {
 private:
     string type;
-    double lapRatio;
     int wear;
     int temp;
 
@@ -22,13 +22,13 @@ public:
     virtual double getPerformance() = 0;
 
     string getType();
-    int getWear();
-    int getTemp();
+    int getWear() const;
+    int getTemp() const;
 
 protected:
-    void setType(string type);
-    void setWear(int wear);
-    void setTemp(int temp);
+    void setType(string typeOfTyre);
+    void setWear(int tyreWear);
+    void setTemp(int tyreTemp);
 };
 
 

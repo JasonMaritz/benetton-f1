@@ -4,7 +4,7 @@
 class PackedItem{
 public:
 	double weight = 0;
-	virtual PackedItem* clone() =0; 
+	virtual PackedItem* clone(); 
 
 };
 

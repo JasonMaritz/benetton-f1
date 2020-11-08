@@ -18,3 +18,15 @@ ElectronicsFactory::ElectronicsFactory() {
     if(!defaultMGUK)
         defaultMGUK = dynamic_cast<ElectronicsPart*>(new MGUK());
 }
+
+void ElectronicsFactory::setDefault(Part *newDef) {
+    std::string t = newDef->getType();
+    if(t == "mguh")
+        defaultMGUH = dynamic_cast<ElectronicsPart *>(newDef->clone());
+    if(t == "mguk")
+        defaultMGUK = dynamic_cast<ElectronicsPart *>(newDef->clone());
+    if(t == "energystore")
+        defaultEnergyStore = dynamic_cast<ElectronicsPart *>(newDef->clone());
+    if(t == "ers")
+        defaultERS = dynamic_cast<ElectronicsPart *>(newDef->clone());
+}

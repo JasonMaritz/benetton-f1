@@ -12,3 +12,11 @@ EngineFactory::EngineFactory() {
     if(!defaultTurbo)
         defaultTurbo = dynamic_cast<EnginePart*>(new TurboCharger());
 }
+
+void EngineFactory::setDefault(Part *newDef) {
+    std::string t = newDef->getType();
+    if (t == "ice")
+        defaultICE = dynamic_cast<EnginePart *>(newDef->clone());
+    if(t == "turbocharger")
+        defaultTurbo = dynamic_cast<EnginePart *>(newDef->clone());
+}

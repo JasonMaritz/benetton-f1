@@ -9,10 +9,11 @@
 #include "../../Parts/include/AeroPart.h"
 
 class AeroFactory: public PartsFactory {
-    friend class Aerodynamics;
+    friend class Engineering;
 public:
     AeroFactory();
     virtual Part* produce(std::string type) = 0;
+    void setDefault(Part* newDef);
 protected:
     static AeroPart* defaultBargeboard;
     static AeroPart* defaultDRS;

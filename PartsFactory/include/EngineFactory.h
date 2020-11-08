@@ -13,6 +13,7 @@ class EngineFactory: public PartsFactory {
 public:
     EngineFactory();
     virtual Part* produce(std::string type) = 0;
+    void setDefault(Part* newDef);
 protected:
     static EnginePart* defaultICE;
     static EnginePart* defaultTurbo;

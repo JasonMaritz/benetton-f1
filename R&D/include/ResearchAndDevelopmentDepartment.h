@@ -12,13 +12,14 @@
 
 class ResearchAndDevelopmentDepartment {
 public:
-    std::vector<Part*> getExperimentalParts();
-    void developParts();
-    Part* makePart(std::string type);
-    static Part* makePartExperimental(std::string type, double efficiency, double pcontrib, double pdraw, double wear = 1);
-private:
-    PartsFactory* myFactory;
+    std::vector<Part*> getExperimentalParts(){std::vector<Part*> t = experimentalParts; experimentalParts.clear();return t;};
+    virtual void developParts() = 0;
+    virtual Part* makePart(std::string type) = 0;
+    virtual Part* makePartExperimental(std::string type, double efficiency, double pcontrib, double pdraw) = 0;
+protected:
     std::vector<Part*> experimentalParts;
+    PartsFactory* myFactory;
+    PartsFactory* myFactoryExperimental;
 };
 
 

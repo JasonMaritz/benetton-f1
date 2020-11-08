@@ -14,11 +14,14 @@ Part *ERS::clone() {
 }
 
 double ERS::getPerformance() {
+    if(wear == 0)
+        return 0;
     double temp = 25;
     temp += 36*powerContribution;
     temp += 39*efficiency;
     temp -= 25*powerDraw;
     temp /= 100;
     temp -= 0.1*wear;
+    wear -= 0.1;
     return  temp;
 }

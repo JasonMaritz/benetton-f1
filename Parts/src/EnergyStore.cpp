@@ -14,11 +14,14 @@ Part *EnergyStore::clone() {
 }
 
 double EnergyStore::getPerformance() {
+    if(wear == 0)
+        return 0;
     double temp = 43;
     temp += 20*powerContribution;
     temp += 28*efficiency;
     temp -= 29*powerDraw;
     temp /= 100;
     temp -= 0.1*wear;
+    wear -= 0.1;
     return  temp;
 }

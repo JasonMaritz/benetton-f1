@@ -14,11 +14,14 @@ Part *TurboCharger::clone() {
 }
 
 double TurboCharger::getPerformance() {
+    if(wear == 0)
+        return 0;
     double temp = 16;
     temp += 39*powerContribution;
     temp += 45*efficiency;
     temp -= 16*powerDraw;
     temp /= 100;
     temp -= 0.1*wear;
+    wear -= 0.1;
     return  temp;
 }

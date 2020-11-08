@@ -14,21 +14,22 @@
 class Engineering {
 public:
     static Engineering* getInstance();
-    void setBudget(double budget);
-    static void setBest(Part* newBest);
+    void setBudget(double budget){this->budget = budget;};
+    void setBest(Part* newBest);
+    void develop();
     Engine* getEngine(){return engine;};
     Chassis* getChassis(){return chassis;};
     Electronics* getElectronics(){return electronics;};
-    Aerodynamics* getAreodynamics(){return areodynamics;};
+    Aerodynamics* getAreodynamics(){return aerodynamics;};
 protected:
     Engineering();
 private:
     Engine* engine;
     Chassis* chassis;
     Electronics* electronics;
-    Aerodynamics* areodynamics;
+    Aerodynamics* aerodynamics;
     double budget;
-    Engineering* instance;
+    static Engineering* instance;
 };
 
 #endif //BENETTON_F1_ENGINEERING_H

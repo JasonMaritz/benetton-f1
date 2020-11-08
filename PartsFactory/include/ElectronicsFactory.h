@@ -13,7 +13,7 @@ class ElectronicsFactory: public PartsFactory {
 public:
     ElectronicsFactory();
     virtual Part* produce(std::string type) = 0;
-
+    void setDefault(Part* newDef);
 protected:
     static ElectronicsPart* defaultERS;
     static ElectronicsPart* defaultMGUH;

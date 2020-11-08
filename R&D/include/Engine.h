@@ -11,9 +11,9 @@ class Engine: public ResearchAndDevelopmentDepartment{
 public:
     Engine();
     Part* makePart(std::string type);
-    Part* makePartExperimental(std::string type, int wear, double efficiency, double pcontrib, double pdraw);
+    Part* makePartExperimental(std::string type, double efficiency, double pcontrib, double pdraw);
+    void setBest(Part* newBest);
     void developParts();
 };
-
 
 #endif //BENETTON_F1_ENGINE_H

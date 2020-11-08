@@ -14,11 +14,14 @@ Part *MGUH::clone() {
 }
 
 double MGUH::getPerformance() {
+    if(wear == 0)
+        return 0;
     double temp = 8;
     temp += 21*powerContribution;
     temp += 71*efficiency;
     temp -= 8*powerDraw;
     temp /= 100;
     temp -= 0.1*wear;
+    wear -= 0.1;
     return  temp;
 }

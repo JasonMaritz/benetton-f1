@@ -6,14 +6,16 @@
 #define BENETTON_F1_CHASSIS_H
 
 #include "ResearchAndDevelopmentDepartment.h"
+#include "../../PartsFactory/include/ChassisFactory.h"
+
 
 class Chassis: public ResearchAndDevelopmentDepartment{
 public:
     Chassis();
     Part* makePart(std::string type);
-    Part* makePartExperimental(std::string type, int wear, double efficiency, double pcontrib, double pdraw);
+    Part* makePartExperimental(std::string type, double efficiency, double pcontrib, double pdraw);
+    void setBest(Part* newBest);
     void developParts();
 };
-
 
 #endif //BENETTON_F1_CHASSIS_H

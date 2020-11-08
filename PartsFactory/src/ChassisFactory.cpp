@@ -7,3 +7,6 @@ ChassisFactory::ChassisFactory() {
     if(!defaultChassis)
         defaultChassis = new ChassisPart();
 }
+void ChassisFactory::setDefault(Part *newDef) {
+    defaultChassis = dynamic_cast<ChassisPart *>(newDef->clone());
+}

@@ -12,3 +12,11 @@ AeroFactory::AeroFactory() {
     if(!defaultDRS)
         defaultDRS = dynamic_cast<AeroPart*>(new DRS());
 }
+
+void AeroFactory::setDefault(Part *newDef) {
+    std::string t = newDef->getType();
+    if(t == "bargeboard")
+        defaultBargeboard = dynamic_cast<AeroPart *>(newDef->clone());
+    if(t == "drs")
+        defaultDRS = dynamic_cast<AeroPart *>(newDef->clone());
+}

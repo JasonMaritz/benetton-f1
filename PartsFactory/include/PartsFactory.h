@@ -11,6 +11,7 @@
 class PartsFactory {
 public:
     virtual Part* produce(std::string type) = 0;
+    virtual void setDefault(Part* newDef) = 0;
 };
 
 

@@ -14,7 +14,12 @@ private:
 	vector<Part*> List;
 
 public:
+	/// @brief This is the constructor for the state
+	/// @param list is the vector<Part*> that will be assigned to a memeber
 	State(vector<Part*> list);
+
+	/// @brief This returns the state as a vector<Part*> pointers
+	/// @return vector<Part*>
 	vector<Part*> getState();
 };
 

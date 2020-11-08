@@ -1,4 +1,8 @@
 #include "Track.h"
+//#include"../Simulation/Result.h"
+using namespace std;
+#include <iostream>
+#include <string>
 
 Track::Track() {
 	// TODO - implement Track::Track
@@ -51,8 +55,8 @@ void Track::setLength(int length) {
 }
 
 int Track::getFatigue() {
-	// TODO - implement Track::getFatigue
-	throw "Not yet implemented";
+
+	return fatigue;
 }
 
 void Track::setFatigue(int fatigue) {
@@ -66,3 +70,24 @@ string Track::getCity() {
 void Track::setCity(string city) {
 	this->city = city;
 }
+
+void Track::setResult(Result* res){
+
+	this->result=res;
+}
+
+void Track::generateReport() {
+
+	string report="Simulation used track with following properties:\n";
+	report+= "Host City: "+ trackCity() +"\n";
+	report+= "Number of Laps: "+ to_string(trackLaps()) +"\n";
+	report+= "Wear Factor: "+ to_string(trackWear()) +"\n";
+	report+= "Speed: "+ to_string(trackSpeed()) +"\n";
+	report+= "Number of corners: "+ to_string(trackCorner()) +"\n";
+	report+= "Fatigue: "+ to_string(trackFatigues()) +"\n";
+	cout<<report;
+	result->setTrackReport(report);
+}
+
+
+

@@ -15,6 +15,9 @@ private:
 	int length;
 	int fatigue;
 
+protected:
+	Result* result;
+
 public:
 	virtual void add(Track* track) = 0;
 	  virtual int trackLaps() = 0;
@@ -24,6 +27,7 @@ public:
 	  virtual int trackLength() = 0;
 	  virtual int trackFatigues() = 0;
 	  virtual string trackCity() = 0;
+
 
 	Track();
 
@@ -52,6 +56,11 @@ public:
 	string getCity();
 
 	void setCity(string city);
+	void setResult(Result*);
+	void generateReport();
+
+
+
 };
 
 #endif

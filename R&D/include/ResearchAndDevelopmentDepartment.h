@@ -12,6 +12,7 @@
 
 class ResearchAndDevelopmentDepartment {
 public:
+    ~ResearchAndDevelopmentDepartment();
     std::vector<Part*> getExperimentalParts(){std::vector<Part*> t = experimentalParts; experimentalParts.clear();return t;};
     virtual void developParts() = 0;
     virtual Part* makePart(std::string type) = 0;

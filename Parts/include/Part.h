@@ -10,6 +10,7 @@
 
 class Part: public PackedItem{
 public:
+    ~Part();
     virtual double getPerformance() = 0;
     void setResult(Result* res){result = res;};
     double WindTunnelTest(int WTSpeed);

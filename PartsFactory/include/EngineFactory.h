@@ -11,6 +11,7 @@
 class EngineFactory: public PartsFactory {
     friend class Engine;
 public:
+    ~EngineFactory();
     EngineFactory();
     virtual Part* produce(std::string type) = 0;
     void setDefault(Part* newDef);

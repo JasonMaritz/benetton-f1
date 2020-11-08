@@ -11,6 +11,7 @@
 class ChassisFactory: public PartsFactory {
     friend class Chassis;
 public:
+    ~ChassisFactory();
     ChassisFactory();
     virtual Part* produce(std::string type) = 0;
     void setDefault(Part* newDef);

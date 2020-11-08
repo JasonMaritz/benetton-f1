@@ -18,3 +18,16 @@ double F1Car::getPerformance() {
     res /= 9;
     return res;
 }
+
+F1Car::~F1Car() {
+    delete res;
+    delete bargeboard;
+    delete energyStore;
+    delete drs;
+    delete ice;
+    delete turboCharger;
+    delete chassisPart;
+    delete ers;
+    delete mguh;
+    delete mguk;
+}

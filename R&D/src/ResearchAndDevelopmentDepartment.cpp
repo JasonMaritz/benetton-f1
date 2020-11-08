@@ -5,3 +5,8 @@
 #include "../include/ResearchAndDevelopmentDepartment.h"
 
 
+ResearchAndDevelopmentDepartment::~ResearchAndDevelopmentDepartment() {
+    experimentalParts.clear();
+    delete myFactoryExperimental;
+    delete myFactory;
+}

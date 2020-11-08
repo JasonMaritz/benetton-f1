@@ -63,3 +63,10 @@ void Engineering::develop() {
         }
     }
 }
+
+Engineering::~Engineering() {
+    delete electronics;
+    delete engine;
+    delete aerodynamics;
+    delete chassis;
+}

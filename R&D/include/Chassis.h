@@ -18,4 +18,8 @@ public:
     void developParts();
 };
 
+ChassisFactory::~ChassisFactory() {
+    delete defaultChassis;
+}
+
 #endif //BENETTON_F1_CHASSIS_H

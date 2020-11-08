@@ -13,6 +13,7 @@
 class TestBuilderDir{
 public:
     TestBuilderDir();
+    ~TestBuilderDir(){delete build;};
     std::map<Part*,F1Car*> buildCars(std::vector<Part*> parts);
 private:
     F1Builder* build;

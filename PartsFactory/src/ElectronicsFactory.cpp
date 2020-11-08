@@ -30,3 +30,10 @@ void ElectronicsFactory::setDefault(Part *newDef) {
     if(t == "ers")
         defaultERS = dynamic_cast<ElectronicsPart *>(newDef->clone());
 }
+
+ElectronicsFactory::~ElectronicsFactory() {
+    delete defaultERS;
+    delete defaultEnergyStore;
+    delete defaultMGUK;
+    delete defaultMGUH;
+}

@@ -11,6 +11,7 @@
 class AeroFactory: public PartsFactory {
     friend class Engineering;
 public:
+    ~AeroFactory();
     AeroFactory();
     virtual Part* produce(std::string type) = 0;
     void setDefault(Part* newDef);

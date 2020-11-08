@@ -13,6 +13,7 @@
 
 class Engineering {
 public:
+    ~Engineering();
     static Engineering* getInstance();
     void setBudget(double budget){this->budget = budget;};
     void setBest(Part* newBest);

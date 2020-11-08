@@ -20,7 +20,7 @@ class Result;
 class F1Car {
     friend class F1Builder;
 public:
-    ~F1Car(){if(res) delete res;};
+    ~F1Car();
     double getPerformance();
     void setResult(Result* result){res = result;};
     void generateReport();

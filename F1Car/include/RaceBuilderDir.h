@@ -12,6 +12,7 @@
 class RaceBuilderDir {
 public:
     RaceBuilderDir();
+    ~RaceBuilderDir(){delete build;};
     F1Car* buildCar(std::vector<Part*> parts);
 private:
     F1Builder* build;

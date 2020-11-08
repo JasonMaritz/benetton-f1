@@ -15,3 +15,8 @@ void Part::mutate(double powerContributionMut, double efficiencyMut, double powe
     efficiency -= efficiency > 1 ? 1 : 0;
     powerContribution -= powerContribution > 1 ? 1 : 0;
 }
+
+Part::~Part() {
+    delete TC;
+    delete result;
+}

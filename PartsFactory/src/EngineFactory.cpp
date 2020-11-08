@@ -20,3 +20,8 @@ void EngineFactory::setDefault(Part *newDef) {
     if(t == "turbocharger")
         defaultTurbo = dynamic_cast<EnginePart *>(newDef->clone());
 }
+
+EngineFactory::~EngineFactory() {
+    delete defaultTurbo;
+    delete defaultICE;
+}

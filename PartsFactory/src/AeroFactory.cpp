@@ -20,3 +20,8 @@ void AeroFactory::setDefault(Part *newDef) {
     if(t == "drs")
         defaultDRS = dynamic_cast<AeroPart *>(newDef->clone());
 }
+
+AeroFactory::~AeroFactory() {
+    delete defaultDRS;
+    delete defaultBargeboard;
+}

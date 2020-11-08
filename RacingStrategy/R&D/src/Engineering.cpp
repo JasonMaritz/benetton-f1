@@ -4,9 +4,9 @@
 
 #include "../include/Engineering.h"
 #include "../../PartsFactory/include/AFactory.h"
-
+Engineering* Engineering::instance = 0;
 Engineering *Engineering::getInstance() {
-    if(!instance)
+    if(instance==0)
     {
         instance = new Engineering();
     }

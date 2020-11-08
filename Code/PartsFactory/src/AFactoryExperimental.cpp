@@ -9,6 +9,8 @@ Part *AFactoryExperimental::produce(std::string type) {
     std::uniform_real_distribution<double> uniform(0,1);
     std::default_random_engine engineR;
     Part* res = AFactory::produce(type);
+    if(res == nullptr)
+        return nullptr;
     res->mutateEf(uniform(engineR));
     res->mutatePC(uniform(engineR));
     res->mutatePD(uniform(engineR));

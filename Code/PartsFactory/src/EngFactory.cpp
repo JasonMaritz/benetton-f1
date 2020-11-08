@@ -7,11 +7,8 @@
 Part *EngFactory::produce(std::string type)
 {
     if(type == "ice")
-    {
         return (Part *)(defaultICE->clone());
-    }
     else if(type == "turbocharger")
-    {
         return (Part *)(defaultTurbo->clone());
-    }
+    return nullptr;
 }

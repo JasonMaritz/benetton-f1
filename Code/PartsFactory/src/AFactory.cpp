@@ -9,4 +9,5 @@ Part *AFactory::produce(std::string type) {
         return (Part *)(defaultDRS->clone());
     if(type == "bargeboard")
         return (Part *)(defaultBargeboard->clone());
+    return nullptr;
 }

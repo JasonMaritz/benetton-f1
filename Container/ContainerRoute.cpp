@@ -58,11 +58,9 @@ void ContainerRoute::transportCargo(){
 			currLocation = getRouteIterator() ;
 		}
 		Destination* dest = currLocation->current() ;
-		if (dest != NULL ){
-			transport->eta(dest->location) ; //call to the make request
-		}
-		else{
-			// mktimplease set a dest ?
+		while (dest != NULL ){
+			cout<<"Package will be arrive in: "<<transport->eta(dest->location)<<" seconds."<<endl ; //call to the make request
+			dest = currLocation->next() ;
 		}
 	}
 }

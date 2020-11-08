@@ -2,6 +2,7 @@
 #define TRACK_H
 #include<iostream>
 #include<string>
+#include"../Simulation/Result.h"
 using namespace std;
 
 class Track {

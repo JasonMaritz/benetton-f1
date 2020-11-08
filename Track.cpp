@@ -1,5 +1,5 @@
 #include "Track.h"
-//#include"../Simulation/Result.h"
+#include"../Simulation/Result.h"
 using namespace std;
 #include <iostream>
 #include <string>
@@ -14,6 +14,7 @@ Track::Track() {
 	length=0;
 	fatigue=0;
 	wear=0;
+	result=0;
 }
 int Track::getWear() {
 	return this->wear;

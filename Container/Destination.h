@@ -14,6 +14,7 @@ public:
 	Location location;
 
 	Destination();
+	///@param reference to Destination to make copy of
 	Destination(Destination*);
 };
 

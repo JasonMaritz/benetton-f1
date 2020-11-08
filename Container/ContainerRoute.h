@@ -21,17 +21,23 @@ private:
 	void clearRoute();
 public:
 	ContainerRoute();
-	ContainerRoute(ContainerSet* c);//Makes deep copy
+	///Constructor
+	/// @param a pointer to a ContainerSet, this is deep copied
+	ContainerRoute(ContainerSet* c);
 	~ContainerRoute();
 
-	//Don't attempt to use routeIterator after its
-	//ContainerRoute has been destroyed
+	///Don't attempt to use routeIterator after its ContainerRoute has been destroyed
+	/// @returns a pointer to a RouteIterator object, also transfers ownership of iterator
 	RouteIterator* getRouteIterator();
 	void decideTransportMode(); //used by LowPriority
-	void setContainers(ContainerSet* c); //Makes deep copy
+	/// @param a pointer to a ContainerSet, this is deep copied
+	void setContainers(ContainerSet* c);
+	/// @returns a pointer to the containers (1 object)
 	ContainerSet* getContainers();
+	///@param a string that specifies the transport mode
 	void setTransportMode(string mode); //used by HighPriority
-	void setStops(vector<Destination*>* s); //Makes deep copy
+	///@param a pointer to a vector of destination pointers, deep copied
+	void setStops(vector<Destination*>* s);
 	void printRoute();
 };
 

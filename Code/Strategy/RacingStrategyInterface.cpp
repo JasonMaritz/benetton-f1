@@ -12,9 +12,13 @@
 #include "../TyreFactories/HardTyreFactory.h"
 #include "StrategyName.h"
 #include "../Tyres/SoftTyre.h"
-#include "../Container/ContainerSet.h"
 #include "../Tyres/MediumTyre.h"
 #include "../Tyres/HardTyre.h"
+
+RacingStrategyInterface::RacingStrategyInterface()
+{
+    this->engineering = Engineering::getInstance();
+}
 
 void RacingStrategyInterface::addSoftTyre()
 {
@@ -117,7 +121,65 @@ ContainerSet* RacingStrategyInterface::buildAndGetContainerSet()
             }
             else if(type == "P")
             {
+                stringstream ss1(to.substr(3));
+                string to1;
+                string name;
+                int efficiency;
+                int powerContribution;
+                int powerDraw;
+                int count = 0;
+                while(getline(ss1, to1, ' '))
+                {
+                    switch(count)
+                    {
+                        case 0:
+                            name = to1;
+                            break;
+                        case 1:
+                            efficiency = stoi(to1);
+                            break;
+                        case 2:
+                            powerContribution = stoi(to1);
+                            break;
+                        case 3:
+                            powerDraw = stoi(to1);
+                            break;
+                    }
+                    count++;
+                }
 
+                if(name == "ice" || name == "turbocharger")
+                {
+                    Engine* engine = this->engineering->getEngine();
+                    Part* part = engine->makePartExperimental(name, efficiency, powerContribution, powerDraw);
+                    string partName = "Part_" + to_string(partCounter);
+                    containerSet->addItem(partName, part);
+                    partCounter++;
+                }
+                else if(name == "mguk" || name == "mguh" || name == "energystore" || name == "ers")
+                {
+                    Electronics* electronics = this->engineering->getElectronics();
+                    Part* part = electronics->makePartExperimental(name, efficiency, powerContribution, powerDraw);
+                    string partName = "Part_" + to_string(partCounter);
+                    containerSet->addItem(partName, part);
+                    partCounter++;
+                }
+                else if(name == "chassis")
+                {
+                    Chassis* chassis = this->engineering->getChassis();
+                    Part* part = chassis->makePartExperimental(name, efficiency, powerContribution, powerDraw);
+                    string partName = "Part_" + to_string(partCounter);
+                    containerSet->addItem(partName, part);
+                    partCounter++;
+                }
+                else if(name == "drs" || name == "bargeboard")
+                {
+                    Aerodynamics* aerodynamics = this->engineering->getAreodynamics();
+                    Part* part = aerodynamics->makePartExperimental(name, efficiency, powerContribution, powerDraw);
+                    string partName = "Part_" + to_string(partCounter);
+                    containerSet->addItem(partName, part);
+                    partCounter++;
+                }
             }
         }
     }
@@ -138,4 +200,168 @@ void RacingStrategyInterface::addName(string name)
 string RacingStrategyInterface::getStrategy()
 {
     return this->racingStrategy->getStrategy();
+}
+
+
+void RacingStrategyInterface::addIce(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Engine* engine = this->engineering->getEngine();
+        ResearchAndDevelopmentDepartment* RaD = new Engine();
+        RaD->setPart(engine->makePartExperimental("ice", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addTurboCharger(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Engine* engine = this->engineering->getEngine();
+        ResearchAndDevelopmentDepartment* RaD = new Engine();
+        RaD->setPart(engine->makePartExperimental("turbocharger", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addMguk(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Electronics* electronics = this->engineering->getElectronics();
+        ResearchAndDevelopmentDepartment* RaD = new Electronics();
+        RaD->setPart(electronics->makePartExperimental("mguk", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addMguh(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Electronics* electronics = this->engineering->getElectronics();
+        ResearchAndDevelopmentDepartment* RaD = new Electronics();
+        RaD->setPart(electronics->makePartExperimental("mguh", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addEngergyStore(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Electronics* electronics = this->engineering->getElectronics();
+        ResearchAndDevelopmentDepartment* RaD = new Electronics();
+        RaD->setPart(electronics->makePartExperimental("energystore", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addErs(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Electronics* electronics = this->engineering->getElectronics();
+        ResearchAndDevelopmentDepartment* RaD = new Electronics();
+        RaD->setPart(electronics->makePartExperimental("ers", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addChasis(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Chassis* chassis = this->engineering->getChassis();
+        ResearchAndDevelopmentDepartment* RaD = new Chassis();
+        RaD->setPart(chassis->makePartExperimental("chassis", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addDrs(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Aerodynamics* aerodynamics = this->engineering->getAreodynamics();
+        ResearchAndDevelopmentDepartment* RaD = new Aerodynamics();
+        RaD->setPart(aerodynamics->makePartExperimental("drs", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::addBargeBoard(double efficiency, double pcontrib, double pdraw)
+{
+    if(!this->isFirst &&
+       efficiency <= 10 &&
+       efficiency >= 0 &&
+       pcontrib <= 10 &&
+       pcontrib >= 0 &&
+       pdraw <= 10 &&
+       pdraw >= 0)
+    {
+        Aerodynamics* aerodynamics = this->engineering->getAreodynamics();
+        ResearchAndDevelopmentDepartment* RaD = new Aerodynamics();
+        RaD->setPart(aerodynamics->makePartExperimental("bargeboard", efficiency/10, pcontrib/10, pdraw/10));
+        this->racingStrategy->add(RaD);
+    }
+}
+
+void RacingStrategyInterface::setResult(Result *newResult)
+{
+    this->result = newResult;
+}
+
+void RacingStrategyInterface::generateReport()
+{
+    this->result->setRaceStrategy(this->racingStrategy->getStrategy());
 }

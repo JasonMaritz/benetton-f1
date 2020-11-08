@@ -6,7 +6,7 @@
 
 string TyreFactory::getStrategy()
 {
-    string data = "";
+    string data;
     data += "T: " + this->tyre->getType() + "\n";
     if(this->component != nullptr)
     {

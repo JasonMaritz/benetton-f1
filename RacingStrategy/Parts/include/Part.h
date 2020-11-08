@@ -15,8 +15,6 @@ class Part : public PackedItem
 public:
     virtual double getPerformance() = 0;
     void setResult(Result* res){result = res;};
-    double WindTunnelTest(int WTSpeed);
-    double SoftwareTest(int timeSpeed);
     std::string getType(){return type;};
     virtual Part* clone() = 0;
     void mutatePC(double mut){powerContribution*=mut;mut-=floor(powerContribution);};

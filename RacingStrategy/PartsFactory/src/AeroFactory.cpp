@@ -6,7 +6,7 @@
 #include "../../Parts/include/Bargeboard.h"
 #include "../../Parts/include/DRS.h"
 
-AeroFactory::AeroFactory() {
+AeroFactory::AeroFactory(){
         defaultBargeboard = (AeroPart *)(new Bargeboard());
         defaultDRS = (AeroPart *)(new DRS());
 }

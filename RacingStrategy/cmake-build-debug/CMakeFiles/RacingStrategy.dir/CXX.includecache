@@ -1,0 +1,298 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Container/ContainerSet.h
+map
+-
+string
+-
+PackedItem.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Container/PackedItem.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Container/PackedItem.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/F1Car/include/F1Builder.h
+F1Car.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/F1Car/include/F1Car.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/F1Car/include/F1Car.h
+../../Parts/include/Bargeboard.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Bargeboard.h
+../../Parts/include/DRS.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/DRS.h
+../../Parts/include/ICE.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ICE.h
+../../Parts/include/TurboCharger.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/TurboCharger.h
+../../Parts/include/ChassisPart.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ChassisPart.h
+../../Parts/include/ERS.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ERS.h
+../../Parts/include/MGUH.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/MGUH.h
+../../Parts/include/MGUK.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/MGUK.h
+../../Parts/include/EnergyStore.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/EnergyStore.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/F1Car/src/F1Builder.cpp
+../include/F1Builder.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/F1Car/include/F1Builder.h
+../../R&D/include/Engineering.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Engineering.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/AeroPart.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Bargeboard.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+AeroPart.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/AeroPart.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ChassisPart.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/DRS.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+AeroPart.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/AeroPart.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ERS.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/EnergyStore.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ICE.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/MGUH.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/MGUK.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+string
+-
+cmath
+-
+../../Container/PackedItem.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Container/PackedItem.h
+../../Simulation/Result.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Result.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/TurboCharger.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/AFactory.h
+string
+-
+../../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+AeroFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/AeroFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/AeroFactory.h
+PartsFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/PartsFactory.h
+../../Parts/include/AeroPart.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/AeroPart.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/ChassisFactory.h
+PartsFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/PartsFactory.h
+../../Parts/include/ChassisPart.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/ChassisPart.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/PartsFactory.h
+string
+-
+../../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Aerodynamics.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/ResearchAndDevelopmentDepartment.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Chassis.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/ResearchAndDevelopmentDepartment.h
+../../PartsFactory/include/ChassisFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/ChassisFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Electronics.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/ResearchAndDevelopmentDepartment.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Engine.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/ResearchAndDevelopmentDepartment.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Engineering.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/ResearchAndDevelopmentDepartment.h
+Engine.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Engine.h
+Chassis.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Chassis.h
+Electronics.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Electronics.h
+Aerodynamics.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Aerodynamics.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/ResearchAndDevelopmentDepartment.h
+vector
+-
+string
+-
+../../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+../../PartsFactory/include/PartsFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/PartsFactory.h
+../../Strategy/RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategy.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/src/Engineering.cpp
+../include/Engineering.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Engineering.h
+../../PartsFactory/include/AFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/PartsFactory/include/AFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Result.h
+string
+-
+vector
+-
+iostream
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Simulation.cpp
+Simulation.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Simulation.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Simulation.h
+../Strategy/RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategy.h
+../Track/Track.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Track/Track.h
+../F1Car/include/F1Car.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/F1Car/include/F1Car.h
+../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Parts/include/Part.h
+../Strategy/RacingStrategyInterface.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategyInterface.h
+vector
+-
+iostream
+-
+string
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategy.h
+iostream
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategyInterface.cpp
+RacingStrategyInterface.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategyInterface.h
+utility
+-
+sstream
+-
+../TyreFactories/TyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/TyreFactory.h
+../TyreFactories/SoftTyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/SoftTyreFactory.h
+../TyreFactories/MediumTyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/MediumTyreFactory.h
+../TyreFactories/HardTyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/HardTyreFactory.h
+StrategyName.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/StrategyName.h
+../Tyres/SoftTyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/SoftTyre.h
+../Tyres/MediumTyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/MediumTyre.h
+../Tyres/HardTyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/HardTyre.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategyInterface.h
+RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategy.h
+../Container/ContainerSet.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Container/ContainerSet.h
+../R&D/include/Engineering.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/R&D/include/Engineering.h
+../Simulation/Result.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Result.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/StrategyName.h
+RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategy.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Track/Track.h
+iostream
+-
+string
+-
+../Simulation/Result.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Simulation/Result.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/HardTyreFactory.h
+TyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/TyreFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/MediumTyreFactory.h
+TyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/TyreFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/SoftTyreFactory.h
+TyreFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/TyreFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/TyreFactories/TyreFactory.h
+../Strategy/RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategy.h
+../Tyres/Tyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/Tyre.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/HardTyre.h
+Tyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/Tyre.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/MediumTyre.h
+Tyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/Tyre.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/SoftTyre.h
+Tyre.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/Tyre.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Tyres/Tyre.h
+iostream
+-
+../Container/PackedItem.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Container/PackedItem.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/main.cpp
+iostream
+-
+Strategy/RacingStrategyInterface.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/Strategy/RacingStrategyInterface.h
+

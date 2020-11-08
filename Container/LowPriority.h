@@ -28,6 +28,7 @@ public:
 	int getNumRoutes();
 	ContainerRoute* getRoute(int index);
 	void destinationsFromtxt(string filename);
+	void printRoutes();
 };
 
 #endif

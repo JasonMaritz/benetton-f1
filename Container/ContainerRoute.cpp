@@ -1,5 +1,9 @@
 #include "ContainerRoute.h"
 
+#include <iostream>
+
+using namespace std;
+
 ContainerRoute::ContainerRoute() {}
 
 ContainerRoute::ContainerRoute(ContainerSet* c) {
@@ -36,4 +40,12 @@ void ContainerRoute::setStops(vector<Destination*>* s){
 	for (auto it = s->begin(); it != s->end(); it++) {
 		stops.push_back(new Destination(*it));
 	}
+}
+
+void ContainerRoute::printRoute() {
+	int nStops = stops.size();
+	for (int i = 0; i < nStops - 1; i++) {
+		cout << stops[i]->location.name << ", ";
+	}
+	cout << stops[nStops - 1]->location.name << endl;
 }

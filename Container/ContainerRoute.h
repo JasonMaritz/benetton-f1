@@ -32,6 +32,7 @@ public:
 	ContainerSet* getContainers();
 	void setTransportMode(string mode); //used by HighPriority
 	void setStops(vector<Destination*>* s); //Makes deep copy
+	void printRoute();
 };
 
 #endif

@@ -85,15 +85,15 @@ void LowPriority::setupRoutes() {
 	t->tm_wday = 0;
 	t->tm_yday = 0;
 	t->tm_isdst = 0;
-	t->tm_year = 0;
+	t->tm_year = 1;
 	t->tm_mday = 0;
 
 	t->tm_mon = 3;
 
-	time_t months3 = mktime(t);
+	time_t months3 = 2592000 * 3; //3 months in seconds
 
 	//construt paths to cover all of nonEu
-
+	months3 = months3;
 	
 	while (!nonEu.empty()) { //Each pass creates a new route
 		time_t currTime = 0; //First destination is easy to reach, can just depart early
@@ -168,7 +168,7 @@ time_t LowPriority::timetFromStr(string date) {
 
 void LowPriority::destinationsFromtxt(string filename) {
 	ifstream inFile;
-	inFile.open(filename);
+	inFile.open(filename.c_str());
 	string line;
 	while (getline(inFile, line)) {
 		string name;
@@ -188,5 +188,12 @@ void LowPriority::destinationsFromtxt(string filename) {
 		d->location.name = name;
 		d->location.european = (eu == "1" ? 1 : 0);
 		destinations.push_back(d);
+	}
+	inFile.close();
+}
+
+void LowPriority::printRoutes() {
+	for (auto it = routes.begin(); it != routes.end(); it++) {
+		(*it)->printRoute();
 	}
 }

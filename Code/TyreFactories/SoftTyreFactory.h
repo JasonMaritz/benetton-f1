@@ -10,10 +10,10 @@
 
 class SoftTyreFactory : public TyreFactory
 {
-    Tyre* makeTyre() override;
-
 public:
     SoftTyreFactory();
+    /// @returns A soft tyre object after its been made.
+    Tyre* makeTyre() override;
 };
 
 

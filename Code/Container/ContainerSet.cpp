@@ -2,13 +2,15 @@
 
 ContainerSet::ContainerSet() {}
 
-ContainerSet::~ContainerSet() {
+ContainerSet::~ContainerSet()
+{
 	for (auto it = items.begin(); it != items.end(); it++) {
 		delete it->second;
 	}
 }
 
-ContainerSet* ContainerSet::clone() {
+ContainerSet* ContainerSet::clone()
+{
 	ContainerSet* newContainer = new ContainerSet();
 	
 	for(auto it = items.begin(); it != items.end(); it++){

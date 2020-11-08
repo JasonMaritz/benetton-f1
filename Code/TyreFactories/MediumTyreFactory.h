@@ -13,6 +13,7 @@ class MediumTyreFactory : public TyreFactory
 private:
 public:
     MediumTyreFactory();
+    /// @returns A medium tyre object after its been made.
     Tyre* makeTyre() override;
 };
 

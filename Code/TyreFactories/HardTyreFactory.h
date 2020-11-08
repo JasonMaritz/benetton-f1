@@ -13,6 +13,7 @@ class HardTyreFactory : public TyreFactory
 private:
 public:
     HardTyreFactory();
+    /// @returns A hard tyre object after its been made.
     Tyre* makeTyre() override;
 };
 

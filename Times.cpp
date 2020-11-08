@@ -20,3 +20,7 @@ void Times::setState(TimeGenerator* state) {
 void Times::generateCars() {
 	F1car* car = f1Builder->newCar(ourParts);
 }
+
+void Times::addResult() {
+	pastResults->push_back(RaceResult* results);
+}

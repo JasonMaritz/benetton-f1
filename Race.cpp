@@ -13,15 +13,28 @@ Race::Race(RaceStrategy::RacingStrategy* strategy, Track* Track) {
 	this->times = new Times(breakContainer(c));
 }
 
-std::vector<PackedItem*> Race::breakContainer(ContainerSet* c) {
+std::vector<Parts*> Race::breakContainer(ContainerSet* c) {
 	// 5 tyres
 	// 9 parts
 	std::vector<Parts*> parts = new std::vector<Parts*>();
 	for (int i = 1; i < 10; i++)
 	{
 		s = to_string(i);
-		Part p = (Part) c->getItem("part_" + s);
+		Part p = (Part) c->getItem("Part_" + s);
 		parts.push_back(p);
 	}
 	return parts;
+}
+
+std::vector<PackedItem*> Race::breakContainer(ContainerSet* c) {
+	// 5 tyres
+	// 9 parts
+	std::vector<Tyre*> tyres = new std::vector<Tyre*>();
+	for (int i = 1; i < 6; i++)
+	{
+		s = to_string(i);
+		Tyre p = (Tyre) c->getItem("Tyre_" + s);
+		tyres.push_back(p);
+	}
+	return tyres;
 }

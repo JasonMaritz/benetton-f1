@@ -26,6 +26,8 @@ public:
 	void setState(TimeGenerator* state);
 	///Creates our cars from the given parts in the Parts vector
 	void generateCars();
+	///Add a result to the vector ofpast results
+	void addResults(RaceResult* results);
 };
 
 #endif

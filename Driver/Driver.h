@@ -3,6 +3,7 @@
 
 #include <string>
 #include "../Simulation/Result.h"
+#include "../Track/Track.h";
 
 using namespace std;
 
@@ -14,7 +15,7 @@ private:
 
 public:
 	Driver(string name);
-	void generateReport();
+	void generateReport(Track* track);
 	void setResult(Result* result);
 };
 

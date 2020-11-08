@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -16,6 +17,8 @@ private:
 	string CarReport;
 	vector<string> PartsReport;
 
+	bool checkAllSet();
+
 public:
 	void setDriverReport(string Report);
 	void setTrackReport(string Report);
@@ -23,6 +26,8 @@ public:
 	void setCarReport(string Report);
 	void setPartsReport(vector<string> PartsReport);
 	void printReport();
+	void StoreResultToTF(string SimUniqueID);
+	double SimulationVariation(double min, double max, int decimal);
 };
 
 #endif // !Result_h

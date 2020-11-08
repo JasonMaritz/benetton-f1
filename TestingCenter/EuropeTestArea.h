@@ -8,7 +8,8 @@ using namespace std;
 class EuropeTestArea : public TestingCenter
 {
 public:
-	void TestParts();
+	void TestParts(bool WindTunnel, string TestName);
+	void printTestReport(Part*, double, string TestName);
 };
 
 #endif // !EuropeTestArea_h

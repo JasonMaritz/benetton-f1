@@ -1,12 +1,14 @@
 #ifndef TestingCenter_h
 
-#include "../Parts/include/Part.h"
+//#include "../Parts/include/Part.h"
 #include "WindTunnelCounter.h"
 #include "Memento.h"
 #include <vector>
 #include <iostream>
 
 using namespace std;
+
+class Part;
 
 class TestingCenter
 {
@@ -20,6 +22,7 @@ public:
 	void addToTestQueue(Part* part);
 	Memento* createMemento();
 	void setMemento(Memento* m);
-	virtual void  TestParts()=0;
+	virtual void TestParts(bool, string TestName)=0;
+	virtual void printTestReport(Part*, double, string TestName) = 0;
 };
 #endif // !TestingCenter_h

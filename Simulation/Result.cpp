@@ -1,5 +1,18 @@
 #include "Result.h"
 
+bool Result::checkAllSet()
+{
+	if (DriverReport.length() <= 0) { return false; }
+	if (TrackReport.length() <= 0) { return false; }
+	if (RaceStrategyReport.length() <= 0) { return false; }
+	if (CarReport.length() <= 0) { return false; }
+	for (vector<string>::iterator it = PartsReport.begin(); it != PartsReport.end(); it++)
+	{
+		if ((*it).length() <= 0) { return false; }
+	}
+	return true;
+}
+
 void Result::setDriverReport(string Report)
 {
 	DriverReport = Report;
@@ -44,4 +57,33 @@ void Result::printReport()
 	{
 		cout << *it << endl;
 	}
+}
+
+void Result::StoreResultToTF(string SimUniqueID)
+{
+	if (!checkAllSet()) {
+		throw "All reports not set";
+	}
+
+	fstream fs(SimUniqueID + ".txt");
+	fs << DriverReport;
+	fs << TrackReport;
+	fs << RaceStrategyReport;
+	fs << CarReport;
+	
+	for (vector<string>::iterator it = PartsReport.begin(); it != PartsReport.end(); it++)
+	{
+		fs << (*it);
+	}
+	
+	fs.close();
+}
+
+double Result::SimulationVariation(double min, double max, int decimal)
+{
+	int minI = min * decimal;
+	int maxI = max * decimal;
+	int variantion = minI + (rand() % (maxI - minI));
+	if (rand() % 2 == 0) { variantion * -1; }
+	return variantion / decimal;
 }

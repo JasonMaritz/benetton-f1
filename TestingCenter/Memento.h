@@ -9,8 +9,8 @@ private:
 	State* state;
 
 public:
-	vector<Parts*> getState();
-	void setState(vector<Parts*> list);
+	vector<Part*> getState();
+	void setState(vector<Part*> list);
 };
 
 #endif // !Memento_h

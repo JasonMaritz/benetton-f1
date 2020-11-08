@@ -35,6 +35,8 @@ private:
     MGUH* mguh= nullptr;
     MGUK* mguk= nullptr;
     EnergyStore* energyStore= nullptr;
+
+    std::vector<Part *> generateParts();
 };
 
 #endif //BENETTON_F1_F1CAR_H

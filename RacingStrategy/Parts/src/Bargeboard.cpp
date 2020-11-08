@@ -10,7 +10,7 @@ Part *Bargeboard::clone() {
     nBBoard->powerDraw = this->powerDraw;
     nBBoard->powerContribution = this->powerContribution;
     nBBoard->wear = this->wear;
-    return dynamic_cast<Part*>(nBBoard);
+    return (Part *)(nBBoard);
 }
 
 double Bargeboard::getPerformance() {

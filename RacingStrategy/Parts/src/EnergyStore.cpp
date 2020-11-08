@@ -10,7 +10,7 @@ Part *EnergyStore::clone() {
     nES->powerDraw = this->powerDraw;
     nES->powerContribution = this->powerContribution;
     nES->wear = this->wear;
-    return dynamic_cast<Part*>(nES);
+    return (Part *)(nES);
 }
 
 double EnergyStore::getPerformance() {

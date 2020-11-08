@@ -10,7 +10,7 @@ Part *ERS::clone() {
     nERS->powerDraw = this->powerDraw;
     nERS->powerContribution = this->powerContribution;
     nERS->wear = this->wear;
-    return dynamic_cast<Part*>(nERS);
+    return (Part *)(nERS);
 }
 
 double ERS::getPerformance() {

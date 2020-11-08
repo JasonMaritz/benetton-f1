@@ -10,7 +10,7 @@ Part *TurboCharger::clone() {
     nTC->powerDraw = this->powerDraw;
     nTC->powerContribution = this->powerContribution;
     nTC->wear = this->wear;
-    return dynamic_cast<Part*>(nTC);
+    return (Part *)(nTC);
 }
 
 double TurboCharger::getPerformance() {

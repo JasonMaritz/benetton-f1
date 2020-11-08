@@ -10,7 +10,7 @@ Part *ICE::clone() {
     nICE->powerDraw = this->powerDraw;
     nICE->powerContribution = this->powerContribution;
     nICE->wear = this->wear;
-    return dynamic_cast<Part*>(nICE);
+    return (Part *)(nICE);
 }
 
 double ICE::getPerformance() {

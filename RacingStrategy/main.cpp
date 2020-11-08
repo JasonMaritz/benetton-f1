@@ -15,7 +15,7 @@ int main()
     rci->addHardTyre();
     rci->addHardTyre();
     rci->addHardTyre();
-    //rci->addIce();
+    rci->addIce();
     rci->addName("Test");
     rci->addSoftTyre();
 

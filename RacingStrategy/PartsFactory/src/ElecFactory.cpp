@@ -7,11 +7,11 @@
 Part *ElecFactory::produce(std::string type)
 {
     if(type == "mguk")
-        return dynamic_cast<Part*>(defaultMGUK->clone());
+        return (Part *)(defaultMGUK->clone());
     if(type == "mguh")
-        return dynamic_cast<Part*>(defaultMGUH->clone());
+        return (Part *)(defaultMGUH->clone());
     if(type == "energystore")
-        return dynamic_cast<Part*>(defaultEnergyStore->clone());
+        return (Part *)(defaultEnergyStore->clone());
     if(type == "ers")
-        return dynamic_cast<Part*>(defaultERS->clone());
+        return (Part *)(defaultERS->clone());
 }

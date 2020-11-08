@@ -10,7 +10,7 @@ Part *DRS::clone() {
     nDRS->powerDraw = this->powerDraw;
     nDRS->powerContribution = this->powerContribution;
     nDRS->wear = this->wear;
-    return dynamic_cast<Part*>(nDRS);
+    return (Part *)(nDRS);
 }
 
 double DRS::getPerformance() {

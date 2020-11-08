@@ -8,10 +8,10 @@ Part *EngFactory::produce(std::string type)
 {
     if(type == "ice")
     {
-        return dynamic_cast<Part*>(defaultICE->clone());
+        return (Part *)(defaultICE->clone());
     }
     else if(type == "turbocharger")
     {
-        return dynamic_cast<Part *>(defaultTurbo->clone());
+        return (Part *)(defaultTurbo->clone());
     }
 }

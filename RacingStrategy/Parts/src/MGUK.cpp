@@ -10,7 +10,7 @@ Part *MGUK::clone() {
     nMGUK->powerDraw = this->powerDraw;
     nMGUK->powerContribution = this->powerContribution;
     nMGUK->wear = this->wear;
-    return dynamic_cast<Part*>(nMGUK);
+    return (Part *)(nMGUK);
 }
 
 double MGUK::getPerformance() {

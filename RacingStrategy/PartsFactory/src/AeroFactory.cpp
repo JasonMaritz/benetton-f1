@@ -7,16 +7,14 @@
 #include "../../Parts/include/DRS.h"
 
 AeroFactory::AeroFactory() {
-    if(!defaultBargeboard)
-        defaultBargeboard = dynamic_cast<AeroPart *>(new Bargeboard());
-    if(!defaultDRS)
-        defaultDRS = dynamic_cast<AeroPart*>(new DRS());
+        defaultBargeboard = (AeroPart *)(new Bargeboard());
+        defaultDRS = (AeroPart *)(new DRS());
 }
 
 void AeroFactory::setDefault(Part *newDef) {
     std::string t = newDef->getType();
     if(t == "bargeboard")
-        defaultBargeboard = dynamic_cast<AeroPart *>(newDef->clone());
+        defaultBargeboard = (AeroPart *)(newDef->clone());
     if(t == "drs")
-        defaultDRS = dynamic_cast<AeroPart *>(newDef->clone());
+        defaultDRS = (AeroPart *)(newDef->clone());
 }

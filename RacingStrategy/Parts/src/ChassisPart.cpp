@@ -18,7 +18,7 @@ Part *ChassisPart::clone() {
     nChassis->powerDraw = this->powerDraw;
     nChassis->powerContribution = this->powerContribution;
     nChassis->wear = this->wear;
-    return dynamic_cast<Part*>(nChassis);
+    return (Part *)(nChassis);
 }
 
 double ChassisPart::getPerformance() {

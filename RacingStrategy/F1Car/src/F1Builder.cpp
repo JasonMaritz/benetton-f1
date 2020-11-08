@@ -13,31 +13,31 @@ F1Car *F1Builder::getResult() {
     //add the correct missing parts
     Engineering* eng;
     if(!result->bargeboard){
-        result->bargeboard = dynamic_cast<Bargeboard *>(eng->getAreodynamics()->makePart("bargeboard"));
+        result->bargeboard = (Bargeboard *)(eng->getAreodynamics()->makePart("bargeboard"));
     }
     if (!result->drs){
-        result->drs = dynamic_cast<DRS *>(eng->getAreodynamics()->makePart("drs"));
+        result->drs = (DRS *)(eng->getAreodynamics()->makePart("drs"));
     }
     if (!result->ice){
-        result->ice = dynamic_cast<ICE *>(eng->getEngine()->makePart("ice"));
+        result->ice = (ICE *)(eng->getEngine()->makePart("ice"));
     }
     if (!result->turboCharger){
-        result->turboCharger = dynamic_cast<TurboCharger *>(eng->getEngine()->makePart("turbo"));
+        result->turboCharger = (TurboCharger *)(eng->getEngine()->makePart("turbo"));
     }
     if (!result->chassisPart){
-        result->chassisPart = dynamic_cast<ChassisPart *>(eng->getChassis()->makePart("chassis"));
+        result->chassisPart = (ChassisPart *)(eng->getChassis()->makePart("chassis"));
     }
     if (!result->ers){
-        result->ers = dynamic_cast<ERS *>(eng->getElectronics()->makePart("ers"));
+        result->ers = (ERS *)(eng->getElectronics()->makePart("ers"));
     }
     if (!result->mguh){
-        result->mguh = dynamic_cast<MGUH *>(eng->getElectronics()->makePart("mguh"));
+        result->mguh = (MGUH *)(eng->getElectronics()->makePart("mguh"));
     }
     if (!result->mguk){
-        result->mguk = dynamic_cast<MGUK *>(eng->getElectronics()->makePart("mguk"));
+        result->mguk = (MGUK *)(eng->getElectronics()->makePart("mguk"));
     }
     if (!result->energyStore){
-        result->energyStore = dynamic_cast<EnergyStore *>(eng->getElectronics()->makePart("energystore"));
+        result->energyStore = (EnergyStore *)(eng->getElectronics()->makePart("energystore"));
     }
     return result;
 }

@@ -10,7 +10,7 @@ Part *MGUH::clone() {
     nMGUH->powerDraw = this->powerDraw;
     nMGUH->powerContribution = this->powerContribution;
     nMGUH->wear = this->wear;
-    return dynamic_cast<Part*>(nMGUH);
+    return (Part *)(nMGUH);
 }
 
 double MGUH::getPerformance() {

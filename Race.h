@@ -7,6 +7,7 @@
 #include "ContainerSet.h"
 #include "ContainerRoute.h"
 #include "PackedItem.h"
+#include "Times.h"
 
 class Race {
 
@@ -26,6 +27,7 @@ public:
 	///Break up the container given by the Strategy so that our car can be generated for the race
 	///@param c The container which is going to be turned into a vector of parts from which our car will be built
 	std::vector<Part*> breakContainer(ContainerSet* c);
+	void generateResults();
 };
 
 #endif

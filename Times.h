@@ -3,15 +3,17 @@
 #include <vector>
 #include "F1Builder.h"
 #include "TimeGenerator.h"
-#include 
+#include "ResultOriginator.h"
 
 class Times {
 
 private:
 	TimeGenerator* state;
-	std::vector<F1Car*> carList;
+	F1Car* car;
 	std::vector<PackedItem*> ourParts;
 	F1Builder* f1Builder;
+	std::vector<RaceResults*> pastResults;
+	ResultOriginator* resultOriginator;
 
 public:
 	///@param ourParts Recieves tha parts from the Raceclass which instatiates Times - used in generateCars() to make the cars

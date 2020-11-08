@@ -6,9 +6,9 @@ void RaceGenerator::handleChanges(Times* context) {
 	std::cout << "Race weekend concluded! No new session to move to." << std::endl;
 }
 
-int RaceGenerator::getTime(F1Car* car) {
+float* RaceGenerator::getTime(F1Car* car) {
 	// totalTime = (length / speed) =- adv/disad * laps + (low chance boolean of major mistake)
-	float[20] totalTimes;
+	float totalTimes[20];
 	for (int i = 0; i < 18; i++)
 	{
 		totalTimes[i] = (track->getLength() / track->getSpeed() + 0.1 + rand() % (1 - 0.1)) * 50;

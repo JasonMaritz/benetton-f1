@@ -4,8 +4,8 @@ void PracticeGenerator::handleChanges(Times* context) {
 	context->setState(new QualifyingGenerator());
 }
 
-int PracticeGenerator::getTime(F1Car* car) {
-	float[20] totalTimes;
+float* PracticeGenerator::getTime(F1Car* car) {
+	float totalTimes [20];
 	for (int i = 0; i < 18; i++)
 	{
 		totalTimes[i] = track->getLength() / track->getSpeed() + 0.1 + rand() % (1 - 0.1); 

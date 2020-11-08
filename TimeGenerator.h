@@ -3,12 +3,12 @@
 #include "Track.h"
 #include "Times.h"
 #include "F1Builder.h"
+#include "F1Car.h"
 
 class TimeGenerator {
 
-private:
+protected:
 	Track* track;
-	void setTrack(Track*);
 
 public:
 	///Alters the session being used by the Times class
@@ -16,6 +16,10 @@ public:
 	///Fetches the time being created in the session by each car in the car list
 	///@param car Specifies our car from which times will be generated
 	virtual float* getTime(F1Car* car) = 0;
+
+	///Set the track on which the calculations wil be based
+	///@param track The track which will be used by the calculations
+	void setTrack(Track* track);
 };
 
 #endif

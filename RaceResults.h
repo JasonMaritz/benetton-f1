@@ -1,5 +1,7 @@
 #ifndef RACERESULTS_H
 #define RACERESULTS_H
+#include <iostream>
+#include <algorithm>
 
 class RaceResults {
 

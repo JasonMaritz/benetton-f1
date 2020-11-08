@@ -1,15 +1,19 @@
 #include "Race.h"
 
 Race::Race() {
-
+	ContainerRoute r = new ContainerRoute();
+	this->containerSet = r.getContainers();
+	this->times = new Times(breakContainer(c));
 }
 
-Race::Race(RaceStrategy::RacingStrategy* RacingStrategy, Track* Track) {
-	this->raceStrategy = RacingStrategy;
+Race::Race(RaceStrategy::RacingStrategy* strategy, Track* Track) {
+	this->raceStrategy = strategy;
 	this->track = track;
+	this->containerSet = strategy->buildAndGetContainerSet();
+	this->times = new Times(breakContainer(c));
 }
 
-std::vector<PackedItem*> breakContainer(ContainerSet* c) {
+std::vector<PackedItem*> Race::breakContainer(ContainerSet* c) {
 	// 5 tyres
 	// 9 parts
 	std::vector<Parts*> parts = new std::vector<Parts*>();

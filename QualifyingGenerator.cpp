@@ -4,9 +4,8 @@ void QualifyingGenerator::handleChanges(Times* context) {
 	context->setState(new RaceGenerator());
 }
 
-int QualifyingGenerator::getTime(F1Car* car) {
-	//float totalTime = //(length / speed) +- advantage - qualification focus advantage
-	float[20] totalTimes;
+float* QualifyingGenerator::getTime(F1Car* car) {
+	float totalTimes[20];
 	for (int i = 0; i < 18; i++)
 	{
 		totalTimes[i] = track->getLength() / track->getSpeed() + 0.1 + rand() % (1 - 0.1) - 0.5; 

@@ -9,9 +9,10 @@ using namespace std;
 
 #include <iostream>
 #include "../Container/ContainerRoute.h"
-// #include "Shipper.h"
-// #include "Destination.h"
-// #include "ContainerSet.h"
+#include "TransportMode.h"
+#include "Ship.h"
+#include "Truck.h"
+#include "ChartedPlane.h"
 
 class ContainerRoute;
 class Shipper;

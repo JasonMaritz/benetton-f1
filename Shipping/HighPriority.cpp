@@ -8,19 +8,28 @@ using namespace std;
 
 void HighPriority::shipSomething(Destination* aDest, ContainerSet* aContainers, string aName) {
 	
-	ContainerRoute * a = new ContainerRoute(aContainers) ; 
+	ContainerRoute * newRoute = new ContainerRoute(aContainers) ; 
 	vector<Destination*> v ; 
 	v.push_back(aDest) ;
-	a->setStops(&v) ;
+	newRoute->setStops(&v) ;
 	// if name already exist ?
-	_routes.insert(std::pair<string,ContainerRoute*>(aName,a)) ;
+	_routes.insert(std::pair<string,ContainerRoute*>(aName,newRoute)) ;
+
+	TransportMode* assignedMode ;
+	if (aDest->location.european){
+		assignedMode = new Truck(aDest->location,newRoute) ;
+	}
+	else{
+		assignedMode = new ChartedPlane(aDest->location,newRoute) ;
+	}
+
+	_routes.setTransportMode(assignedMode) ;
 
 	try{
 		_routes.at(aName)->transportCargo() ;
 	}
 	catch(const std::out_of_range& e){
 		//tried shipping something but didn't work
-
 	}
 
 }

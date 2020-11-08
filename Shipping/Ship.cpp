@@ -4,11 +4,20 @@ using namespace std;
 
 #include "Ship.h"
 
-Ship::Ship( Location aDest, ContainerRoute* r,int a=65):TransportMode(aDest,r,a) {
+Ship::Ship( Location aDest, ContainerRoute* r,int a):TransportMode(aDest,r,a) {
 }
 
 time_t Ship::eta(Location aDestination) {
-	throw "Not yet implemented";
+	// throw "Not yet implemented";
+
+	struct tm * eta ;
+
+	int size = aDestination.name.length() ;
+
+	eta->tm_sec = size ; 
+
+	mktime(eta) ;
+
 }
 
 void Ship::changeTransportMode(bool a = false) {

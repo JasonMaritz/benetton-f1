@@ -1,5 +1,7 @@
 #include <exception>
 #include <string>
+#include<time.h>
+#include <stdint.h>
 using namespace std;
 
 #ifndef __TransportMode_h__

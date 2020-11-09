@@ -23,13 +23,14 @@ void HighPriority::shipSomething(Destination* aDest, ContainerSet* aContainers, 
 		assignedMode = new ChartedPlane(aDest->location,newRoute) ;
 	}
 
-	_routes.setTransportMode(assignedMode) ;
+	_routes.at(aName)->setTransportMode(assignedMode) ;
 
 	try{
 		_routes.at(aName)->transportCargo() ;
 	}
 	catch(const std::out_of_range& e){
 		//tried shipping something but didn't work
+		cout<<"--The name of route could not be found. \n" ;
 	}
 
 }

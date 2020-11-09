@@ -14,10 +14,13 @@ time_t Ship::eta(Location aDestination) {
 
 	int size = aDestination.name.length() ;
 
-	eta->tm_sec = size ; 
+	int timetaken = size * 100/ this->speed ;
 
-	mktime(eta) ;
+	eta->tm_mon = size % 4 ; 
 
+	 mktime(eta) ;
+	std::time_t t = timetaken ;
+	return t ;
 }
 
 void Ship::changeTransportMode(bool a = false) {

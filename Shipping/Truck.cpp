@@ -2,7 +2,15 @@
 #include "Truck.h"
 
 time_t Truck::eta(Location aDestination) {
-	throw "Not yet implemented";
+	struct tm * eta ;
+
+	int size = aDestination.name.length() ;
+
+	double timetaken = size / this->speed ;
+
+	eta->tm_mday = size ; 
+
+	return mktime(eta) ;
 }
 
 Truck::Truck(  Location aDest, ContainerRoute* r,int a):TransportMode(aDest,r,a) {

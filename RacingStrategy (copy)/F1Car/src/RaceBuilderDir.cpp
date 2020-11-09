@@ -4,12 +4,14 @@
 
 #include "../include/RaceBuilderDir.h"
 
-F1Car *RaceBuilderDir::buildCar(std::vector<Part *> parts) {
+F1Car *RaceBuilderDir::buildCar(std::vector<Part *> parts)
+{
     for(auto & part : parts)
         build->buildPart(part);
     return build->getResult();
 }
 
-RaceBuilderDir::RaceBuilderDir() {
+RaceBuilderDir::RaceBuilderDir()
+{
     build = new F1Builder;
 }

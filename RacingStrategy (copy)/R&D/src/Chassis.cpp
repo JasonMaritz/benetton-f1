@@ -28,6 +28,7 @@ Part *Chassis::makePartExperimental(std::string type, double efficiency, double 
 void Chassis::setBest(Part *newBest)
 {
     myFactory->setDefault(newBest);
+    myFactoryExperimental->setDefault(newBest);
 }
 
 void Chassis::developParts()

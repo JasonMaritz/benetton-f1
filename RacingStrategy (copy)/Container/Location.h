@@ -5,7 +5,8 @@
 
 using namespace std;
 
-class Location{
+class Location
+{
 public:
 	string name;
 	bool european;

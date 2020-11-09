@@ -6,9 +6,8 @@
 using namespace std;
 
 
-class africa : public TrackContinent {
-
-
+class africa : public TrackContinent
+{
 public:
 	africa();
 

@@ -26,6 +26,7 @@ Part *Engine::makePartExperimental(std::string type, double efficiency, double p
 
 void Engine::setBest(Part *newBest) {
     myFactory->setDefault(newBest);
+    myFactoryExperimental->setDefault(newBest);
 }
 
 void Engine::developParts() {

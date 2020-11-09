@@ -95,6 +95,10 @@ public:
     /// @returns A string holding a list of all the objects in the current RacingStrategy.
     string getStrategy();
 
+    ///Function used to get a list of all the objects part of the current RacingStrategy.
+    /// @returns A Strategy object that is the head of the linked list
+    RacingStrategy* getStrategyObject();
+
     ///Function used to set the value of result based on the results of the simulation.
     ///@param newResult A Result object holding the data of a simulation
     void setResult(Result* newResult);

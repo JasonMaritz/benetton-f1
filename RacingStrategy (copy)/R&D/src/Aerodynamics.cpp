@@ -27,6 +27,7 @@ Part *Aerodynamics::makePartExperimental(std::string type, double efficiency, do
 void Aerodynamics::setBest(Part *newBest)
 {
     myFactory->setDefault(newBest);
+    myFactoryExperimental->setDefault(newBest);
 }
 
 void Aerodynamics::developParts() {

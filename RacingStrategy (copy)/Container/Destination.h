@@ -7,7 +7,8 @@
 
 using namespace std;
 
-class Destination{
+class Destination
+{
 public:
 	time_t startDate;
 	time_t endDate;

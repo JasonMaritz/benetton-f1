@@ -113,21 +113,6 @@ add_executable(RacingStrategy main.cpp Tyres/Tyre.cpp Tyres/Tyre.h Tyres/SoftTyr
         TestingCenter/WindTunnelCounter.h
         Driver/Driver.cpp
         Driver/Driver.h
-        Race/PracticeGenerator.cpp
-        Race/PracticeGenerator.h
-        Race/QualifyingGenerator.cpp
-        Race/QualifyingGenerator.h
-        Race/Race.cpp
-        Race/Race.h
-        Race/RaceGenerator.cpp
-        Race/RaceGenerator.h
-        Race/RaceResults.cpp
-        Race/RaceResults.h
-        Race/ResultOriginator.cpp
-        Race/ResultOriginator.h
-        Race/TimeGenerator.h
-        Race/Times.cpp
-        Race/Times.h Race/TimeGenerator.cpp
         Container/ContainerRoute.cpp
         Container/ContainerRoute.h
         Container/ContainerSet.cpp
@@ -154,4 +139,4 @@ add_executable(RacingStrategy main.cpp Tyres/Tyre.cpp Tyres/Tyre.h Tyres/SoftTyr
         Shipping/TransportMode.h
         Shipping/Truck.cpp
         Shipping/Truck.h
-        cmake-build-debug/Destinations.txt)
+        Data/Destinations.txt RaceWeekend/RaceWeekendInterface.cpp RaceWeekend/RaceWeekendInterface.h RaceWeekend/Race.cpp RaceWeekend/Race.h RaceWeekend/Qualifying.cpp RaceWeekend/Qualifying.h)

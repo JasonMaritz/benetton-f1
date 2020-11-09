@@ -1304,221 +1304,86 @@ R&D/src/ResearchAndDevelopmentDepartment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make "CMakeFiles/RacingStrategy.dir/R&D/src/ResearchAndDevelopmentDepartment.cpp.s"
 .PHONY : R&D/src/ResearchAndDevelopmentDepartment.cpp.s
 
-Race/PracticeGenerator.o: Race/PracticeGenerator.cpp.o
+RaceWeekend/Qualifying.o: RaceWeekend/Qualifying.cpp.o
 
-.PHONY : Race/PracticeGenerator.o
-
-# target to build an object file
-Race/PracticeGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o
-.PHONY : Race/PracticeGenerator.cpp.o
-
-Race/PracticeGenerator.i: Race/PracticeGenerator.cpp.i
-
-.PHONY : Race/PracticeGenerator.i
-
-# target to preprocess a source file
-Race/PracticeGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.i
-.PHONY : Race/PracticeGenerator.cpp.i
-
-Race/PracticeGenerator.s: Race/PracticeGenerator.cpp.s
-
-.PHONY : Race/PracticeGenerator.s
-
-# target to generate assembly for a file
-Race/PracticeGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.s
-.PHONY : Race/PracticeGenerator.cpp.s
-
-Race/QualifyingGenerator.o: Race/QualifyingGenerator.cpp.o
-
-.PHONY : Race/QualifyingGenerator.o
+.PHONY : RaceWeekend/Qualifying.o
 
 # target to build an object file
-Race/QualifyingGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o
-.PHONY : Race/QualifyingGenerator.cpp.o
+RaceWeekend/Qualifying.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o
+.PHONY : RaceWeekend/Qualifying.cpp.o
 
-Race/QualifyingGenerator.i: Race/QualifyingGenerator.cpp.i
+RaceWeekend/Qualifying.i: RaceWeekend/Qualifying.cpp.i
 
-.PHONY : Race/QualifyingGenerator.i
+.PHONY : RaceWeekend/Qualifying.i
 
 # target to preprocess a source file
-Race/QualifyingGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.i
-.PHONY : Race/QualifyingGenerator.cpp.i
+RaceWeekend/Qualifying.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.i
+.PHONY : RaceWeekend/Qualifying.cpp.i
 
-Race/QualifyingGenerator.s: Race/QualifyingGenerator.cpp.s
+RaceWeekend/Qualifying.s: RaceWeekend/Qualifying.cpp.s
 
-.PHONY : Race/QualifyingGenerator.s
+.PHONY : RaceWeekend/Qualifying.s
 
 # target to generate assembly for a file
-Race/QualifyingGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.s
-.PHONY : Race/QualifyingGenerator.cpp.s
+RaceWeekend/Qualifying.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.s
+.PHONY : RaceWeekend/Qualifying.cpp.s
 
-Race/Race.o: Race/Race.cpp.o
+RaceWeekend/Race.o: RaceWeekend/Race.cpp.o
 
-.PHONY : Race/Race.o
+.PHONY : RaceWeekend/Race.o
 
 # target to build an object file
-Race/Race.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o
-.PHONY : Race/Race.cpp.o
+RaceWeekend/Race.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o
+.PHONY : RaceWeekend/Race.cpp.o
 
-Race/Race.i: Race/Race.cpp.i
+RaceWeekend/Race.i: RaceWeekend/Race.cpp.i
 
-.PHONY : Race/Race.i
+.PHONY : RaceWeekend/Race.i
 
 # target to preprocess a source file
-Race/Race.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/Race.cpp.i
-.PHONY : Race/Race.cpp.i
+RaceWeekend/Race.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.i
+.PHONY : RaceWeekend/Race.cpp.i
 
-Race/Race.s: Race/Race.cpp.s
+RaceWeekend/Race.s: RaceWeekend/Race.cpp.s
 
-.PHONY : Race/Race.s
+.PHONY : RaceWeekend/Race.s
 
 # target to generate assembly for a file
-Race/Race.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/Race.cpp.s
-.PHONY : Race/Race.cpp.s
+RaceWeekend/Race.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.s
+.PHONY : RaceWeekend/Race.cpp.s
 
-Race/RaceGenerator.o: Race/RaceGenerator.cpp.o
+RaceWeekend/RaceWeekendInterface.o: RaceWeekend/RaceWeekendInterface.cpp.o
 
-.PHONY : Race/RaceGenerator.o
+.PHONY : RaceWeekend/RaceWeekendInterface.o
 
 # target to build an object file
-Race/RaceGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o
-.PHONY : Race/RaceGenerator.cpp.o
+RaceWeekend/RaceWeekendInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o
+.PHONY : RaceWeekend/RaceWeekendInterface.cpp.o
 
-Race/RaceGenerator.i: Race/RaceGenerator.cpp.i
+RaceWeekend/RaceWeekendInterface.i: RaceWeekend/RaceWeekendInterface.cpp.i
 
-.PHONY : Race/RaceGenerator.i
-
-# target to preprocess a source file
-Race/RaceGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.i
-.PHONY : Race/RaceGenerator.cpp.i
-
-Race/RaceGenerator.s: Race/RaceGenerator.cpp.s
-
-.PHONY : Race/RaceGenerator.s
-
-# target to generate assembly for a file
-Race/RaceGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.s
-.PHONY : Race/RaceGenerator.cpp.s
-
-Race/RaceResults.o: Race/RaceResults.cpp.o
-
-.PHONY : Race/RaceResults.o
-
-# target to build an object file
-Race/RaceResults.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o
-.PHONY : Race/RaceResults.cpp.o
-
-Race/RaceResults.i: Race/RaceResults.cpp.i
-
-.PHONY : Race/RaceResults.i
+.PHONY : RaceWeekend/RaceWeekendInterface.i
 
 # target to preprocess a source file
-Race/RaceResults.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.i
-.PHONY : Race/RaceResults.cpp.i
+RaceWeekend/RaceWeekendInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.i
+.PHONY : RaceWeekend/RaceWeekendInterface.cpp.i
 
-Race/RaceResults.s: Race/RaceResults.cpp.s
+RaceWeekend/RaceWeekendInterface.s: RaceWeekend/RaceWeekendInterface.cpp.s
 
-.PHONY : Race/RaceResults.s
-
-# target to generate assembly for a file
-Race/RaceResults.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.s
-.PHONY : Race/RaceResults.cpp.s
-
-Race/ResultOriginator.o: Race/ResultOriginator.cpp.o
-
-.PHONY : Race/ResultOriginator.o
-
-# target to build an object file
-Race/ResultOriginator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o
-.PHONY : Race/ResultOriginator.cpp.o
-
-Race/ResultOriginator.i: Race/ResultOriginator.cpp.i
-
-.PHONY : Race/ResultOriginator.i
-
-# target to preprocess a source file
-Race/ResultOriginator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.i
-.PHONY : Race/ResultOriginator.cpp.i
-
-Race/ResultOriginator.s: Race/ResultOriginator.cpp.s
-
-.PHONY : Race/ResultOriginator.s
+.PHONY : RaceWeekend/RaceWeekendInterface.s
 
 # target to generate assembly for a file
-Race/ResultOriginator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.s
-.PHONY : Race/ResultOriginator.cpp.s
-
-Race/TimeGenerator.o: Race/TimeGenerator.cpp.o
-
-.PHONY : Race/TimeGenerator.o
-
-# target to build an object file
-Race/TimeGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o
-.PHONY : Race/TimeGenerator.cpp.o
-
-Race/TimeGenerator.i: Race/TimeGenerator.cpp.i
-
-.PHONY : Race/TimeGenerator.i
-
-# target to preprocess a source file
-Race/TimeGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.i
-.PHONY : Race/TimeGenerator.cpp.i
-
-Race/TimeGenerator.s: Race/TimeGenerator.cpp.s
-
-.PHONY : Race/TimeGenerator.s
-
-# target to generate assembly for a file
-Race/TimeGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.s
-.PHONY : Race/TimeGenerator.cpp.s
-
-Race/Times.o: Race/Times.cpp.o
-
-.PHONY : Race/Times.o
-
-# target to build an object file
-Race/Times.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o
-.PHONY : Race/Times.cpp.o
-
-Race/Times.i: Race/Times.cpp.i
-
-.PHONY : Race/Times.i
-
-# target to preprocess a source file
-Race/Times.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/Times.cpp.i
-.PHONY : Race/Times.cpp.i
-
-Race/Times.s: Race/Times.cpp.s
-
-.PHONY : Race/Times.s
-
-# target to generate assembly for a file
-Race/Times.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/Race/Times.cpp.s
-.PHONY : Race/Times.cpp.s
+RaceWeekend/RaceWeekendInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RacingStrategy.dir/build.make CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.s
+.PHONY : RaceWeekend/RaceWeekendInterface.cpp.s
 
 Shipping/ChartedPlane.o: Shipping/ChartedPlane.cpp.o
 
@@ -2630,30 +2495,15 @@ help:
 	@echo "... R&D/src/ResearchAndDevelopmentDepartment.o"
 	@echo "... R&D/src/ResearchAndDevelopmentDepartment.i"
 	@echo "... R&D/src/ResearchAndDevelopmentDepartment.s"
-	@echo "... Race/PracticeGenerator.o"
-	@echo "... Race/PracticeGenerator.i"
-	@echo "... Race/PracticeGenerator.s"
-	@echo "... Race/QualifyingGenerator.o"
-	@echo "... Race/QualifyingGenerator.i"
-	@echo "... Race/QualifyingGenerator.s"
-	@echo "... Race/Race.o"
-	@echo "... Race/Race.i"
-	@echo "... Race/Race.s"
-	@echo "... Race/RaceGenerator.o"
-	@echo "... Race/RaceGenerator.i"
-	@echo "... Race/RaceGenerator.s"
-	@echo "... Race/RaceResults.o"
-	@echo "... Race/RaceResults.i"
-	@echo "... Race/RaceResults.s"
-	@echo "... Race/ResultOriginator.o"
-	@echo "... Race/ResultOriginator.i"
-	@echo "... Race/ResultOriginator.s"
-	@echo "... Race/TimeGenerator.o"
-	@echo "... Race/TimeGenerator.i"
-	@echo "... Race/TimeGenerator.s"
-	@echo "... Race/Times.o"
-	@echo "... Race/Times.i"
-	@echo "... Race/Times.s"
+	@echo "... RaceWeekend/Qualifying.o"
+	@echo "... RaceWeekend/Qualifying.i"
+	@echo "... RaceWeekend/Qualifying.s"
+	@echo "... RaceWeekend/Race.o"
+	@echo "... RaceWeekend/Race.i"
+	@echo "... RaceWeekend/Race.s"
+	@echo "... RaceWeekend/RaceWeekendInterface.o"
+	@echo "... RaceWeekend/RaceWeekendInterface.i"
+	@echo "... RaceWeekend/RaceWeekendInterface.s"
 	@echo "... Shipping/ChartedPlane.o"
 	@echo "... Shipping/ChartedPlane.i"
 	@echo "... Shipping/ChartedPlane.s"

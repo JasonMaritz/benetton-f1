@@ -6,13 +6,16 @@
 
 using namespace	std;
 
-class Shipper{
+class Shipper
+{
 private:
-	LowPriority* lowPriority = 0;
-	HighPriority* highPriority = 0;
+	LowPriority* lowPriority = nullptr;
+	HighPriority* highPriority = nullptr;
+    static Shipper* instance;
+    Shipper();
 
 public:
-	Shipper();
+    static Shipper* getInstance();
 	~Shipper();
 	///@returns a reference to lowPriority
 	LowPriority* getLowPriority();

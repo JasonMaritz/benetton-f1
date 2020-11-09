@@ -202,6 +202,10 @@ string RacingStrategyInterface::getStrategy()
     return this->racingStrategy->getStrategy();
 }
 
+RacingStrategy* RacingStrategyInterface::getStrategyObject()
+{
+    return this->racingStrategy;
+}
 
 void RacingStrategyInterface::addIce(double efficiency, double pcontrib, double pdraw)
 {

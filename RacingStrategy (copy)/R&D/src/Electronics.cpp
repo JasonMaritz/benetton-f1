@@ -24,6 +24,7 @@ Part *Electronics::makePartExperimental(std::string type, double efficiency, dou
 
 void Electronics::setBest(Part *newBest) {
     myFactory->setDefault(newBest);
+    myFactoryExperimental->setDefault(newBest);
 }
 
 void Electronics::developParts() {

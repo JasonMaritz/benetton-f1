@@ -935,113 +935,9 @@ CMakeFiles/RacingStrategy.dir/Driver/Driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Driver/Driver.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Driver/Driver.cpp" -o CMakeFiles/RacingStrategy.dir/Driver/Driver.cpp.s
 
-CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o: ../Race/PracticeGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/PracticeGenerator.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/PracticeGenerator.cpp" > CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/PracticeGenerator.cpp" -o CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o: ../Race/QualifyingGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/QualifyingGenerator.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/QualifyingGenerator.cpp" > CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/QualifyingGenerator.cpp" -o CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o: ../Race/Race.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Race.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/Race.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/Race.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Race.cpp" > CMakeFiles/RacingStrategy.dir/Race/Race.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/Race.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/Race.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Race.cpp" -o CMakeFiles/RacingStrategy.dir/Race/Race.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o: ../Race/RaceGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceGenerator.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceGenerator.cpp" > CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceGenerator.cpp" -o CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o: ../Race/RaceResults.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceResults.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceResults.cpp" > CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceResults.cpp" -o CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o: ../Race/ResultOriginator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/ResultOriginator.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/ResultOriginator.cpp" > CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/ResultOriginator.cpp" -o CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o: ../Race/Times.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Times.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/Times.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/Times.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Times.cpp" > CMakeFiles/RacingStrategy.dir/Race/Times.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/Times.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/Times.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Times.cpp" -o CMakeFiles/RacingStrategy.dir/Race/Times.cpp.s
-
-CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
-CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o: ../Race/TimeGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/TimeGenerator.cpp"
-
-CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/TimeGenerator.cpp" > CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.i
-
-CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/TimeGenerator.cpp" -o CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.s
-
 CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o: ../Container/ContainerRoute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerRoute.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.i: cmake_force
@@ -1054,7 +950,7 @@ CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o: ../Container/ContainerSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerSet.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.i: cmake_force
@@ -1067,7 +963,7 @@ CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o: ../Container/Destination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Destination.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.i: cmake_force
@@ -1080,7 +976,7 @@ CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Container/Location.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/Location.cpp.o: ../Container/Location.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/Location.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/Location.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/Location.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/Location.cpp.i: cmake_force
@@ -1093,7 +989,7 @@ CMakeFiles/RacingStrategy.dir/Container/Location.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.o: ../Container/LowPriority.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/LowPriority.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.i: cmake_force
@@ -1106,7 +1002,7 @@ CMakeFiles/RacingStrategy.dir/Container/LowPriority.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.o: ../Container/PackedItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/PackedItem.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.i: cmake_force
@@ -1119,7 +1015,7 @@ CMakeFiles/RacingStrategy.dir/Container/PackedItem.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.o: ../Container/RouteIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/RouteIterator.cpp"
 
 CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.i: cmake_force
@@ -1132,7 +1028,7 @@ CMakeFiles/RacingStrategy.dir/Container/RouteIterator.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.o: ../Shipping/ChartedPlane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/ChartedPlane.cpp"
 
 CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.i: cmake_force
@@ -1145,7 +1041,7 @@ CMakeFiles/RacingStrategy.dir/Shipping/ChartedPlane.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.o: ../Shipping/HighPriority.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/HighPriority.cpp"
 
 CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.i: cmake_force
@@ -1158,7 +1054,7 @@ CMakeFiles/RacingStrategy.dir/Shipping/HighPriority.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o: ../Shipping/Ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Ship.cpp"
 
 CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.i: cmake_force
@@ -1171,7 +1067,7 @@ CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o: ../Shipping/Shipper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Shipper.cpp"
 
 CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.i: cmake_force
@@ -1184,7 +1080,7 @@ CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o: ../Shipping/TransportMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/TransportMode.cpp"
 
 CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.i: cmake_force
@@ -1197,7 +1093,7 @@ CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.s: cmake_force
 
 CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
 CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o: ../Shipping/Truck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Truck.cpp"
 
 CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.i: cmake_force
@@ -1207,6 +1103,45 @@ CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.i: cmake_force
 CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Truck.cpp" -o CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.s
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
+CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o: ../RaceWeekend/RaceWeekendInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/RaceWeekendInterface.cpp"
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/RaceWeekendInterface.cpp" > CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.i
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/RaceWeekendInterface.cpp" -o CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.s
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o: ../RaceWeekend/Race.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Race.cpp"
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Race.cpp" > CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.i
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Race.cpp" -o CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.s
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o: CMakeFiles/RacingStrategy.dir/flags.make
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o: ../RaceWeekend/Qualifying.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o -c "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Qualifying.cpp"
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Qualifying.cpp" > CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.i
+
+CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Qualifying.cpp" -o CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.s
 
 # Object files for target RacingStrategy
 RacingStrategy_OBJECTS = \
@@ -1276,14 +1211,6 @@ RacingStrategy_OBJECTS = \
 "CMakeFiles/RacingStrategy.dir/TestingCenter/TestingCenter.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/TestingCenter/WindTunnelCounter.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/Driver/Driver.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o" \
@@ -1296,7 +1223,10 @@ RacingStrategy_OBJECTS = \
 "CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o" \
 "CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o" \
-"CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o"
+"CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o" \
+"CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o" \
+"CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o" \
+"CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o"
 
 # External object files for target RacingStrategy
 RacingStrategy_EXTERNAL_OBJECTS =
@@ -1367,14 +1297,6 @@ RacingStrategy: CMakeFiles/RacingStrategy.dir/TestingCenter/State.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/TestingCenter/TestingCenter.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/TestingCenter/WindTunnelCounter.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Driver/Driver.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/PracticeGenerator.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/QualifyingGenerator.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/Race.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/RaceGenerator.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/RaceResults.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/ResultOriginator.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/Times.cpp.o
-RacingStrategy: CMakeFiles/RacingStrategy.dir/Race/TimeGenerator.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Container/ContainerRoute.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Container/ContainerSet.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Container/Destination.cpp.o
@@ -1388,9 +1310,12 @@ RacingStrategy: CMakeFiles/RacingStrategy.dir/Shipping/Ship.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Shipping/Shipper.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Shipping/TransportMode.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/Shipping/Truck.cpp.o
+RacingStrategy: CMakeFiles/RacingStrategy.dir/RaceWeekend/RaceWeekendInterface.cpp.o
+RacingStrategy: CMakeFiles/RacingStrategy.dir/RaceWeekend/Race.cpp.o
+RacingStrategy: CMakeFiles/RacingStrategy.dir/RaceWeekend/Qualifying.cpp.o
 RacingStrategy: CMakeFiles/RacingStrategy.dir/build.make
 RacingStrategy: CMakeFiles/RacingStrategy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable RacingStrategy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable RacingStrategy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RacingStrategy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

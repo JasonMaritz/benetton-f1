@@ -124,6 +124,9 @@
 		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/RouteIterator.h">
 			<Option target="RacingStrategy"/>
 		</Unit>
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Data/Destinations.txt">
+			<Option target="RacingStrategy"/>
+		</Unit>
 		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Driver/Driver.cpp">
 			<Option target="RacingStrategy"/>
 		</Unit>
@@ -343,52 +346,22 @@
 		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&amp;D/src/ResearchAndDevelopmentDepartment.cpp">
 			<Option target="RacingStrategy"/>
 		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/PracticeGenerator.cpp">
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Qualifying.cpp">
 			<Option target="RacingStrategy"/>
 		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/PracticeGenerator.h">
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Qualifying.h">
 			<Option target="RacingStrategy"/>
 		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/QualifyingGenerator.cpp">
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Race.cpp">
 			<Option target="RacingStrategy"/>
 		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/QualifyingGenerator.h">
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/Race.h">
 			<Option target="RacingStrategy"/>
 		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Race.cpp">
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/RaceWeekendInterface.cpp">
 			<Option target="RacingStrategy"/>
 		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Race.h">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceGenerator.cpp">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceGenerator.h">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceResults.cpp">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/RaceResults.h">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/ResultOriginator.cpp">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/ResultOriginator.h">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/TimeGenerator.cpp">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/TimeGenerator.h">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Times.cpp">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Race/Times.h">
+		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/RaceWeekend/RaceWeekendInterface.h">
 			<Option target="RacingStrategy"/>
 		</Unit>
 		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/ChartedPlane.cpp">
@@ -599,9 +572,6 @@
 			<Option target="RacingStrategy"/>
 		</Unit>
 		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Tyres/Tyre.h">
-			<Option target="RacingStrategy"/>
-		</Unit>
-		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/cmake-build-debug/Destinations.txt">
 			<Option target="RacingStrategy"/>
 		</Unit>
 		<Unit filename="/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/main.cpp">

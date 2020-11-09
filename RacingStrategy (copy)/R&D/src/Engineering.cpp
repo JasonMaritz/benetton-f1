@@ -17,23 +17,23 @@ Engineering *Engineering::getInstance()
 
 void Engineering::setBest(Part *newBest) {
     std::string t = newBest->getType();
-    if(t == "Bargeboard"){
+    if(t == "bargeboard"){
         aerodynamics->setBest(newBest);
-    }else if (t == "DRS"){
+    }else if (t == "drs"){
         aerodynamics->setBest(newBest);
-    }else if (t == "ICE"){
+    }else if (t == "ice"){
         engine->setBest(newBest);
-    }else if (t == "TurboCharger"){
+    }else if (t == "turbocharger"){
         engine->setBest(newBest);
-    }else if (t == "Chassis"){
+    }else if (t == "chassis"){
         chassis->setBest(newBest);
-    }else if (t == "ERS"){
+    }else if (t == "ers"){
         electronics->setBest(newBest);
-    }else if (t == "MGUH"){
+    }else if (t == "mguh"){
         electronics->setBest(newBest);
-    }else if (t == "MGUK"){
+    }else if (t == "mguk"){
         electronics->setBest(newBest);
-    }else if (t == "EnergyStore"){
+    }else if (t == "energystore"){
         electronics->setBest(newBest);
     }
 

@@ -170,7 +170,7 @@ void LowPriority::destinationsFromtxt(string filename)
 		getline(ss, endDate, ',');
 		getline(ss, eu);
 
-		Destination* d = new Destination;
+		auto* d = new Destination;
 		d->startDate = timetFromStr(startDate);
 		d->endDate = timetFromStr(endDate);
 		d->location.name = name;

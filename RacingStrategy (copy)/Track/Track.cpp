@@ -4,10 +4,11 @@ using namespace std;
 #include <iostream>
 #include <string>
 
-Track::Track() {
+Track::Track()
+{
 	// TODO - implement Track::Track
 
-	 city="";
+	city="";
 	laps=0;
 	speed=0;
 	corners=0;
@@ -16,68 +17,84 @@ Track::Track() {
 	wear=0;
 	result=0;
 }
-int Track::getWear() {
+int Track::getWear()
+{
 	return this->wear;
 }
-void Track::setWear(int w) {
+void Track::setWear(int w)
+{
 	this->wear = w;
 }
 
-int Track::getLaps() {
+int Track::getLaps()
+{
 	return this->laps;
 }
 
-void Track::setLaps(int laps) {
+void Track::setLaps(int laps)
+{
 	this->laps = laps;
 }
 
-int Track::getSpeed() {
+int Track::getSpeed()
+{
 	return this->speed;
 }
 
-void Track::setSpeed(int speed) {
+void Track::setSpeed(int speed)
+{
 	this->speed = speed;
 }
 
-int Track::getCorners() {
+int Track::getCorners()
+{
 	return this->corners;
 }
 
-void Track::setCorners(int corners) {
+void Track::setCorners(int corners)
+{
 	this->corners = corners;
 }
 
-int Track::getLength() {
+int Track::getLength()
+{
 	return this->length;
 }
 
-void Track::setLength(int length) {
+void Track::setLength(int length)
+{
 	this->length = length;
 }
 
-int Track::getFatigue() {
+int Track::getFatigue()
+{
 
 	return fatigue;
 }
 
-void Track::setFatigue(int fatigue) {
+void Track::setFatigue(int fatigue)
+{
 	this->fatigue = fatigue;
 }
 
-string Track::getCity() {
+string Track::getCity()
+{
 	return this->city;
 }
 
-void Track::setCity(string city) {
+void Track::setCity(string city)
+{
 	this->city = city;
 }
 
-void Track::setResult(Result* res){
+void Track::setResult(Result* res)
+{
 
 	this->result=res;
 }
 
-void Track::generateReport() {
+void Track::generateReport()
+{
 
 	string report="Simulation used track with following properties:\n";
 	report+= "Host City: "+ trackCity() +"\n";

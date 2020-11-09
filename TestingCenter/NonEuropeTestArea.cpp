@@ -2,6 +2,7 @@
 
 void NonEuropeTestArea::TestParts(bool WindTunnel, string TestName)
 {
+	Part** prt = new Part * [PartList.size()];
 	if (WindTunnel)
 	{
 		double* arr = new double[PartList.size()];
@@ -10,12 +11,14 @@ void NonEuropeTestArea::TestParts(bool WindTunnel, string TestName)
 		{
 			try {
 				arr[icount] = WTCounter->runWTTest((*it), 4);
+				prt[icount] = (*it);
 			}
 			catch (string s)
 			{
 				cout << s << endl;
 			}
 			arr[icount] = (*it)->getPerformance();
+			printTestReport((*it), arr[icount], TestName);
 			icount++;
 
 		}
@@ -28,6 +31,8 @@ void NonEuropeTestArea::TestParts(bool WindTunnel, string TestName)
 				maxpos = i;
 			}
 		}
+
+		cout << "Best part(" << prt[maxpos]->getType() << ") achieved a performance of: " << fixed << arr[maxpos] + icount/100.0;
 	}
 	else
 	{
@@ -36,6 +41,8 @@ void NonEuropeTestArea::TestParts(bool WindTunnel, string TestName)
 		for (vector<Part*>::iterator it = PartList.begin(); it != PartList.end(); it++)
 		{
 			arr[icount] = (*it)->getPerformance()+ (*it)->getPerformance()*0.1;
+			prt[icount] = (*it);
+			printTestReport((*it), arr[icount], TestName);
 			icount++;
 		}
 
@@ -47,6 +54,8 @@ void NonEuropeTestArea::TestParts(bool WindTunnel, string TestName)
 				maxpos = i;
 			}
 		}
+
+		cout << "Best part(" << prt[maxpos]->getType() << ") achieved a performance of: " << fixed << arr[maxpos];
 	}
 }
 
@@ -54,6 +63,6 @@ void NonEuropeTestArea::printTestReport(Part* prt, double perfomance, string Tes
 {
 	ofstream tf(TestName+"_NonEuropeTestArea.txt");
 
-	tf << prt->getType() << " achieved the following in the test: " << perfomance;
+	tf << prt->getType() << " achieved the following in the test: " << perfomance << endl;
 	tf.close();
 }

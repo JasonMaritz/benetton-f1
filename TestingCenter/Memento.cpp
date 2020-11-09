@@ -1,11 +1,11 @@
 #include "Memento.h"
 
-vector<Parts*> Memento::getState()
+vector<Part*> Memento::getState()
 {
 	return state->getState();
 }
 
-void Memento::setState(vector<Parts*> list)
+void Memento::setState(vector<Part*> list)
 {
 	state = new State(list);
 }

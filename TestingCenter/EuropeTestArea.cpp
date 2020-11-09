@@ -3,6 +3,7 @@
 
 void EuropeTestArea::TestParts(bool WindTunnel, string TestName)
 {
+	Part** prt = new Part * [PartList.size()];
 	if (WindTunnel)
 	{
 		double* arr = new double[PartList.size()];
@@ -11,12 +12,15 @@ void EuropeTestArea::TestParts(bool WindTunnel, string TestName)
 		{
 			try {
 				arr[icount] = WTCounter->runWTTest((*it), 2);
+				prt[icount] = (*it);
 			}
 			catch (string s)
 			{
 				cout << s << endl;
+				arr[icount] = (*it)->getPerformance();
+				prt[icount] = (*it);
 			}
-			arr[icount] = (*it)->getPerformance();
+			printTestReport((*it), arr[icount], TestName);
 			icount++;
 		}
 
@@ -28,6 +32,8 @@ void EuropeTestArea::TestParts(bool WindTunnel, string TestName)
 				maxpos = i;
 			}
 		}
+
+		cout << "Best part(" << prt[maxpos]->getType() <<") achieved a performance of: " << fixed << arr[maxpos] + icount/100.0;
 	}
 	else
 	{
@@ -36,6 +42,8 @@ void EuropeTestArea::TestParts(bool WindTunnel, string TestName)
 		for (vector<Part*>::iterator it = PartList.begin(); it != PartList.end(); it++)
 		{
 			arr[icount] = (*it)->getPerformance() + (*it)->getPerformance() * 0.1;
+			printTestReport((*it), arr[icount], TestName);
+			prt[icount] = (*it);
 			icount++;
 		}
 
@@ -47,14 +55,16 @@ void EuropeTestArea::TestParts(bool WindTunnel, string TestName)
 				maxpos = i;
 			}
 		}
+
+		cout << "Best part(" << prt[maxpos]->getType() << ") achieved a performance of: " << fixed << arr[maxpos];
 	}
-	
+	delete[] prt;
 }
 
 void EuropeTestArea::printTestReport(Part* prt, double performance, string TestName)
 {
-	ofstream tf(TestName + "_EuropeTestArea.txt");
+	ofstream tf(TestName + "_EuropeTestArea.txt", ios::app);
 
-	tf << prt->getType() << " achieved the following in the test: " << performance;
+	tf << prt->getType() << " achieved the following in the test: " << performance << endl;
 	tf.close();
 }

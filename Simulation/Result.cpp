@@ -50,13 +50,9 @@ void Result::printReport()
 	cout << TrackReport << endl;
 
 	cout << "Car report:" << endl;
-	cout << CarReport << endl;
+	cout << CarReport << endl << endl;;
 
-	cout << "Part report" << endl;
-	for (vector<string>::iterator it = PartsReport.begin(); it != PartsReport.end(); ++it)
-	{
-		cout << *it << endl;
-	}
+	cout << "Finished mini report" << endl;
 }
 
 void Result::StoreResultToTF(string SimUniqueID)
@@ -65,7 +61,7 @@ void Result::StoreResultToTF(string SimUniqueID)
 		throw "All reports not set";
 	}
 
-	fstream fs(SimUniqueID + ".txt");
+	ofstream fs(SimUniqueID + ".txt", ios::app);
 	fs << DriverReport;
 	fs << TrackReport;
 	fs << RaceStrategyReport;
@@ -77,6 +73,7 @@ void Result::StoreResultToTF(string SimUniqueID)
 	}
 	
 	fs.close();
+	cout << "Finished print to textfile: " + SimUniqueID + ".txt";
 }
 
 double Result::SimulationVariation(double min, double max, int decimal)

@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include<sstream>
+#include <time.h>
 
 class TransportMode ;
 
@@ -48,7 +50,7 @@ public:
 	void transportCargo() ; //makes request to tranport
 	
 	/// @returns a pointer to a TransportMode, will return NULL if not set assigned a Concrete TransportMode
-	TransportMode* getTransportMode() const ;
+	TransportMode* getTransportMode()  ;
 	/// @param a pointer to a TransportMode Concrete object
 	void setTransportMode(TransportMode* t ) ;
 	

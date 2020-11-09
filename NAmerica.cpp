@@ -1,5 +1,11 @@
 #include "NAmerica.h"
-
+#include"TrackContinent.h"
+#include<iostream>
+#include<string>
+using namespace std;
+/**
+ * North American track constructor that initialises North American track properties
+ */
 NAmerica::NAmerica():TrackContinent() {
 	// TODO - implement NAmerica::NAmerica
 

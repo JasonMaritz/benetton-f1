@@ -1,9 +1,14 @@
 #include "africa.h"
 #include<iostream>
 #include<string>
+#include"TrackContinent.h"
+
+using namespace std;
 
 
-
+/**
+ * African track constructor that initialises African track properties
+ */
 africa::africa() :TrackContinent(){
 	// TODO - implement africa::africa
 

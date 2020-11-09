@@ -1,5 +1,11 @@
 #include "SAmerica.h"
-
+#include"TrackContinent.h"
+#include<iostream>
+#include<string>
+using namespace std;
+/**
+ * South American track constructor that initialises South American track properties
+ */
 SAmerica::SAmerica():TrackContinent() {
 	// TODO - implement SAmerica::SAmerica
 

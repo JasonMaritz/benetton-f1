@@ -1,3 +1,7 @@
+/**
+ * Track Continent concrete Component
+ * Description: it's the object to which additional responsibilities for Track component can be attached
+ */
 #ifndef TRACKCONTINENT_H
 #define TRACKCONTINENT_H
 #include"Track.h"

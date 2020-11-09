@@ -21,9 +21,11 @@ int main(){
 	myTrack->add(new africa());
 	myTrack->add(new NonEuropean());
 	cout << "Laps = " << myTrack->trackLaps() << endl;
+
+			myTrack->generateReport() ;
 	delete myTrack;
 
-	cout<<"Welcome to Europea RaceTrack!!!"<<endl;
+	cout<<"Welcome to Europe RaceTrack!!!"<<endl;
 		Track* myTrack1;
 		myTrack1 = new TrackContinent();
 		myTrack1->add(new Europe());
@@ -31,7 +33,7 @@ int main(){
 		cout << "length of the Tack  = " << myTrack1->trackLength() << endl;
 		delete myTrack1;
 
-		cout<<"Welcome to south RaceTrack!!!"<<endl;
+		cout<<"Welcome to south America RaceTrack!!!"<<endl;
 			Track* myTrack2;
 			myTrack2 = new TrackContinent();
 			myTrack2->add(new SAmerica());
@@ -47,6 +49,7 @@ int main(){
 				cout << "number of corners  = " << myTrack4->trackCorner() << endl;
 				cout << "city  = " << myTrack4->trackCity() << endl;
 				delete myTrack4;
+
 
 
 

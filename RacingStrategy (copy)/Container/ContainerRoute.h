@@ -24,7 +24,7 @@ private:
 public:
 	ContainerRoute();
 	///Constructor
-	/// @param a pointer to a ContainerSet, this is deep copied
+	/// @param c a pointer to a ContainerSet, this is deep copied
 	ContainerRoute(ContainerSet* c);
 	~ContainerRoute();
 
@@ -32,19 +32,18 @@ public:
 	/// @returns a pointer to a RouteIterator object, also transfers ownership of iterator
 	RouteIterator* getRouteIterator();
 	void decideTransportMode(); //used by LowPriority
-	/// @param a pointer to a ContainerSet, this is deep copied
+	/// @param c a pointer to a ContainerSet, this is deep copied
 	void setContainers(ContainerSet* c);
 	/// @returns a pointer to the containers (1 object)
 	ContainerSet* getContainers();
-	///@param a string that specifies the transport mode
+	///@param mode a string that specifies the transport mode
 	void setTransportMode(string mode); //used by HighPriority
-	///@param A TransportMode object
+	///@param t A TransportMode ptr
 	void setTransportMode(TransportMode* t );
-	///@param a pointer to a vector of destination pointers, deep copied
+	///@param s a pointer to a vector of destination pointers, deep copied
 	void setStops(vector<Destination*>* s);
 	void printRoute();
 	
-	/// @todo calls the transports eta 
 	void transportCargo();
 	///@returns a Locationptr
 	Location* getCurrLocation();

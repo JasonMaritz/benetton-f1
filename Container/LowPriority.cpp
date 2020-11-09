@@ -77,19 +77,6 @@ void LowPriority::setupRoutes() {
 
 	nonEu.push_back(eu);
 
-	//Get 3 months in time_t format
-	struct tm* t = new tm;
-	t->tm_sec = 0;
-	t->tm_min = 0;
-	t->tm_hour = 0;
-	t->tm_wday = 0;
-	t->tm_yday = 0;
-	t->tm_isdst = 0;
-	t->tm_year = 1;
-	t->tm_mday = 0;
-
-	t->tm_mon = 3;
-
 	time_t months3 = 2592000 * 3; //3 months in seconds
 
 	//construt paths to cover all of nonEu

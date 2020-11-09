@@ -1,18 +1,16 @@
 
 #include "Truck.h"
 
-time_t Truck::eta(Location aDestination) {
+time_t Truck::eta(Location& aDestination) {
 
 	cout<<"---Truck just left the loading dock\n" ;
-	struct tm * eta ;
+	this->setOnRoute(true) ;
 
 	int size = aDestination.name.length() ;
 
 	int timetaken = size *100 / this->speed ;
 
-	eta->tm_mday = timetaken % 7 ; 
-
-	std::time_t t = timetaken ;
+	std::time_t t = timetaken * 7  ;
 	return t ;
 }
 
@@ -29,17 +27,19 @@ void Truck::changeTransportMode(bool a = false) {
 			TransportMode* newP =  new ChartedPlane(getDestination(),_route) ;
 			newP->setRoute(_route) ;
 			_route->setTransportMode(newP) ;
+			newP->setOnRoute(false) ;
 		}
 		else{
 			cout<<"--Loading cargo to the Plane\n" ;
 			 TransportMode* ship = new Ship(this->getDestination(),_route) ;
 			 ship->setRoute(_route) ;
 			 _route->setTransportMode(ship) ;
+			 ship->setOnRoute(false) ;
 		}
-		
 	}
 	else{
 		cout<<"--ofloading Cargo being transported by Truck\n" ;
+		this->setOnRoute(false) ;
 	}
 }
 

@@ -15,11 +15,15 @@ class Ship;
 
 class Ship: public TransportMode
 {
+	/// @param aDest specifies the destination for the shipment
+	/// @param r pointer to a ContainerRoute 
+	/// @param a speed of the tranportMode
+	public: Ship( Location aDest, ContainerRoute* r,int a = 65);
 
-	public: Ship( Location aCurr, ContainerRoute* r,int a = 65);
+	/// @param aDestination the destination for shipment
+	public: time_t eta(Location& aDestination);
 
-	public: time_t eta(Location aDestination);
-
+	/// @todo changes route transportMode for offloading
 	public: void changeTransportMode(bool );
 };
 

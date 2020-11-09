@@ -4,7 +4,7 @@ using namespace std;
 
 #include "TransportMode.h"
 
-time_t TransportMode::eta(Location aDestination) {
+time_t TransportMode::eta(Location& aDestination) {
 	// throw "Not yet implemented";
 	//returns time_t
 	//diferent specializations use different calculations

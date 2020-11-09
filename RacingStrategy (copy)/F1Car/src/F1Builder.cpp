@@ -42,9 +42,13 @@ F1Car *F1Builder::getResult() {
     return result;
 }
 
-void F1Builder::buildPart(Part *carPart) {
-    if(!carPart)
-        return
+void F1Builder::buildPart(Part *carPart)
+{
+    if(carPart == nullptr)
+    {
+        return;
+    }
+
     std::string t = carPart->getType();
     if(t == "bargeboard"){
         delete result->bargeboard;
@@ -76,6 +80,7 @@ void F1Builder::buildPart(Part *carPart) {
     }
 }
 
-void F1Builder::reset() {
+void F1Builder::reset()
+{
     result = new F1Car;
 }

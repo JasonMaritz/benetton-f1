@@ -29,6 +29,7 @@ public:
 	void breakContainerParts(ContainerSet* c);
 	void breakContainerTyres(ContainerSet* c);
 	void generateResults();
+	void startRace();
 };
 
 #endif

@@ -19,7 +19,11 @@ void Race::breakContainerParts(ContainerSet* c)
 	// 9 parts
 	for (int i = 1; i < 10; i++)
 	{
-		this->times->addPart((Part *)(c->getItem("Part_" + to_string(i))));
+		Part* part = (Part *)(c->getItem("Part_" + to_string(i)));
+        if(part != nullptr)
+        {
+            this->times->addPart(part);
+        }
 	}
 }
 
@@ -34,4 +38,9 @@ void Race::breakContainerTyres(ContainerSet* c) {
 void Race::generateResults()
 {
 
+}
+
+void Race::startRace()
+{
+    this->times->generateCars();
 }

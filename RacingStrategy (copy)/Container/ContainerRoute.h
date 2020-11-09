@@ -43,7 +43,8 @@ public:
 	///@param a pointer to a vector of destination pointers, deep copied
 	void setStops(vector<Destination*>* s);
 	void printRoute();
-
+	
+	/// @todo calls the transports eta 
 	void transportCargo();
 	///@returns a Locationptr
 	Location* getCurrLocation();

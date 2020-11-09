@@ -9,9 +9,21 @@
 #include "Part.h"
 
 class TurboCharger: public Part {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief The turboCharger part class
+     */
 public:
     TurboCharger(){type="turbocharger";};
+    /**
+     *
+     * @return performance of the part based on the members
+     */
     virtual double getPerformance();
+    /**
+     *
+     * @return Part* cloned from the part it is called from
+     */
     virtual Part* clone();
 };
 

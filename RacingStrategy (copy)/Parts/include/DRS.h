@@ -11,9 +11,21 @@
 
 class DRS: public AeroPart
 {
+/**
+     * @author Jason Maritz u19053292
+     * @brief The drs part class
+     */
 public:
     DRS(){type = "drs";};
+    /**
+     *
+     * @return performance of the part based on the members
+     */
     virtual double getPerformance();
+    /**
+     *
+     * @return Part* cloned from the part it is called from
+     */
     virtual Part* clone();
 };
 

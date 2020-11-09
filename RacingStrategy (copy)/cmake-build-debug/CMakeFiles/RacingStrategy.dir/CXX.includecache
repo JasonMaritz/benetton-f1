@@ -1,0 +1,276 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerRoute.h
+string
+-
+vector
+-
+ContainerSet.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerSet.h
+Destination.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Destination.h
+RouteIterator.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/RouteIterator.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerSet.h
+map
+-
+string
+-
+PackedItem.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/PackedItem.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Destination.h
+ctime
+-
+Location.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.h
+string
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/LowPriority.cpp
+LowPriority.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/LowPriority.h
+sstream
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/LowPriority.h
+vector
+-
+list
+-
+string
+-
+fstream
+-
+Destination.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Destination.h
+ContainerRoute.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerRoute.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/PackedItem.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/RouteIterator.h
+vector
+-
+Destination.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Destination.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/ChassisPart.h
+Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+string
+-
+cmath
+-
+../../Container/PackedItem.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/PackedItem.h
+../../Simulation/Result.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Simulation/Result.h
+../../TestingCenter/TestingCenter.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/TestingCenter.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/PartsFactory/include/ChassisFactory.h
+PartsFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/PartsFactory/include/PartsFactory.h
+../../Parts/include/ChassisPart.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/ChassisPart.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/PartsFactory/include/PartsFactory.h
+string
+-
+../../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Aerodynamics.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/ResearchAndDevelopmentDepartment.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Chassis.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/ResearchAndDevelopmentDepartment.h
+../../PartsFactory/include/ChassisFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/PartsFactory/include/ChassisFactory.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Electronics.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/ResearchAndDevelopmentDepartment.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Engine.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/ResearchAndDevelopmentDepartment.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Engineering.h
+ResearchAndDevelopmentDepartment.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/ResearchAndDevelopmentDepartment.h
+Engine.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Engine.h
+Chassis.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Chassis.h
+Electronics.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Electronics.h
+Aerodynamics.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Aerodynamics.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/ResearchAndDevelopmentDepartment.h
+vector
+-
+string
+-
+../../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+../../PartsFactory/include/PartsFactory.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/PartsFactory/include/PartsFactory.h
+../../Strategy/RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Strategy/RacingStrategy.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/ChartedPlane.h
+exception
+-
+string
+-
+../Container/Location.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.h
+TransportMode.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/TransportMode.h
+Truck.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Truck.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/HighPriority.h
+exception
+-
+string
+-
+map
+-
+vector
+-
+iostream
+-
+../Container/ContainerRoute.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerRoute.h
+../Container/ContainerSet.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerSet.h
+TransportMode.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/TransportMode.h
+Ship.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Ship.h
+Truck.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Truck.h
+ChartedPlane.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/ChartedPlane.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Ship.h
+exception
+-
+string
+-
+../Container/Location.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.h
+TransportMode.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/TransportMode.h
+Truck.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Truck.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Shipper.cpp
+Shipper.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Shipper.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Shipper.h
+HighPriority.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/HighPriority.h
+../Container/LowPriority.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/LowPriority.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/TransportMode.h
+exception
+-
+string
+-
+../Container/ContainerRoute.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerRoute.h
+../Container/Location.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Truck.h
+exception
+-
+string
+-
+../Container/Location.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/Location.h
+TransportMode.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/TransportMode.h
+ChartedPlane.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/ChartedPlane.h
+Ship.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Shipping/Ship.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Simulation/Result.h
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Strategy/RacingStrategy.h
+iostream
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Strategy/RacingStrategyInterface.h
+RacingStrategy.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Strategy/RacingStrategy.h
+../Container/ContainerSet.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/ContainerSet.h
+../R&D/include/Engineering.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/R&D/include/Engineering.h
+../Simulation/Result.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Simulation/Result.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/Memento.h
+State.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/State.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/State.h
+../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+vector
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/TestingCenter.h
+../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+WindTunnelCounter.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/WindTunnelCounter.h
+Memento.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/Memento.h
+vector
+-
+iostream
+-
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/TestingCenter/WindTunnelCounter.h
+../Parts/include/Part.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Parts/include/Part.h
+
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/main.cpp
+iostream
+-
+Strategy/RacingStrategyInterface.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Strategy/RacingStrategyInterface.h
+Container/LowPriority.h
+/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy (copy)/Container/LowPriority.h
+

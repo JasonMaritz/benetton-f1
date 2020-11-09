@@ -1,3 +1,0 @@
-/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/Code/RacingStrategy/cmake-build-debug/CMakeFiles/RacingStrategy.dir

@@ -1,3 +1,8 @@
+/**
+ * Track class, a decorator component
+ * @Author: Nekhavhambe Tshilidzi
+ * @descreption: interface for the RaceTrack
+ */
 #ifndef TRACK_H
 #define TRACK_H
 #include<iostream>
@@ -30,6 +35,7 @@ public:
 	  virtual string trackCity() = 0;
 
 
+
 	Track();
 
 	int getLaps();
@@ -58,7 +64,8 @@ public:
 
 	void setCity(string city);
 	void setResult(Result*);
-	void generateReport();
+	      void generateReport();
+
 
 
 

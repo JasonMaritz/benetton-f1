@@ -1,5 +1,11 @@
 #include "Europe.h"
-
+#include"TrackContinent.h"
+#include<iostream>
+#include<string>
+using namespace std;
+/**
+ * Europe track constructor that initialises Europe track properties
+ */
 Europe::Europe() {
 	// TODO - implement Europe::Europe
 

@@ -1,3 +1,7 @@
+/**
+ * North american Track
+ * Description: concrete Decorator that adds responsibilities to the Track( component)
+ */
 #ifndef NAMERICA_H
 #define NAMERICA_H
 #include"TrackContinent.h"

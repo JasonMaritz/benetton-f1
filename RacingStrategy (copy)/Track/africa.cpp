@@ -1,15 +1,31 @@
 #include "africa.h"
 #include<iostream>
+#include<string>
+#include"TrackContinent.h"
 
-africa::africa() :TrackContinent()
-{
+using namespace std;
+
+
+/**
+ * African track constructor that initialises African track properties
+ */
+africa::africa() :TrackContinent(){
 	// TODO - implement africa::africa
+
+
 	cout << "African Race Track" << endl;
-	this->setLaps(6);
-	this->setWear(5);
-	this->setSpeed(4);
-	this->setCorners(10);
-	this->setLength(18);
-	this->setFatigue(3);
-	this->setCity("Pretoria");
+	setLaps(6);
+	setWear(5);
+
+	setSpeed(4);
+
+	setCorners(10);
+
+	setLength(18);
+
+
+	setFatigue(3);
+
+	setCity("Pretoria");
+
 }

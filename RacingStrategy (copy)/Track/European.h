@@ -1,3 +1,7 @@
+/**
+ * European
+ * Description: adds additional responsibilities to the earopean Race Tracks
+ */
 #ifndef EUROPEAN_H
 #define EUROPEAN_H
 #include"RaceCategory.h"

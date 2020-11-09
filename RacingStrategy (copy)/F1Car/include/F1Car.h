@@ -18,11 +18,18 @@
 class Result;
 
 class F1Car {
+/**
+ * @author Jason Maritz u19053292
+ * @brief F1Car, a container for all the parts with the needed functionality to get the performance thereof
+ */
     friend class F1Builder;
 public:
-    ~F1Car(){if(res) delete res;};
+    ~F1Car();
+    ///@return the average performance of the parts of the car
     double getPerformance();
+    ///@param  result: the result pointer to set res equal to
     void setResult(Result* result){res = result;};
+    ///@brief generates report for simulation
     void generateReport();
 private:
     Result* res = nullptr;

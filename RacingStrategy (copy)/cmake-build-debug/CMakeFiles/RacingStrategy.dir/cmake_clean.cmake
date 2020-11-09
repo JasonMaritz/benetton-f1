@@ -85,7 +85,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/RacingStrategy.dir/Tyres/MediumTyre.cpp.o"
   "CMakeFiles/RacingStrategy.dir/Tyres/SoftTyre.cpp.o"
   "CMakeFiles/RacingStrategy.dir/Tyres/Tyre.cpp.o"
-  "CMakeFiles/RacingStrategy.dir/main.cpp.o"
   "RacingStrategy"
   "RacingStrategy.pdb"
 )

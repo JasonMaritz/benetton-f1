@@ -61,3 +61,16 @@ std::vector<Part *> F1Car::generateParts() {
     ret.push_back((Part*)ers);
     return ret;
 }
+
+F1Car::~F1Car() {
+    delete res;
+    delete bargeboard;
+    delete drs;
+    delete ice;
+    delete turboCharger;
+    delete chassisPart;
+    delete mguk;
+    delete mguh;
+    delete ers;
+    delete energyStore;
+}

@@ -1,0 +1,149 @@
+\hypertarget{class_testing_center}{}\doxysection{Testing\+Center Class Reference}
+\label{class_testing_center}\index{TestingCenter@{TestingCenter}}
+Inheritance diagram for Testing\+Center\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_testing_center}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_testing_center_a9dc2393af18e3bb180d5c7dc1b3e8c20}{Testing\+Center}} (\mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} $\ast$WTCounter)
+\begin{DoxyCompactList}\small\item\em Constructor which sets the \mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} to a member. Note only one \mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} should be made a season. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_testing_center_a97389b3c0da0fdcdcd0c38af3facf26f}{add\+To\+Test\+Queue}} (\mbox{\hyperlink{class_part}{Part}} $\ast$part)
+\begin{DoxyCompactList}\small\item\em This adds a new part to the text queue. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_memento}{Memento}} $\ast$ \mbox{\hyperlink{class_testing_center_adeaedd07b56e6c7ae4d545d04bf6f8b7}{create\+Memento}} ()
+\begin{DoxyCompactList}\small\item\em This creates the memento. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_testing_center_a18bab222d0de3923876f531e196e1b3c}{set\+Memento}} (\mbox{\hyperlink{class_memento}{Memento}} $\ast$m)
+\begin{DoxyCompactList}\small\item\em This sets the memento with given parameter. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_testing_center_a601abe5d87ea31fec5c4b7cd7cf5984c}{Test\+Parts}} (bool windtunnel, string Test\+Name)=0
+\begin{DoxyCompactList}\small\item\em This will test all the parts in the vector$<$\+Part$\ast$$>$. Pure virtual function. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_testing_center_a891b51afcbf404b0a35be0fb97ded17c}{print\+Test\+Report}} (\mbox{\hyperlink{class_part}{Part}} $\ast$, double, string Test\+Name)=0
+\begin{DoxyCompactList}\small\item\em This will write the test report for a part to a textfile with a given performance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_testing_center_ad7451029c94e075094f1f89f61f4029e}\label{class_testing_center_ad7451029c94e075094f1f89f61f4029e}} 
+vector$<$ \mbox{\hyperlink{class_part}{Part}} $\ast$ $>$ {\bfseries Part\+List}
+\item 
+\mbox{\Hypertarget{class_testing_center_a34556aa7c3c82f97c323b7eccfb75422}\label{class_testing_center_a34556aa7c3c82f97c323b7eccfb75422}} 
+\mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} $\ast$ {\bfseries WTCounter}
+\item 
+\mbox{\Hypertarget{class_testing_center_a589cca895726e92af37c7256e63b8bad}\label{class_testing_center_a589cca895726e92af37c7256e63b8bad}} 
+vector$<$ \mbox{\hyperlink{class_memento}{Memento}} $\ast$ $>$ {\bfseries Memento\+List}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_testing_center_a9dc2393af18e3bb180d5c7dc1b3e8c20}\label{class_testing_center_a9dc2393af18e3bb180d5c7dc1b3e8c20}} 
+\index{TestingCenter@{TestingCenter}!TestingCenter@{TestingCenter}}
+\index{TestingCenter@{TestingCenter}!TestingCenter@{TestingCenter}}
+\doxysubsubsection{\texorpdfstring{TestingCenter()}{TestingCenter()}}
+{\footnotesize\ttfamily Testing\+Center\+::\+Testing\+Center (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} $\ast$}]{WTCounter }\end{DoxyParamCaption})}
+
+
+
+Constructor which sets the \mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} to a member. Note only one \mbox{\hyperlink{class_wind_tunnel_counter}{Wind\+Tunnel\+Counter}} should be made a season. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em WTCounter} & is the Wind\+Tunnel\+Counter$\ast$ \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_testing_center_a97389b3c0da0fdcdcd0c38af3facf26f}\label{class_testing_center_a97389b3c0da0fdcdcd0c38af3facf26f}} 
+\index{TestingCenter@{TestingCenter}!addToTestQueue@{addToTestQueue}}
+\index{addToTestQueue@{addToTestQueue}!TestingCenter@{TestingCenter}}
+\doxysubsubsection{\texorpdfstring{addToTestQueue()}{addToTestQueue()}}
+{\footnotesize\ttfamily void Testing\+Center\+::add\+To\+Test\+Queue (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{part }\end{DoxyParamCaption})}
+
+
+
+This adds a new part to the text queue. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em part} & is the part that will be added to the queue \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_testing_center_adeaedd07b56e6c7ae4d545d04bf6f8b7}\label{class_testing_center_adeaedd07b56e6c7ae4d545d04bf6f8b7}} 
+\index{TestingCenter@{TestingCenter}!createMemento@{createMemento}}
+\index{createMemento@{createMemento}!TestingCenter@{TestingCenter}}
+\doxysubsubsection{\texorpdfstring{createMemento()}{createMemento()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_memento}{Memento}} $\ast$ Testing\+Center\+::create\+Memento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This creates the memento. 
+
+\begin{DoxyReturn}{Returns}
+Memento$\ast$ that was created 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_testing_center_a891b51afcbf404b0a35be0fb97ded17c}\label{class_testing_center_a891b51afcbf404b0a35be0fb97ded17c}} 
+\index{TestingCenter@{TestingCenter}!printTestReport@{printTestReport}}
+\index{printTestReport@{printTestReport}!TestingCenter@{TestingCenter}}
+\doxysubsubsection{\texorpdfstring{printTestReport()}{printTestReport()}}
+{\footnotesize\ttfamily virtual void Testing\+Center\+::print\+Test\+Report (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{,  }\item[{double}]{,  }\item[{string}]{Test\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+This will write the test report for a part to a textfile with a given performance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prt} & is the part thats performance has to be written to specified textfile \\
+\hline
+{\em performance} & is the double value which is assigned its performance \\
+\hline
+{\em Test\+Name} & is the textfiles name \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_europe_test_area_ae83e073608c1c7cce99da9f03a15edee}{Europe\+Test\+Area}}, and \mbox{\hyperlink{class_non_europe_test_area_adeeba801c143248e422618b17e68044d}{Non\+Europe\+Test\+Area}}.
+
+\mbox{\Hypertarget{class_testing_center_a18bab222d0de3923876f531e196e1b3c}\label{class_testing_center_a18bab222d0de3923876f531e196e1b3c}} 
+\index{TestingCenter@{TestingCenter}!setMemento@{setMemento}}
+\index{setMemento@{setMemento}!TestingCenter@{TestingCenter}}
+\doxysubsubsection{\texorpdfstring{setMemento()}{setMemento()}}
+{\footnotesize\ttfamily void Testing\+Center\+::set\+Memento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_memento}{Memento}} $\ast$}]{m }\end{DoxyParamCaption})}
+
+
+
+This sets the memento with given parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & is the memento that will be set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_testing_center_a601abe5d87ea31fec5c4b7cd7cf5984c}\label{class_testing_center_a601abe5d87ea31fec5c4b7cd7cf5984c}} 
+\index{TestingCenter@{TestingCenter}!TestParts@{TestParts}}
+\index{TestParts@{TestParts}!TestingCenter@{TestingCenter}}
+\doxysubsubsection{\texorpdfstring{TestParts()}{TestParts()}}
+{\footnotesize\ttfamily virtual void Testing\+Center\+::\+Test\+Parts (\begin{DoxyParamCaption}\item[{bool}]{windtunnel,  }\item[{string}]{Test\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+This will test all the parts in the vector$<$\+Part$\ast$$>$. Pure virtual function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Wind\+Tunnel} & this specifies if windtunnel or software test should be run \\
+\hline
+{\em Test\+Name} & Name of test for textfile \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_non_europe_test_area_a69892c511604e7bff8a039567767711b}{Non\+Europe\+Test\+Area}}, and \mbox{\hyperlink{class_europe_test_area_a8b9b1bdef91b36040802cc493d6705e4}{Europe\+Test\+Area}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Testing\+Center/Testing\+Center.\+h\item 
+Testing\+Center/Testing\+Center.\+cpp\end{DoxyCompactItemize}

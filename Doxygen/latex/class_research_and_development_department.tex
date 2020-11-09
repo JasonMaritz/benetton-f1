@@ -1,0 +1,137 @@
+\hypertarget{class_research_and_development_department}{}\doxysection{Research\+And\+Development\+Department Class Reference}
+\label{class_research_and_development_department}\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+Inheritance diagram for Research\+And\+Development\+Department\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.794872cm]{class_research_and_development_department}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_part}{Part}} $\ast$ $>$ \mbox{\hyperlink{class_research_and_development_department_a1c3c3d65eea04faa7ce2c0ce5f93fb5e}{get\+Experimental\+Parts}} ()
+\item 
+\mbox{\Hypertarget{class_research_and_development_department_a88d96166a706d521d89ae59f1f25f45c}\label{class_research_and_development_department_a88d96166a706d521d89ae59f1f25f45c}} 
+virtual void {\bfseries develop\+Parts} ()=0
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_research_and_development_department_ac42a2eff3234b1d2275b7cbe55ab927b}{make\+Part}} (std\+::string type)=0
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_research_and_development_department_a1925ff4b6e157038112e19c9a15bcc47}{make\+Part\+Experimental}} (std\+::string type, double efficiency, double pcontrib, double pdraw)=0
+\item 
+string \mbox{\hyperlink{class_research_and_development_department_a633adb79cf6395d32a1f3f4fe74d8ebe}{get\+Strategy}} () override
+\item 
+void \mbox{\hyperlink{class_research_and_development_department_a3d81c3c7b10496c2596bbcd81d69b7de}{add}} (\mbox{\hyperlink{class_racing_strategy}{Racing\+Strategy}} $\ast$item) override
+\item 
+void \mbox{\hyperlink{class_research_and_development_department_ad0cc3eeddfe952b21f1c390da11bc147}{set\+Part}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Part)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_research_and_development_department_ad00bf00c81bc426c9afd65d880002af2}\label{class_research_and_development_department_ad00bf00c81bc426c9afd65d880002af2}} 
+std\+::vector$<$ \mbox{\hyperlink{class_part}{Part}} $\ast$ $>$ {\bfseries experimental\+Parts}
+\item 
+\mbox{\Hypertarget{class_research_and_development_department_aec6501e7fd59b2dcad59428b3df2c083}\label{class_research_and_development_department_aec6501e7fd59b2dcad59428b3df2c083}} 
+\mbox{\hyperlink{class_parts_factory}{Parts\+Factory}} $\ast$ {\bfseries my\+Factory}
+\item 
+\mbox{\Hypertarget{class_research_and_development_department_a829b089d444505172ae00465c46a9e0b}\label{class_research_and_development_department_a829b089d444505172ae00465c46a9e0b}} 
+\mbox{\hyperlink{class_parts_factory}{Parts\+Factory}} $\ast$ {\bfseries my\+Factory\+Experimental}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_research_and_development_department_a3d81c3c7b10496c2596bbcd81d69b7de}\label{class_research_and_development_department_a3d81c3c7b10496c2596bbcd81d69b7de}} 
+\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}!add@{add}}
+\index{add@{add}!ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Research\+And\+Development\+Department\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_racing_strategy}{Racing\+Strategy}} $\ast$}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & \+: add the specified part to the component member \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_racing_strategy_a2019311365d03387a27212e4dc311781}{Racing\+Strategy}}.
+
+\mbox{\Hypertarget{class_research_and_development_department_a1c3c3d65eea04faa7ce2c0ce5f93fb5e}\label{class_research_and_development_department_a1c3c3d65eea04faa7ce2c0ce5f93fb5e}} 
+\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}!getExperimentalParts@{getExperimentalParts}}
+\index{getExperimentalParts@{getExperimentalParts}!ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+\doxysubsubsection{\texorpdfstring{getExperimentalParts()}{getExperimentalParts()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_part}{Part}}$\ast$$>$ Research\+And\+Development\+Department\+::get\+Experimental\+Parts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+return a vector of experimental\+Parts to be tested 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_research_and_development_department_a633adb79cf6395d32a1f3f4fe74d8ebe}\label{class_research_and_development_department_a633adb79cf6395d32a1f3f4fe74d8ebe}} 
+\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}!getStrategy@{getStrategy}}
+\index{getStrategy@{getStrategy}!ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+\doxysubsubsection{\texorpdfstring{getStrategy()}{getStrategy()}}
+{\footnotesize\ttfamily string Research\+And\+Development\+Department\+::get\+Strategy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+a string describing the part so that it can be recreated 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_racing_strategy_a90afc8b56c7599e4ee443f18fd89646c}{Racing\+Strategy}}.
+
+\mbox{\Hypertarget{class_research_and_development_department_ac42a2eff3234b1d2275b7cbe55ab927b}\label{class_research_and_development_department_ac42a2eff3234b1d2275b7cbe55ab927b}} 
+\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}!makePart@{makePart}}
+\index{makePart@{makePart}!ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+\doxysubsubsection{\texorpdfstring{makePart()}{makePart()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Research\+And\+Development\+Department\+::make\+Part (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual function to create parts 
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: defines the type of part to create \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Part$\ast$ \+: a pointer to the created part 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_chassis_af9bb303ec602838759094e236823808a}{Chassis}}, \mbox{\hyperlink{class_engine_a5437977e2ee26605f477aa76dbda599f}{Engine}}, \mbox{\hyperlink{class_electronics_a4f869de6bd42189407bfed7a27b98214}{Electronics}}, and \mbox{\hyperlink{class_aerodynamics_ab7524876fb532a75672fbf880e7aff2e}{Aerodynamics}}.
+
+\mbox{\Hypertarget{class_research_and_development_department_a1925ff4b6e157038112e19c9a15bcc47}\label{class_research_and_development_department_a1925ff4b6e157038112e19c9a15bcc47}} 
+\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}!makePartExperimental@{makePartExperimental}}
+\index{makePartExperimental@{makePartExperimental}!ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+\doxysubsubsection{\texorpdfstring{makePartExperimental()}{makePartExperimental()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Research\+And\+Development\+Department\+::make\+Part\+Experimental (\begin{DoxyParamCaption}\item[{std\+::string}]{type,  }\item[{double}]{efficiency,  }\item[{double}]{pcontrib,  }\item[{double}]{pdraw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+virtual function to create parts, and mutate their members with the provided params 
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: defines the type of part to create \\
+\hline
+{\em efficiency} & \+: a value to mutate the efficiency by \\
+\hline
+{\em pcontrib} & \+: a value to mutate the power\+Contribution by \\
+\hline
+{\em pdraw} & \+: a value to mutate the power\+Draw by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Part$\ast$ \+: a pointer to the created part 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_chassis_ab457a0b25e1e932b1d76f14e286e211b}{Chassis}}, \mbox{\hyperlink{class_engine_a4413c94e3a96194dfb3c5913e4b0b583}{Engine}}, \mbox{\hyperlink{class_electronics_abad5d6c11d9961d0aff517c1f91a1c4f}{Electronics}}, and \mbox{\hyperlink{class_aerodynamics_a554427340af172dea7419581f227aacb}{Aerodynamics}}.
+
+\mbox{\Hypertarget{class_research_and_development_department_ad0cc3eeddfe952b21f1c390da11bc147}\label{class_research_and_development_department_ad0cc3eeddfe952b21f1c390da11bc147}} 
+\index{ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}!setPart@{setPart}}
+\index{setPart@{setPart}!ResearchAndDevelopmentDepartment@{ResearchAndDevelopmentDepartment}}
+\doxysubsubsection{\texorpdfstring{setPart()}{setPart()}}
+{\footnotesize\ttfamily void Research\+And\+Development\+Department\+::set\+Part (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Part }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Part} & \+: new part to set the part member with \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+R\&\+D/include/Research\+And\+Development\+Department.\+h\item 
+R\&\+D/src/Research\+And\+Development\+Department.\+cpp\end{DoxyCompactItemize}

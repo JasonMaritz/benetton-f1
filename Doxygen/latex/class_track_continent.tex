@@ -1,0 +1,162 @@
+\hypertarget{class_track_continent}{}\doxysection{Track\+Continent Class Reference}
+\label{class_track_continent}\index{TrackContinent@{TrackContinent}}
+Inheritance diagram for Track\+Continent\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_track_continent}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_track_continent_a289daf9e9b85529627916cdd74f23015}{Track\+Continent}} ()
+\item 
+virtual \mbox{\hyperlink{class_track_continent_a8d7d5f6901024048b6ca2935c6660fdc}{$\sim$\+Track\+Continent}} ()
+\item 
+virtual void \mbox{\hyperlink{class_track_continent_a5631385fb5a7a11ea6476e2662d60a99}{add}} (\mbox{\hyperlink{class_track}{Track}} $\ast$continent)
+\item 
+virtual int \mbox{\hyperlink{class_track_continent_a5fbfb314fda970d019cfd00e028cf7d7}{track\+Laps}} ()
+\item 
+virtual int \mbox{\hyperlink{class_track_continent_af70adc44c34585957f833707b0e4c8df}{track\+Wear}} ()
+\item 
+virtual int \mbox{\hyperlink{class_track_continent_a62804f52f4a49f542e93608964862aa8}{track\+Speed}} ()
+\item 
+virtual int \mbox{\hyperlink{class_track_continent_aa73e8faae4e85ca015b5cb790461ba0a}{track\+Corner}} ()
+\item 
+virtual int \mbox{\hyperlink{class_track_continent_ae9d0f2df410a6fd4d1eea3b0b3fc67b2}{track\+Length}} ()
+\item 
+virtual int \mbox{\hyperlink{class_track_continent_a576f5558ea5d40d205ae55e087f6179e}{track\+Fatigues}} ()
+\item 
+virtual string \mbox{\hyperlink{class_track_continent_a7b0ce8424fb5b9cdde5d933ef1942b22}{track\+City}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_track_continent_a289daf9e9b85529627916cdd74f23015}\label{class_track_continent_a289daf9e9b85529627916cdd74f23015}} 
+\index{TrackContinent@{TrackContinent}!TrackContinent@{TrackContinent}}
+\index{TrackContinent@{TrackContinent}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{TrackContinent()}{TrackContinent()}}
+{\footnotesize\ttfamily Track\+Continent\+::\+Track\+Continent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This function initialises the default Value to continent attribute \mbox{\Hypertarget{class_track_continent_a8d7d5f6901024048b6ca2935c6660fdc}\label{class_track_continent_a8d7d5f6901024048b6ca2935c6660fdc}} 
+\index{TrackContinent@{TrackContinent}!````~TrackContinent@{$\sim$TrackContinent}}
+\index{````~TrackContinent@{$\sim$TrackContinent}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{$\sim$TrackContinent()}{~TrackContinent()}}
+{\footnotesize\ttfamily Track\+Continent\+::$\sim$\+Track\+Continent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function deaalocates destroys the component object 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_track_continent_a5631385fb5a7a11ea6476e2662d60a99}\label{class_track_continent_a5631385fb5a7a11ea6476e2662d60a99}} 
+\index{TrackContinent@{TrackContinent}!add@{add}}
+\index{add@{add}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Track\+Continent\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_track}{Track}} $\ast$}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function takes in continent as a parameter and adds it to the \mbox{\hyperlink{class_track}{Track}}, it first checks if continent is empty, if it is then continent gets initialised 
+\begin{DoxyParams}{Parameters}
+{\em cont} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_a7b0ce8424fb5b9cdde5d933ef1942b22}\label{class_track_continent_a7b0ce8424fb5b9cdde5d933ef1942b22}} 
+\index{TrackContinent@{TrackContinent}!trackCity@{trackCity}}
+\index{trackCity@{trackCity}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackCity()}{trackCity()}}
+{\footnotesize\ttfamily string Track\+Continent\+::track\+City (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns city if continent has been initialised and returns the default value of city if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+city 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_aa73e8faae4e85ca015b5cb790461ba0a}\label{class_track_continent_aa73e8faae4e85ca015b5cb790461ba0a}} 
+\index{TrackContinent@{TrackContinent}!trackCorner@{trackCorner}}
+\index{trackCorner@{trackCorner}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackCorner()}{trackCorner()}}
+{\footnotesize\ttfamily int Track\+Continent\+::track\+Corner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns corner if continent has been initialised and returns the default value of corner if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+corner 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_a576f5558ea5d40d205ae55e087f6179e}\label{class_track_continent_a576f5558ea5d40d205ae55e087f6179e}} 
+\index{TrackContinent@{TrackContinent}!trackFatigues@{trackFatigues}}
+\index{trackFatigues@{trackFatigues}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackFatigues()}{trackFatigues()}}
+{\footnotesize\ttfamily int Track\+Continent\+::track\+Fatigues (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns fatigue if continent has been initialised and returns the default value of fatigue if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+fatigue 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_a5fbfb314fda970d019cfd00e028cf7d7}\label{class_track_continent_a5fbfb314fda970d019cfd00e028cf7d7}} 
+\index{TrackContinent@{TrackContinent}!trackLaps@{trackLaps}}
+\index{trackLaps@{trackLaps}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackLaps()}{trackLaps()}}
+{\footnotesize\ttfamily int Track\+Continent\+::track\+Laps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns Laps if continent has been initialised and returns the default value of laps if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+Laps 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_ae9d0f2df410a6fd4d1eea3b0b3fc67b2}\label{class_track_continent_ae9d0f2df410a6fd4d1eea3b0b3fc67b2}} 
+\index{TrackContinent@{TrackContinent}!trackLength@{trackLength}}
+\index{trackLength@{trackLength}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackLength()}{trackLength()}}
+{\footnotesize\ttfamily int Track\+Continent\+::track\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns length if continent has been initialised and returns the default value of length if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+length 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_a62804f52f4a49f542e93608964862aa8}\label{class_track_continent_a62804f52f4a49f542e93608964862aa8}} 
+\index{TrackContinent@{TrackContinent}!trackSpeed@{trackSpeed}}
+\index{trackSpeed@{trackSpeed}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackSpeed()}{trackSpeed()}}
+{\footnotesize\ttfamily int Track\+Continent\+::track\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns speed if continent has been initialised and returns the default value of speed if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+speed 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+\mbox{\Hypertarget{class_track_continent_af70adc44c34585957f833707b0e4c8df}\label{class_track_continent_af70adc44c34585957f833707b0e4c8df}} 
+\index{TrackContinent@{TrackContinent}!trackWear@{trackWear}}
+\index{trackWear@{trackWear}!TrackContinent@{TrackContinent}}
+\doxysubsubsection{\texorpdfstring{trackWear()}{trackWear()}}
+{\footnotesize\ttfamily int Track\+Continent\+::track\+Wear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This function returns wear if continent has been initialised and returns the default value of wear if it has not yet been initialised, in this case if it\textquotesingle{}s equal to 0 \begin{DoxyReturn}{Returns}
+wear 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_track}{Track}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Track/Track\+Continent.\+h\item 
+Track/Track\+Continent.\+cpp\end{DoxyCompactItemize}

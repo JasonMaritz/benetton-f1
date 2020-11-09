@@ -1,0 +1,101 @@
+\hypertarget{class_chassis}{}\doxysection{Chassis Class Reference}
+\label{class_chassis}\index{Chassis@{Chassis}}
+Inheritance diagram for Chassis\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_chassis}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_chassis_abff4a95e18eea726bccbb647939b2141}{Chassis}} ()
+\begin{DoxyCompactList}\small\item\em Class responsible for developing and constructing \mbox{\hyperlink{class_chassis}{Chassis}} parts. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_chassis_af9bb303ec602838759094e236823808a}{make\+Part}} (std\+::string type) override
+\item 
+\mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_chassis_ab457a0b25e1e932b1d76f14e286e211b}{make\+Part\+Experimental}} (std\+::string type, double efficiency, double pcontrib, double pdraw) override
+\item 
+void \mbox{\hyperlink{class_chassis_aae1d7ac98e6fc103f08a90e15254630e}{set\+Best}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Best)
+\item 
+\mbox{\Hypertarget{class_chassis_a4c74d26f548c43a837932705c40b82eb}\label{class_chassis_a4c74d26f548c43a837932705c40b82eb}} 
+void \mbox{\hyperlink{class_chassis_a4c74d26f548c43a837932705c40b82eb}{develop\+Parts}} () override
+\begin{DoxyCompactList}\small\item\em develops parts and populates the experimental\+Parts\+Vector for testing \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_chassis_abff4a95e18eea726bccbb647939b2141}\label{class_chassis_abff4a95e18eea726bccbb647939b2141}} 
+\index{Chassis@{Chassis}!Chassis@{Chassis}}
+\index{Chassis@{Chassis}!Chassis@{Chassis}}
+\doxysubsubsection{\texorpdfstring{Chassis()}{Chassis()}}
+{\footnotesize\ttfamily Chassis\+::\+Chassis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Class responsible for developing and constructing \mbox{\hyperlink{class_chassis}{Chassis}} parts. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_chassis_af9bb303ec602838759094e236823808a}\label{class_chassis_af9bb303ec602838759094e236823808a}} 
+\index{Chassis@{Chassis}!makePart@{makePart}}
+\index{makePart@{makePart}!Chassis@{Chassis}}
+\doxysubsubsection{\texorpdfstring{makePart()}{makePart()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_part}{Part}} $\ast$ Chassis\+::make\+Part (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of chassis part to make, required for inheritance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+part$\ast$ \+: the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_research_and_development_department_ac42a2eff3234b1d2275b7cbe55ab927b}{Research\+And\+Development\+Department}}.
+
+\mbox{\Hypertarget{class_chassis_ab457a0b25e1e932b1d76f14e286e211b}\label{class_chassis_ab457a0b25e1e932b1d76f14e286e211b}} 
+\index{Chassis@{Chassis}!makePartExperimental@{makePartExperimental}}
+\index{makePartExperimental@{makePartExperimental}!Chassis@{Chassis}}
+\doxysubsubsection{\texorpdfstring{makePartExperimental()}{makePartExperimental()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_part}{Part}} $\ast$ Chassis\+::make\+Part\+Experimental (\begin{DoxyParamCaption}\item[{std\+::string}]{type,  }\item[{double}]{efficiency,  }\item[{double}]{pcontrib,  }\item[{double}]{pdraw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of chassis part to produce \\
+\hline
+{\em efficiency} & \+: value to mutate efficiency member with \\
+\hline
+{\em pcontrib} & \+: value to mutate power\+Contribution member with \\
+\hline
+{\em pdraw} & \+: value to mutate power\+Draw member with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_research_and_development_department_a1925ff4b6e157038112e19c9a15bcc47}{Research\+And\+Development\+Department}}.
+
+\mbox{\Hypertarget{class_chassis_aae1d7ac98e6fc103f08a90e15254630e}\label{class_chassis_aae1d7ac98e6fc103f08a90e15254630e}} 
+\index{Chassis@{Chassis}!setBest@{setBest}}
+\index{setBest@{setBest}!Chassis@{Chassis}}
+\doxysubsubsection{\texorpdfstring{setBest()}{setBest()}}
+{\footnotesize\ttfamily void Chassis\+::set\+Best (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Best }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Best} & \+: part to set the new default prototype in the factories \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+R\&\+D/include/Chassis.\+h\item 
+R\&\+D/src/Chassis.\+cpp\end{DoxyCompactItemize}

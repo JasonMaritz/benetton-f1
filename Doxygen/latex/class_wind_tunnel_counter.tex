@@ -1,0 +1,51 @@
+\hypertarget{class_wind_tunnel_counter}{}\doxysection{Wind\+Tunnel\+Counter Class Reference}
+\label{class_wind_tunnel_counter}\index{WindTunnelCounter@{WindTunnelCounter}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_wind_tunnel_counter_a244fbbcbe62752e0ea1f707bdd928816}{run\+WTTest}} (\mbox{\hyperlink{class_part}{Part}} $\ast$prt, int offset)
+\begin{DoxyCompactList}\small\item\em Runs a windtunnel test. If Tests\+Left $<$ 400 an exception will be thrown. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_wind_tunnel_counter_a352902e59a26e3dee13a7a7ef2f29b81}{get\+Tests\+Left}} ()
+\begin{DoxyCompactList}\small\item\em This will return the tests left for the season. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wind_tunnel_counter_a352902e59a26e3dee13a7a7ef2f29b81}\label{class_wind_tunnel_counter_a352902e59a26e3dee13a7a7ef2f29b81}} 
+\index{WindTunnelCounter@{WindTunnelCounter}!getTestsLeft@{getTestsLeft}}
+\index{getTestsLeft@{getTestsLeft}!WindTunnelCounter@{WindTunnelCounter}}
+\doxysubsubsection{\texorpdfstring{getTestsLeft()}{getTestsLeft()}}
+{\footnotesize\ttfamily int Wind\+Tunnel\+Counter\+::get\+Tests\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This will return the tests left for the season. 
+
+\begin{DoxyReturn}{Returns}
+Tests\+Left which is an integer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wind_tunnel_counter_a244fbbcbe62752e0ea1f707bdd928816}\label{class_wind_tunnel_counter_a244fbbcbe62752e0ea1f707bdd928816}} 
+\index{WindTunnelCounter@{WindTunnelCounter}!runWTTest@{runWTTest}}
+\index{runWTTest@{runWTTest}!WindTunnelCounter@{WindTunnelCounter}}
+\doxysubsubsection{\texorpdfstring{runWTTest()}{runWTTest()}}
+{\footnotesize\ttfamily double Wind\+Tunnel\+Counter\+::run\+WTTest (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{prt,  }\item[{int}]{offset }\end{DoxyParamCaption})}
+
+
+
+Runs a windtunnel test. If Tests\+Left $<$ 400 an exception will be thrown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prt} & is the part that will be tested \\
+\hline
+{\em offset} & is the offsett used for the test \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the result of the test 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Testing\+Center/Wind\+Tunnel\+Counter.\+h\item 
+Testing\+Center/Wind\+Tunnel\+Counter.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,70 @@
+\hypertarget{class_container_set}{}\doxysection{Container\+Set Class Reference}
+\label{class_container_set}\index{ContainerSet@{ContainerSet}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_container_set}{Container\+Set}} $\ast$ \mbox{\hyperlink{class_container_set_a8c159433cbebce14c7ee741a2ff03cda}{clone}} ()
+\item 
+double \mbox{\hyperlink{class_container_set_af6e061ee93b021a6a4cfc4a7399b63e1}{get\+Weight}} ()
+\item 
+\mbox{\hyperlink{class_packed_item}{Packed\+Item}} $\ast$ \mbox{\hyperlink{class_container_set_a74ff998cd479d81f97ebb31cdd92accf}{get\+Item}} (string name)
+\item 
+bool \mbox{\hyperlink{class_container_set_a2894f5cbb12a54486113a45ea735175f}{add\+Item}} (string name, \mbox{\hyperlink{class_packed_item}{Packed\+Item}} $\ast$item)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_container_set_a2894f5cbb12a54486113a45ea735175f}\label{class_container_set_a2894f5cbb12a54486113a45ea735175f}} 
+\index{ContainerSet@{ContainerSet}!addItem@{addItem}}
+\index{addItem@{addItem}!ContainerSet@{ContainerSet}}
+\doxysubsubsection{\texorpdfstring{addItem()}{addItem()}}
+{\footnotesize\ttfamily bool Container\+Set\+::add\+Item (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\mbox{\hyperlink{class_packed_item}{Packed\+Item}} $\ast$}]{item }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of item (key) \\
+\hline
+{\em item} & actual item (value) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if name is unique, false if it\textquotesingle{}s already taken 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_container_set_a8c159433cbebce14c7ee741a2ff03cda}\label{class_container_set_a8c159433cbebce14c7ee741a2ff03cda}} 
+\index{ContainerSet@{ContainerSet}!clone@{clone}}
+\index{clone@{clone}!ContainerSet@{ContainerSet}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_container_set}{Container\+Set}} $\ast$ Container\+Set\+::clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A deep copy of this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_container_set_a74ff998cd479d81f97ebb31cdd92accf}\label{class_container_set_a74ff998cd479d81f97ebb31cdd92accf}} 
+\index{ContainerSet@{ContainerSet}!getItem@{getItem}}
+\index{getItem@{getItem}!ContainerSet@{ContainerSet}}
+\doxysubsubsection{\texorpdfstring{getItem()}{getItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_packed_item}{Packed\+Item}} $\ast$ Container\+Set\+::get\+Item (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name, which is used as a key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the corresponding item 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_container_set_af6e061ee93b021a6a4cfc4a7399b63e1}\label{class_container_set_af6e061ee93b021a6a4cfc4a7399b63e1}} 
+\index{ContainerSet@{ContainerSet}!getWeight@{getWeight}}
+\index{getWeight@{getWeight}!ContainerSet@{ContainerSet}}
+\doxysubsubsection{\texorpdfstring{getWeight()}{getWeight()}}
+{\footnotesize\ttfamily double Container\+Set\+::get\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+summed weight of contained items 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Container/Container\+Set.\+h\item 
+Container/Container\+Set.\+cpp\end{DoxyCompactItemize}

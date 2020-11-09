@@ -1,0 +1,91 @@
+\hypertarget{class_engine_factory}{}\doxysection{Engine\+Factory Class Reference}
+\label{class_engine_factory}\index{EngineFactory@{EngineFactory}}
+Inheritance diagram for Engine\+Factory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_engine_factory}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_engine_factory_ae55d3c1d9f3bda1358f8eefbceff9255}{produce}} (std\+::string type)=0
+\item 
+void \mbox{\hyperlink{class_engine_factory_a4375a511fddf7728e63e25d24b23bc2b}{set\+Default}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Def)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_engine_factory_a51c13c86fa0956645b4bfd3caf555e2e}\label{class_engine_factory_a51c13c86fa0956645b4bfd3caf555e2e}} 
+\mbox{\hyperlink{class_engine_part}{Engine\+Part}} $\ast$ {\bfseries default\+ICE}
+\item 
+\mbox{\Hypertarget{class_engine_factory_a140765226f480547f7e33565098c9a2e}\label{class_engine_factory_a140765226f480547f7e33565098c9a2e}} 
+\mbox{\hyperlink{class_engine_part}{Engine\+Part}} $\ast$ {\bfseries default\+Turbo}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_engine_factory_a3e1914489e4bed4f9f23cdeab34a43dc}{Engine}}
+\begin{DoxyCompactList}\small\item\em Superclass for \mbox{\hyperlink{class_engine}{Engine}} parts factories. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engine_factory_ae55d3c1d9f3bda1358f8eefbceff9255}\label{class_engine_factory_ae55d3c1d9f3bda1358f8eefbceff9255}} 
+\index{EngineFactory@{EngineFactory}!produce@{produce}}
+\index{produce@{produce}!EngineFactory@{EngineFactory}}
+\doxysubsubsection{\texorpdfstring{produce()}{produce()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Engine\+Factory\+::produce (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of part to produce \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_parts_factory_acf06ad92bbfd7a705bf388c2a5cdb7b4}{Parts\+Factory}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_eng_factory_a87f206792840793b2c297db434323ecb}{Eng\+Factory}}, and \mbox{\hyperlink{class_eng_factory_experimental_a0ad5bc4b41da04659d7333a9859ea144}{Eng\+Factory\+Experimental}}.
+
+\mbox{\Hypertarget{class_engine_factory_a4375a511fddf7728e63e25d24b23bc2b}\label{class_engine_factory_a4375a511fddf7728e63e25d24b23bc2b}} 
+\index{EngineFactory@{EngineFactory}!setDefault@{setDefault}}
+\index{setDefault@{setDefault}!EngineFactory@{EngineFactory}}
+\doxysubsubsection{\texorpdfstring{setDefault()}{setDefault()}}
+{\footnotesize\ttfamily void Engine\+Factory\+::set\+Default (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Def }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Def} & \+: the new part to set as default prototype for the factories \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_parts_factory_ae9ed8050459467bd29b7d5ce65492a2d}{Parts\+Factory}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_engine_factory_a3e1914489e4bed4f9f23cdeab34a43dc}\label{class_engine_factory_a3e1914489e4bed4f9f23cdeab34a43dc}} 
+\index{EngineFactory@{EngineFactory}!Engine@{Engine}}
+\index{Engine@{Engine}!EngineFactory@{EngineFactory}}
+\doxysubsubsection{\texorpdfstring{Engine}{Engine}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_engine}{Engine}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Superclass for \mbox{\hyperlink{class_engine}{Engine}} parts factories. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Parts\+Factory/include/Engine\+Factory.\+h\item 
+Parts\+Factory/src/Engine\+Factory.\+cpp\end{DoxyCompactItemize}

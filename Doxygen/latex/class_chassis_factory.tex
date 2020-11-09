@@ -1,0 +1,88 @@
+\hypertarget{class_chassis_factory}{}\doxysection{Chassis\+Factory Class Reference}
+\label{class_chassis_factory}\index{ChassisFactory@{ChassisFactory}}
+Inheritance diagram for Chassis\+Factory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_chassis_factory}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_chassis_factory_a1c3caacabd6cb8bfc30e416724b9e2ef}{produce}} (std\+::string type)=0
+\item 
+void \mbox{\hyperlink{class_chassis_factory_a8e2d48afa94def0aaaab94beec245090}{set\+Default}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Def)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_chassis_factory_abaa078b3ec43e02dda877bd9b1ff0c3a}\label{class_chassis_factory_abaa078b3ec43e02dda877bd9b1ff0c3a}} 
+\mbox{\hyperlink{class_chassis_part}{Chassis\+Part}} $\ast$ {\bfseries default\+Chassis}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_chassis_factory_a03781c43e9a1316e852389c6fe8e412f}{Chassis}}
+\begin{DoxyCompactList}\small\item\em Superclass for \mbox{\hyperlink{class_chassis}{Chassis}} parts factories. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_chassis_factory_a1c3caacabd6cb8bfc30e416724b9e2ef}\label{class_chassis_factory_a1c3caacabd6cb8bfc30e416724b9e2ef}} 
+\index{ChassisFactory@{ChassisFactory}!produce@{produce}}
+\index{produce@{produce}!ChassisFactory@{ChassisFactory}}
+\doxysubsubsection{\texorpdfstring{produce()}{produce()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Chassis\+Factory\+::produce (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of part to produce \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_parts_factory_acf06ad92bbfd7a705bf388c2a5cdb7b4}{Parts\+Factory}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_cha_factory_experimental_a5b68d4a8ba566dc61a20baba6abe11c2}{Cha\+Factory\+Experimental}}, and \mbox{\hyperlink{class_cha_factory_a81725dbc57cf0f2faf9243333f123090}{Cha\+Factory}}.
+
+\mbox{\Hypertarget{class_chassis_factory_a8e2d48afa94def0aaaab94beec245090}\label{class_chassis_factory_a8e2d48afa94def0aaaab94beec245090}} 
+\index{ChassisFactory@{ChassisFactory}!setDefault@{setDefault}}
+\index{setDefault@{setDefault}!ChassisFactory@{ChassisFactory}}
+\doxysubsubsection{\texorpdfstring{setDefault()}{setDefault()}}
+{\footnotesize\ttfamily void Chassis\+Factory\+::set\+Default (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Def }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Def} & \+: the new part to set as default prototype for the factories \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_parts_factory_ae9ed8050459467bd29b7d5ce65492a2d}{Parts\+Factory}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_chassis_factory_a03781c43e9a1316e852389c6fe8e412f}\label{class_chassis_factory_a03781c43e9a1316e852389c6fe8e412f}} 
+\index{ChassisFactory@{ChassisFactory}!Chassis@{Chassis}}
+\index{Chassis@{Chassis}!ChassisFactory@{ChassisFactory}}
+\doxysubsubsection{\texorpdfstring{Chassis}{Chassis}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_chassis}{Chassis}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Superclass for \mbox{\hyperlink{class_chassis}{Chassis}} parts factories. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Parts\+Factory/include/Chassis\+Factory.\+h\item 
+Parts\+Factory/src/Chassis\+Factory.\+cpp\end{DoxyCompactItemize}

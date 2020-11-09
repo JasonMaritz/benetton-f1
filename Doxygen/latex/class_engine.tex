@@ -1,0 +1,101 @@
+\hypertarget{class_engine}{}\doxysection{Engine Class Reference}
+\label{class_engine}\index{Engine@{Engine}}
+Inheritance diagram for Engine\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_engine}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine_a8c98683b0a3aa28d8ab72a8bcd0d52f2}{Engine}} ()
+\begin{DoxyCompactList}\small\item\em Class responsible for developing and constructing \mbox{\hyperlink{class_engine}{Engine}} parts. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_engine_a5437977e2ee26605f477aa76dbda599f}{make\+Part}} (std\+::string type)
+\item 
+\mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_engine_a4413c94e3a96194dfb3c5913e4b0b583}{make\+Part\+Experimental}} (std\+::string type, double efficiency, double pcontrib, double pdraw)
+\item 
+void \mbox{\hyperlink{class_engine_a25edea25172ad3b747f3d879a4c2a2c5}{set\+Best}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Best)
+\item 
+\mbox{\Hypertarget{class_engine_a646a8963ed13d3259d1ad321c093f1ad}\label{class_engine_a646a8963ed13d3259d1ad321c093f1ad}} 
+void \mbox{\hyperlink{class_engine_a646a8963ed13d3259d1ad321c093f1ad}{develop\+Parts}} ()
+\begin{DoxyCompactList}\small\item\em develops parts and populates the experimental\+Parts\+Vector for testing \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_engine_a8c98683b0a3aa28d8ab72a8bcd0d52f2}\label{class_engine_a8c98683b0a3aa28d8ab72a8bcd0d52f2}} 
+\index{Engine@{Engine}!Engine@{Engine}}
+\index{Engine@{Engine}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{Engine()}{Engine()}}
+{\footnotesize\ttfamily Engine\+::\+Engine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Class responsible for developing and constructing \mbox{\hyperlink{class_engine}{Engine}} parts. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engine_a5437977e2ee26605f477aa76dbda599f}\label{class_engine_a5437977e2ee26605f477aa76dbda599f}} 
+\index{Engine@{Engine}!makePart@{makePart}}
+\index{makePart@{makePart}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{makePart()}{makePart()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_part}{Part}} $\ast$ Engine\+::make\+Part (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of engine part to make \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+part$\ast$ \+: the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_research_and_development_department_ac42a2eff3234b1d2275b7cbe55ab927b}{Research\+And\+Development\+Department}}.
+
+\mbox{\Hypertarget{class_engine_a4413c94e3a96194dfb3c5913e4b0b583}\label{class_engine_a4413c94e3a96194dfb3c5913e4b0b583}} 
+\index{Engine@{Engine}!makePartExperimental@{makePartExperimental}}
+\index{makePartExperimental@{makePartExperimental}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{makePartExperimental()}{makePartExperimental()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_part}{Part}} $\ast$ Engine\+::make\+Part\+Experimental (\begin{DoxyParamCaption}\item[{std\+::string}]{type,  }\item[{double}]{efficiency,  }\item[{double}]{pcontrib,  }\item[{double}]{pdraw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of engine part to produce \\
+\hline
+{\em efficiency} & \+: value to mutate efficiency member with \\
+\hline
+{\em pcontrib} & \+: value to mutate power\+Contribution member with \\
+\hline
+{\em pdraw} & \+: value to mutate power\+Draw member with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_research_and_development_department_a1925ff4b6e157038112e19c9a15bcc47}{Research\+And\+Development\+Department}}.
+
+\mbox{\Hypertarget{class_engine_a25edea25172ad3b747f3d879a4c2a2c5}\label{class_engine_a25edea25172ad3b747f3d879a4c2a2c5}} 
+\index{Engine@{Engine}!setBest@{setBest}}
+\index{setBest@{setBest}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{setBest()}{setBest()}}
+{\footnotesize\ttfamily void Engine\+::set\+Best (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Best }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Best} & \+: part to set the new default prototype in the factories \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+R\&\+D/include/Engine.\+h\item 
+R\&\+D/src/Engine.\+cpp\end{DoxyCompactItemize}

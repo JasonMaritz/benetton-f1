@@ -1,0 +1,63 @@
+\hypertarget{class_f1_builder}{}\doxysection{F1\+Builder Class Reference}
+\label{class_f1_builder}\index{F1Builder@{F1Builder}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f1_builder_a4a3c290cb4a19eb3cc142538509d53ba}{F1\+Builder}} ()
+\begin{DoxyCompactList}\small\item\em Class responsible for building a completed \mbox{\hyperlink{class_f1_car}{F1\+Car}} for use in other classes. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_f1_car}{F1\+Car}} $\ast$ \mbox{\hyperlink{class_f1_builder_a8372538f101668932ee990a5dcbc8d96}{get\+Result}} ()
+\begin{DoxyCompactList}\small\item\em also checks that if some part has not been built it adds a default one \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_f1_builder_a6a34ffa181e1b4d0b115a4725f15fb61}\label{class_f1_builder_a6a34ffa181e1b4d0b115a4725f15fb61}} 
+void \mbox{\hyperlink{class_f1_builder_a6a34ffa181e1b4d0b115a4725f15fb61}{reset}} ()
+\begin{DoxyCompactList}\small\item\em resets the builder to build another car \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_f1_builder_aeaa0318113b1f59c72efb98f59ceaf8d}{build\+Part}} (\mbox{\hyperlink{class_part}{Part}} $\ast$car\+Part)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_f1_builder_a4a3c290cb4a19eb3cc142538509d53ba}\label{class_f1_builder_a4a3c290cb4a19eb3cc142538509d53ba}} 
+\index{F1Builder@{F1Builder}!F1Builder@{F1Builder}}
+\index{F1Builder@{F1Builder}!F1Builder@{F1Builder}}
+\doxysubsubsection{\texorpdfstring{F1Builder()}{F1Builder()}}
+{\footnotesize\ttfamily F1\+Builder\+::\+F1\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Class responsible for building a completed \mbox{\hyperlink{class_f1_car}{F1\+Car}} for use in other classes. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f1_builder_aeaa0318113b1f59c72efb98f59ceaf8d}\label{class_f1_builder_aeaa0318113b1f59c72efb98f59ceaf8d}} 
+\index{F1Builder@{F1Builder}!buildPart@{buildPart}}
+\index{buildPart@{buildPart}!F1Builder@{F1Builder}}
+\doxysubsubsection{\texorpdfstring{buildPart()}{buildPart()}}
+{\footnotesize\ttfamily void F1\+Builder\+::build\+Part (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{car\+Part }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em car\+Part} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f1_builder_a8372538f101668932ee990a5dcbc8d96}\label{class_f1_builder_a8372538f101668932ee990a5dcbc8d96}} 
+\index{F1Builder@{F1Builder}!getResult@{getResult}}
+\index{getResult@{getResult}!F1Builder@{F1Builder}}
+\doxysubsubsection{\texorpdfstring{getResult()}{getResult()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_f1_car}{F1\+Car}} $\ast$ F1\+Builder\+::get\+Result (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+also checks that if some part has not been built it adds a default one 
+
+\begin{DoxyReturn}{Returns}
+F1\+Car$\ast$ , the completed car 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+F1\+Car/include/F1\+Builder.\+h\item 
+F1\+Car/src/F1\+Builder.\+cpp\end{DoxyCompactItemize}

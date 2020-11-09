@@ -18,19 +18,25 @@
 using namespace std;
 
 class HighPriority
-{
-private:
-	map<string, ContainerRoute*> _routes;
-	int raceNum = 0 ;
+{private: map<string, ContainerRoute*> _routes;
 
-public:
-	bool shipSomething(Destination* aDest, ContainerSet* aContainers, string aName);
+	private: int raceNum = 0 ;
 
-	ContainerSet* get(string aName);
+	public: Shipper* _unnamed_Shipper_;
+	// public: std::vector<ContainerRoute*> _unnamed_ContainerRoute_;
 
-	void remove(string aName);
+	/// @param aDest Destination pointer to the destination of the highpriority shipment
+	/// @param aContainers Container that is being shipped by the highpriority shipment
+	/// @param aName the name that uniquely identifies the shipment created from the function
+	public: void shipSomething(Destination* aDest, ContainerSet* aContainers, string aName);
 
-	virtual ~HighPriority() ; 
+	/// @returns a pointer to the Container being shipped. 
+	public: ContainerSet* get(string aName);
+
+	/// @param aName the name of ContainerRoute pointer that was created with the name 
+	public: void remove(string aName);
+
+	public: virtual ~HighPriority() ; 
 };
 
 #endif

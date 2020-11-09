@@ -1,6 +1,9 @@
 #include "ContainerRoute.h"
 
 #include "../Shipping/TransportMode.h"
+#include "../Shipping/Ship.h"
+#include "../Shipping/Truck.h"
+#include "../Shipping/ChartedPlane.h"
 
 #include <iostream>
 
@@ -52,8 +55,25 @@ void ContainerRoute::setStops(vector<Destination*>* s){
 	}
 }
 
-void ContainerRoute::decideTransportMode(){ //used by low
-	//Todo
+void ContainerRoute::decideTransportMode(){ //used by LowPriority
+	if (!currLocation) {
+		currLocation = getRouteIterator();
+		currLocation->first();
+	}
+	Destination* a = currLocation->current();//Destination
+	Destination* b = currLocation->prev();//Origin
+	currLocation->next();
+	if (!a) {
+		return; //At end of route
+	}
+	if (!b) {
+		setTransportMode("ship");
+	}
+	if (b->location.european && a->location.european)
+		setTransportMode("truck");
+	else
+		setTransportMode("ship");
+
 }
 
 TransportMode* ContainerRoute::getTransportMode() const{
@@ -76,7 +96,26 @@ void ContainerRoute::transportCargo(){
 	}
 }
 
+void ContainerRoute::setTransportMode(string mode) {
+	//"plane", "truck", "ship" are the accepted parameters
+	TransportMode* newMode = 0;
+	if (mode == "plane") {
+		newMode = new ChartedPlane(currLocation->current()->location, this);
+	}
+	else if (mode == "truck") {
+		newMode = new ChartedPlane(currLocation->current()->location, this);
+	}
+	else if (mode == "ship") {
+		newMode = new ChartedPlane(currLocation->current()->location, this);
+	}
+	else return;
+	setTransportMode(newMode);
+}
+
+
 void ContainerRoute::setTransportMode(TransportMode* t){
+	if (transport)
+		delete transport;
 	transport =t ;
 }
 

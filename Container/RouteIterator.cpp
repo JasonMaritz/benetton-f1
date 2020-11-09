@@ -12,12 +12,17 @@ Destination* RouteIterator::first() {
 }
 
 Destination* RouteIterator::current() {
-	if (aggregate->size() > currIndex)
+	if (aggregate->size() > currIndex && currIndex >=0)
 		return (*aggregate)[currIndex];
 	return 0;
 }
 
 Destination* RouteIterator::next() {
 	currIndex++;
+	return current();
+}
+
+Destination* RouteIterator::prev() {
+	currIndex--;
 	return current();
 }

@@ -17,7 +17,9 @@ public:
 	///@returns corresponding Destination*
 	Destination* first(); //currIndex = 0
 	///@returns corresponding Destination*
-	Destination* next(); //currIndex ++
+	Destination* prev(); //currIndex--
+	///@returns corresponding Destination*
+	Destination* next(); //currIndex++
 	///@returns corresponding Destination*
 	Destination* current();
 };

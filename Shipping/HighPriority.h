@@ -19,17 +19,18 @@ using namespace std;
 
 class HighPriority
 {
-	private: map<string, ContainerRoute*> _routes;
+private:
+	map<string, ContainerRoute*> _routes;
+	int raceNum = 0 ;
 
-	private: int raceNum = 0 ;
+public:
+	bool shipSomething(Destination* aDest, ContainerSet* aContainers, string aName);
 
-	public: bool shipSomething(Destination* aDest, ContainerSet* aContainers, string aName);
+	ContainerSet* get(string aName);
 
-	public: ContainerSet* get(string aName);
+	void remove(string aName);
 
-	public: void remove(string aName);
-
-	public: virtual ~HighPriority() ; 
+	virtual ~HighPriority() ; 
 };
 
 #endif

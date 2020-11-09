@@ -35,7 +35,7 @@ public:
 	///@param index of route to be returned
 	///@returns a pointer to a ContainerRoute
 	ContainerRoute* getRoute(int index);
-	///@param The filename for where destinations are to be read fromww
+	///@param The filename for where destinations are to be read from
 	void destinationsFromtxt(string filename);
 	void printRoutes();
 };

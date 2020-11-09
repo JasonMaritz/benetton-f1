@@ -10,6 +10,10 @@ TransportMode:: TransportMode(Location aDest, ContainerRoute* r,int aSpeed) {
 	_route = r ;
 }
 
+TransportMode::~TransportMode() {
+
+}
+
 void TransportMode::changeTransportMode(bool a){
 	// change
 }

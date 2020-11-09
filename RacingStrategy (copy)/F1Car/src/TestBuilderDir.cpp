@@ -13,6 +13,7 @@ std::map<Part *, F1Car *> TestBuilderDir::buildCars(std::vector<Part *> parts) {
     for(auto it = parts.begin(); it != parts.end(); it++){
         build->buildPart(*it);
         temp.insert(std::pair<Part*, F1Car*>((*it)->clone(), build->getResult()));
+        build->reset();
     }
     return temp;
 }

@@ -43,34 +43,36 @@ F1Car *F1Builder::getResult() {
 }
 
 void F1Builder::buildPart(Part *carPart) {
+    if(!carPart)
+        return
     std::string t = carPart->getType();
-    if(t == "Bargeboard"){
+    if(t == "bargeboard"){
         delete result->bargeboard;
-        result->bargeboard = dynamic_cast<Bargeboard *>(carPart->clone());
-    }else if (t == "DRS"){
+        result->bargeboard = (Bargeboard *)(carPart->clone());
+    }else if (t == "drs"){
         delete result->drs;
-        result->drs = dynamic_cast<DRS*>(carPart->clone());
-    }else if (t == "ICE"){
+        result->drs = (DRS*)(carPart->clone());
+    }else if (t == "ice"){
         delete result->ice;
-        result->ice = dynamic_cast<ICE *>(carPart->clone());
-    }else if (t == "TurboCharger"){
+        result->ice = (ICE *)(carPart->clone());
+    }else if (t == "turbocharger"){
         delete result->turboCharger;
-        result->turboCharger = dynamic_cast<TurboCharger *>(carPart->clone());
-    }else if (t == "Chassis"){
+        result->turboCharger = (TurboCharger *)(carPart->clone());
+    }else if (t == "chassis"){
         delete result->chassisPart;
-        result->chassisPart = dynamic_cast<ChassisPart *>(carPart->clone());
-    }else if (t == "ERS"){
+        result->chassisPart = (ChassisPart *)(carPart->clone());
+    }else if (t == "ers"){
         delete result->ers;
-        result->ers = dynamic_cast<ERS *>(carPart->clone());
-    }else if (t == "MGUH"){
+        result->ers = (ERS *)(carPart->clone());
+    }else if (t == "mguh"){
         delete result->mguh;
-        result->mguh = dynamic_cast<MGUH *>(carPart->clone());
-    }else if (t == "MGUK"){
+        result->mguh = (MGUH *)(carPart->clone());
+    }else if (t == "mguk"){
         delete result->mguk;
-        result->mguk = dynamic_cast<MGUK *>(carPart->clone());
-    }else if (t == "EnergyStore"){
+        result->mguk = (MGUK *)(carPart->clone());
+    }else if (t == "energystore"){
         delete result->energyStore;
-        result->energyStore = dynamic_cast<EnergyStore *>(carPart->clone());
+        result->energyStore = (EnergyStore *)(carPart->clone());
     }
 }
 

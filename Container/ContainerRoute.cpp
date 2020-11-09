@@ -51,7 +51,7 @@ void ContainerRoute::printRoute() {
 }
 
 
-TransportMode* ContainerRoute::getTransportMode() const{
+TransportMode* ContainerRoute::getTransportMode() {
 	return transport ; 
 }
 
@@ -61,14 +61,26 @@ void ContainerRoute::transportCargo(){
 		if (stops.size() > 0 ){ //High Priority
 			// currLocation = getRouteIterator() ;
 			for (auto dest = stops.begin() ; dest != stops.end(); dest++){
-				transport->eta((*dest)->location) ;
-				cout<<"Package to "<<(*dest)->location.name<<", will be arrive in: "<<transport->eta((*dest)->location)<<" seconds."<<endl ; //call to the make request
+				time_t t =  transport->eta((*dest)->location);
+
+				std::stringstream stream ; 
+				stream<<t ;
+				std::string amount = stream.str() ;
+				
+				cout<<"Package to "<<(*dest)->location.name<<", will arrive in: "<<amount<<" seconds."<<endl ; //call to the make request
 			}
 		}
 		else{
 			cout<<"Package Destination was not set \n" ;
 		}
+
+		transport->changeTransportMode() ;
 	}
+	else{
+		cout<<"ContainerSet has not been loaded into the TransportVehicle, please use HighPriority or LowPriority Shippers.\n" ;
+	}
+
+
 }
 
 

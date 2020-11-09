@@ -29,7 +29,7 @@ class TransportMode
 	public: 
 		virtual time_t eta(Location aDestination) = 0;
 		
-		virtual void changeTransportMode(bool ) = 0;
+		virtual void changeTransportMode(bool =false ) = 0;
 		
 		bool getOnRoute();
 

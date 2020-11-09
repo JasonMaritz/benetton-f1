@@ -1,0 +1,34 @@
+Driver: Chris took part in simulation
+ igue on driver due to track: Simulation used track with following properties:
+Host City: Pretoria
+Number of Laps: 6
+Wear Factor: 5
+Speed: 4
+Number of corners: 10
+Fatigue: 3
+T: Soft
+T: Soft
+T: Soft
+T: Soft
+T: Soft
+N: testing
+Car used in simulation 
+Car achieved a simulated estimated performance of: 0.133333Parts used in car 
+bargeboard -1 -1 -1 achieved a simulated estimated performance of: 0.410000drs -1 -1 -1 achieved a simulated estimated performance of: 0.410000chassis -1 -1 -1 achieved a simulated estimated performance of: 0.410000ice -1 -1 -1 achieved a simulated estimated performance of: 0.000000turbocharger -1 -1 -1 achieved a simulated estimated performance of: 0.000000mguk -1 -1 -1 achieved a simulated estimated performance of: 0.000000mguk -1 -1 -1 achieved a simulated estimated performance of: 0.000000energystore -1 -1 -1 achieved a simulated estimated performance of: 0.000000ers -1 -1 -1 achieved a simulated estimated performance of: 0.000000Driver: chris took part in simulation
+ igue on driver due to track: Simulation used track with following properties:
+Host City: Pretoria
+Number of Laps: 6
+Wear Factor: 5
+Speed: 4
+Number of corners: 10
+Fatigue: 3
+T: Soft
+T: Soft
+T: Soft
+T: Soft
+T: Soft
+P: ice -1 -1 -1
+N: testing
+Car used in simulation 
+Car achieved a simulated estimated performance of: 0.133333Parts used in car 
+bargeboard -1 -1 -1 achieved a simulated estimated performance of: 0.410000drs -1 -1 -1 achieved a simulated estimated performance of: 0.410000chassis -1 -1 -1 achieved a simulated estimated performance of: 0.410000ice -1 -1 -1 achieved a simulated estimated performance of: 0.000000turbocharger -1 -1 -1 achieved a simulated estimated performance of: 0.000000mguk -1 -1 -1 achieved a simulated estimated performance of: 0.000000mguk -1 -1 -1 achieved a simulated estimated performance of: 0.000000energystore -1 -1 -1 achieved a simulated estimated performance of: 0.000000ers -1 -1 -1 achieved a simulated estimated performance of: 0.000000

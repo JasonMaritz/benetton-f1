@@ -1,0 +1,10 @@
+Driver has been set for simulation: final
+Race Strategy has been set for simulation: final
+Track has been set for simulation: final
+Parts list has been set for simulation: final
+Car has been build with given parts for sumulation: final
+Driver has been set for simulation: final
+Race Strategy has been set for simulation: final
+Track has been set for simulation: final
+Parts list has been set for simulation: final
+Car has been build with given parts for sumulation: final

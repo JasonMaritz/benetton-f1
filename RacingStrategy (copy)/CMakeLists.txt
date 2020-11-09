@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.17)
-project(RacingStrategy)
+cmake_minimum_required(VERSION 3.16.3)
+project(Benetton_F1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RacingStrategy main.cpp Tyres/Tyre.cpp Tyres/Tyre.h Tyres/SoftTyre.cpp Tyres/SoftTyre.h Tyres/MediumTyre.cpp Tyres/MediumTyre.h Tyres/HardTyre.cpp Tyres/HardTyre.h TyreFactories/TyreFactory.cpp TyreFactories/TyreFactory.h Strategy/RacingStrategy.cpp Strategy/RacingStrategy.h TyreFactories/SoftTyreFactory.cpp TyreFactories/SoftTyreFactory.h TyreFactories/MediumTyreFactory.cpp TyreFactories/MediumTyreFactory.h TyreFactories/HardTyreFactory.cpp TyreFactories/HardTyreFactory.h Strategy/StrategyName.cpp Strategy/StrategyName.h Strategy/RacingStrategyInterface.cpp Strategy/RacingStrategyInterface.h
+add_executable(Benetton_F1 main.cpp Tyres/Tyre.cpp Tyres/Tyre.h Tyres/SoftTyre.cpp Tyres/SoftTyre.h Tyres/MediumTyre.cpp Tyres/MediumTyre.h Tyres/HardTyre.cpp Tyres/HardTyre.h TyreFactories/TyreFactory.cpp TyreFactories/TyreFactory.h Strategy/RacingStrategy.cpp Strategy/RacingStrategy.h TyreFactories/SoftTyreFactory.cpp TyreFactories/SoftTyreFactory.h TyreFactories/MediumTyreFactory.cpp TyreFactories/MediumTyreFactory.h TyreFactories/HardTyreFactory.cpp TyreFactories/HardTyreFactory.h Strategy/StrategyName.cpp Strategy/StrategyName.h Strategy/RacingStrategyInterface.cpp Strategy/RacingStrategyInterface.h
         F1Car/include/F1Builder.h
         F1Car/include/F1Car.h
         F1Car/include/RaceBuilderDir.h

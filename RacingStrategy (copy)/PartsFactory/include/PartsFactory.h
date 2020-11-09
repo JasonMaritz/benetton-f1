@@ -10,8 +10,21 @@
 
 class PartsFactory
 {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief Parts Factory superclass to define a common interface
+     */
 public:
+    /**
+     *
+     * @param type : type of part to produce
+     * @return the initialised part
+     */
     virtual Part* produce(std::string type) = 0;
+    /**
+     *
+     * @param newDef : new part to set default prototypes to in the factories
+     */
     virtual void setDefault(Part* newDef) = 0;
 };
 

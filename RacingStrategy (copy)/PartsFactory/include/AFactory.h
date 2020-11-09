@@ -10,7 +10,16 @@
 #include "AeroFactory.h"
 
 class AFactory: public AeroFactory {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief aero parts factory to create default parts
+     */
 public:
+    /**
+     *
+     * @param type : type of part to produce
+     * @return the instantiated part
+     */
     virtual Part* produce(std::string type);
 };
 

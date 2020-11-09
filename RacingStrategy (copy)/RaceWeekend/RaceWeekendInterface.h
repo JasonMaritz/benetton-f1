@@ -27,13 +27,26 @@ private:
     RaceBuilderDir* CarBuilder;
     string DriverNames [20];
 public:
+    ///Constructor to create a Object used by main to handle a race weekend.
+    ///@param ContainerName A string holding the name of the container set.
+    ///@param newTrack A tack object holding the track used by the race.
     RaceWeekendInterface(string ContainerName, Track* newTrack);
+    ///Function to start the the race weekend starting the qualifying and the race.
     void StartRaceWeekend();
 private:
+    ///Function to open the ContainerSet object and get all the Part objects out of it and store them.
+    ///@param container A ContainerSet object holding all the PackItems needed for a race.
     void breakContainerIntoParts(ContainerSet* container);
+    ///Function to open the ContainerSet object and get all the Tyre objects out of it and store them.
+    ///@param container A ContainerSet object holding all the PackItems needed for a race.
     void breakContainerIntoTyres(ContainerSet* container);
+    ///Functin to build the F1Car object using the parts from the ContainerSet object
     void buildCar();
+    ///A search function to see if a specific part is in our list of Parts.
+    ///@param partName The string value of the type of a specific Part ofject
+    ///@returns A bool value, true if the part is in the list and false if it is not.
     bool isInOurParts(string partName);
+    ///A function to add names to the list of drivers.
     void addDrivers();
 };
 

@@ -15,6 +15,7 @@ private:
     Shipper();
 
 public:
+	///@returns the only instance of Shipper
     static Shipper* getInstance();
 	~Shipper();
 	///@returns a reference to lowPriority

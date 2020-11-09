@@ -8,6 +8,10 @@
 #include "Part.h"
 
 class ElectronicsPart: public Part {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief ElectronicsPart abstract class
+     */
 public:
     ElectronicsPart();
     virtual double getPerformance() = 0;

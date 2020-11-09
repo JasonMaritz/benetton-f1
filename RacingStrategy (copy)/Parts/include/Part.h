@@ -15,32 +15,61 @@ class TestingCenter;
 
 class Part : public PackedItem
 {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief Part superclass defining how parts should act
+     */
 public:
     virtual double getPerformance() = 0;
+    /**
+     *
+     * @param res : set the result member to the parameter provided
+     */
     void setResult(Result* res){result = res;};
+    /**
+     *
+     * @param tc : set the TC member to the TestingCenter provided
+     */
     void setTestingCenter(TestingCenter* tc) { TC = tc; };
+    /**
+     *
+     * @return a string representing the type of the part
+     */
     std::string getType();
     virtual Part* clone() = 0;
+    /**
+    * mutates the powerContribution member
+    * @param mut : value to mutate by
+     */
     void mutatePC(double mut)
     {
         double temp = mut;
-        powerContributionMutValue = temp*10;
+        temp += 1;
         powerContribution*=mut;
-        mut-=floor(powerContribution);
+        powerContribution-=floor(powerContribution);
+
     };
+    /**
+    * mutates the powerDraw member
+    * @param mut : value to mutate by
+     */
     void mutatePD(double mut)
     {
         double temp = mut;
-        powerDrawMutValue = temp*10;
+        temp += 1;
         powerDraw*=mut;
-        mut-=floor(powerDraw);
+        powerDraw-=floor(powerDraw);
     };
+    /**
+    * mutates the efficiency member
+    * @param mut : value to mutate by
+     */
     void mutateEf(double mut)
     {
         double temp = mut;
-        efficiencyMutValue = temp*10;
+        temp += 1;
         efficiency*=mut;
-        mut-=floor(efficiency);
+        efficiency-=floor(efficiency);
     };
 protected:
     std::string type;

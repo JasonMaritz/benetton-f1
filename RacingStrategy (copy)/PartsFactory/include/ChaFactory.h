@@ -10,7 +10,16 @@
 #include "ChassisFactory.h"
 
 class ChaFactory: public ChassisFactory {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief chassis parts factory to create default parts
+     */
 public:
+    /**
+     *
+     * @param type : type of part to produce
+     * @return the instantiated part
+     */
     virtual Part* produce(std::string type);
 };
 

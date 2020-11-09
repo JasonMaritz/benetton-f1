@@ -47,7 +47,7 @@ void testLowPriority()
 {
     cout << "Routes for low priority containers (each line a new set of containers):\n";
     LowPriority lp;
-    lp.destinationsFromtxt("RacingStrategy (copy)/Data/Destinations.txt");
+    lp.destinationsFromtxt("");
     lp.setupRoutes();
     lp.printRoutes();
 

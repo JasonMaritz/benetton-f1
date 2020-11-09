@@ -19,9 +19,16 @@ private:
     Track* track;
     vector<Tyre*> ourTyres;
 public:
+    ///Constructor that create an Race object for the RaceWeekendInterface to use to run a race
+    ///@param array An array of F1Car
+    ///@param newTrack A Track object for the race to use.
+    ///@param tyres A vector of type Tyre that holds the tyres for the race
     Race(F1Car** array, Track* newTrack, vector<Tyre*> tyres);
+    ///The function that the RaceWeekendInterface object uses to start a race.
+    ///@returns A pointer to the F1Car array
     F1Car** StartRace();
 private:
+    ///A function to sort the F1Car array based on race time.
     void sortArray();
 };
 

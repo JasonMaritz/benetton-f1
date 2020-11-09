@@ -1,3 +1,0 @@
-/home/chrissi-boi/Desktop/RacingStrategy (copy)/CMakeFiles/rebuild_cache.dir
-/home/chrissi-boi/Desktop/RacingStrategy (copy)/CMakeFiles/edit_cache.dir
-/home/chrissi-boi/Desktop/RacingStrategy (copy)/CMakeFiles/Benetton_F1.dir

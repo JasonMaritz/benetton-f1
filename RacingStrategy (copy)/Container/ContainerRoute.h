@@ -45,6 +45,7 @@ public:
 	void printRoute();
 
 	void transportCargo();
+	///@returns a Locationptr
 	Location* getCurrLocation();
 	///@returns a TransportMode ptr
 	TransportMode* getTransportMode() const;

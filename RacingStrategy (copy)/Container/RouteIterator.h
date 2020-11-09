@@ -12,7 +12,7 @@ private:
 	vector<Destination*>* aggregate;
 	int currIndex = 0;
 public:
-	///@param Pointer to vector this should iterate over
+	///@param a Pointer to vector this should iterate over
 	RouteIterator(vector<Destination*>* a);
 	///@returns corresponding Destination*
 	Destination* first(); //currIndex = 0

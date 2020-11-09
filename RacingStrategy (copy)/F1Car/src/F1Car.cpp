@@ -4,6 +4,19 @@
 
 #include "../include/F1Car.h"
 
+F1Car::~F1Car() {
+    delete res;
+    delete bargeboard;
+    delete drs;
+    delete ice;
+    delete turboCharger;
+    delete chassisPart;
+    delete mguk;
+    delete mguh;
+    delete ers;
+    delete energyStore;
+}
+
 double F1Car::getPerformance() {
     double res = 0;
     res += bargeboard->getPerformance();

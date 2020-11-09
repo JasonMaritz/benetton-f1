@@ -8,6 +8,10 @@
 #include "Part.h"
 
 class EnginePart: public Part {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief EnginePart abstract class
+     */
 public:
     EnginePart();
     virtual double getPerformance() = 0;

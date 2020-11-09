@@ -22,23 +22,35 @@ class TransportMode
 	protected:
 		int speed;
 		ContainerRoute* _route;
+		
+	/// @param aDest specifies the destination for the shipment
+	/// @param r pointer to a ContainerRoute 
+	/// @param a speed of the tranportMode
 	 	TransportMode(Location aDest, ContainerRoute* r,int aSpeed);
 
 	public: 
-		virtual time_t eta(Location aDestination) = 0;
+		/// @param aDestination the destination for shipment
+		virtual time_t eta(Location& aDestination) = 0;
 		
-		virtual void changeTransportMode(bool ) = 0;
+		/// @todo changes method for offloading
+		virtual void changeTransportMode(bool =false ) = 0;
 		
+		/// @returns whether transport is on route or not
 		bool getOnRoute();
 
+		/// @param aOnRoute specifies whether transport is on route or not
 	 	void setOnRoute(bool aOnRoute);
 
+		/// @returns the route that is currently on
 		ContainerRoute* getRoute();
 		
+		/// @param aRoute ContainerRoute that the mode should be on
 		void setRoute(ContainerRoute* aRoute);
 		
+		/// @returns the current destination that is fulfiling/fulled. 
 		Location getDestination();
 		
+		/// @param aDestination sets the destination, shipment should be dilivered to. 
 		void setDestination(Location aDestination);
 
 		~TransportMode() ;

@@ -1,5 +1,9 @@
 #include "ContainerRoute.h"
 
+#include <iostream>
+
+using namespace std;
+
 ContainerRoute::ContainerRoute() {}
 
 ContainerRoute::ContainerRoute(ContainerSet* c) {
@@ -11,11 +15,6 @@ ContainerRoute::~ContainerRoute() {
 		delete (*it);
 	}
 	delete containers;
-
-	if (currLocation != NULL){
-		delete currLocation ;
-	}
-
 }
 
 RouteIterator* ContainerRoute::getRouteIterator() {
@@ -43,9 +42,14 @@ void ContainerRoute::setStops(vector<Destination*>* s){
 	}
 }
 
-void ContainerRoute::decideTransportMode(){ //used by low
-	
+void ContainerRoute::printRoute() {
+	int nStops = stops.size();
+	for (int i = 0; i < nStops - 1; i++) {
+		cout << stops[i]->location.name << ", ";
+	}
+	cout << stops[nStops - 1]->location.name << endl;
 }
+
 
 TransportMode* ContainerRoute::getTransportMode() const{
 	return transport ; 
@@ -54,13 +58,15 @@ TransportMode* ContainerRoute::getTransportMode() const{
 void ContainerRoute::transportCargo(){
 	if (transport != NULL){
 
-		if (currLocation == NULL){ //High Priority
-			currLocation = getRouteIterator() ;
+		if (stops.size() > 0 ){ //High Priority
+			// currLocation = getRouteIterator() ;
+			for (auto dest = stops.begin() ; dest != stops.end(); dest++){
+				transport->eta((*dest)->location) ;
+				cout<<"Package to "<<(*dest)->location.name<<", will be arrive in: "<<transport->eta((*dest)->location)<<" seconds."<<endl ; //call to the make request
+			}
 		}
-		Destination* dest = currLocation->current() ;
-		while (dest != NULL ){
-			cout<<"Package will be arrive in: "<<transport->eta(dest->location)<<" seconds."<<endl ; //call to the make request
-			dest = currLocation->next() ;
+		else{
+			cout<<"Package Destination was not set \n" ;
 		}
 	}
 }
@@ -78,3 +84,7 @@ Location* ContainerRoute::getCurrLocation(){
 		return &currLocation->current()->location ; 
 	}
 } 
+
+ContainerSet* ContainerRoute::getContainers() const   {
+	return containers ;
+}

@@ -8,6 +8,10 @@
 #include "Part.h"
 
 class AeroPart: public Part {
+    /**
+     * @author Jason Maritz u19053292
+     * @brief Aeropart abstract class
+     */
 public:
     AeroPart();
     virtual double getPerformance() = 0;

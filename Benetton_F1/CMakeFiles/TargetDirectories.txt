@@ -1,3 +1,0 @@
-/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/finished/Benetton_F1/CMakeFiles/rebuild_cache.dir
-/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/finished/Benetton_F1/CMakeFiles/edit_cache.dir
-/home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/finished/Benetton_F1/CMakeFiles/Benetton_F1.dir

@@ -1,4 +1,0 @@
-Cannot generate into /home/chrissi-boi/MegaSync/Uni/secondYear/Second Semester/COS214/Project/Local/finished/RacingStrategy (copy)
-It is already used for project /home/chrissi-boi/Desktop/RacingStrategy (copy)
-
-Please either delete it manually or select another generation directory

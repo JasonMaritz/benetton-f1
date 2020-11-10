@@ -1,0 +1,101 @@
+\hypertarget{class_aerodynamics}{}\doxysection{Aerodynamics Class Reference}
+\label{class_aerodynamics}\index{Aerodynamics@{Aerodynamics}}
+Inheritance diagram for Aerodynamics\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_aerodynamics}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_aerodynamics_a36c7ae850ce18605cdbf3ce1709d8e54}{Aerodynamics}} ()
+\begin{DoxyCompactList}\small\item\em Class responsible for developing and constructing Aerodynamic parts. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_aerodynamics_ab7524876fb532a75672fbf880e7aff2e}{make\+Part}} (std\+::string type)
+\item 
+\mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_aerodynamics_a554427340af172dea7419581f227aacb}{make\+Part\+Experimental}} (std\+::string type, double efficiency, double pcontrib, double pdraw)
+\item 
+void \mbox{\hyperlink{class_aerodynamics_a926afb9356b2efb455e827b6b7a4ad8a}{set\+Best}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Best)
+\item 
+\mbox{\Hypertarget{class_aerodynamics_ac9a7bfa2812e4e156b76a52c5f807b26}\label{class_aerodynamics_ac9a7bfa2812e4e156b76a52c5f807b26}} 
+void \mbox{\hyperlink{class_aerodynamics_ac9a7bfa2812e4e156b76a52c5f807b26}{develop\+Parts}} ()
+\begin{DoxyCompactList}\small\item\em develops parts and populates the experimental\+Parts\+Vector for testing \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_aerodynamics_a36c7ae850ce18605cdbf3ce1709d8e54}\label{class_aerodynamics_a36c7ae850ce18605cdbf3ce1709d8e54}} 
+\index{Aerodynamics@{Aerodynamics}!Aerodynamics@{Aerodynamics}}
+\index{Aerodynamics@{Aerodynamics}!Aerodynamics@{Aerodynamics}}
+\doxysubsubsection{\texorpdfstring{Aerodynamics()}{Aerodynamics()}}
+{\footnotesize\ttfamily Aerodynamics\+::\+Aerodynamics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Class responsible for developing and constructing Aerodynamic parts. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_aerodynamics_ab7524876fb532a75672fbf880e7aff2e}\label{class_aerodynamics_ab7524876fb532a75672fbf880e7aff2e}} 
+\index{Aerodynamics@{Aerodynamics}!makePart@{makePart}}
+\index{makePart@{makePart}!Aerodynamics@{Aerodynamics}}
+\doxysubsubsection{\texorpdfstring{makePart()}{makePart()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_part}{Part}} $\ast$ Aerodynamics\+::make\+Part (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of Aerodynamic part to make \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+part$\ast$ \+: the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_research_and_development_department_ac42a2eff3234b1d2275b7cbe55ab927b}{Research\+And\+Development\+Department}}.
+
+\mbox{\Hypertarget{class_aerodynamics_a554427340af172dea7419581f227aacb}\label{class_aerodynamics_a554427340af172dea7419581f227aacb}} 
+\index{Aerodynamics@{Aerodynamics}!makePartExperimental@{makePartExperimental}}
+\index{makePartExperimental@{makePartExperimental}!Aerodynamics@{Aerodynamics}}
+\doxysubsubsection{\texorpdfstring{makePartExperimental()}{makePartExperimental()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_part}{Part}} $\ast$ Aerodynamics\+::make\+Part\+Experimental (\begin{DoxyParamCaption}\item[{std\+::string}]{type,  }\item[{double}]{efficiency,  }\item[{double}]{pcontrib,  }\item[{double}]{pdraw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of Aerodynamic part to produce \\
+\hline
+{\em efficiency} & \+: value to mutate efficiency member with \\
+\hline
+{\em pcontrib} & \+: value to mutate power\+Contribution member with \\
+\hline
+{\em pdraw} & \+: value to mutate power\+Draw member with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_research_and_development_department_a1925ff4b6e157038112e19c9a15bcc47}{Research\+And\+Development\+Department}}.
+
+\mbox{\Hypertarget{class_aerodynamics_a926afb9356b2efb455e827b6b7a4ad8a}\label{class_aerodynamics_a926afb9356b2efb455e827b6b7a4ad8a}} 
+\index{Aerodynamics@{Aerodynamics}!setBest@{setBest}}
+\index{setBest@{setBest}!Aerodynamics@{Aerodynamics}}
+\doxysubsubsection{\texorpdfstring{setBest()}{setBest()}}
+{\footnotesize\ttfamily void Aerodynamics\+::set\+Best (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Best }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Best} & \+: part to set the new default prototype in the factories \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+R\&\+D/include/Aerodynamics.\+h\item 
+R\&\+D/src/Aerodynamics.\+cpp\end{DoxyCompactItemize}

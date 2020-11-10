@@ -1,0 +1,108 @@
+\hypertarget{class_engineering}{}\doxysection{Engineering Class Reference}
+\label{class_engineering}\index{Engineering@{Engineering}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_engineering_a74a1a292d11c386c42576c89c64da2ad}{set\+Budget}} (double budget)
+\item 
+void \mbox{\hyperlink{class_engineering_aba82993c96f17f1d220dfc5d5238388e}{set\+Best}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Best)
+\item 
+\mbox{\Hypertarget{class_engineering_a9b9193087b1673e46b720e97cab7f693}\label{class_engineering_a9b9193087b1673e46b720e97cab7f693}} 
+void \mbox{\hyperlink{class_engineering_a9b9193087b1673e46b720e97cab7f693}{develop}} ()
+\begin{DoxyCompactList}\small\item\em develops parts and populates the experimental\+Parts member for use in testing \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine}{Engine}} $\ast$ \mbox{\hyperlink{class_engineering_a882126d24ce3f9fcf3ddd234e25fe339}{get\+Engine}} ()
+\item 
+\mbox{\hyperlink{class_chassis}{Chassis}} $\ast$ \mbox{\hyperlink{class_engineering_a31e3c33b61eb873537921684b34eeb7c}{get\+Chassis}} ()
+\item 
+\mbox{\hyperlink{class_electronics}{Electronics}} $\ast$ \mbox{\hyperlink{class_engineering_aa03d0ff3c5ba30b42fe87ddc1d131e83}{get\+Electronics}} ()
+\item 
+\mbox{\hyperlink{class_aerodynamics}{Aerodynamics}} $\ast$ \mbox{\hyperlink{class_engineering_a0b4a85c8193498c234982105342bce36}{get\+Areodynamics}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_engineering}{Engineering}} $\ast$ \mbox{\hyperlink{class_engineering_a8ccb9d6e90e52326ad0e89fe815078f6}{get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Singleton class to provide unified access to parts factory and develops parts for testing purposes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engineering_a0b4a85c8193498c234982105342bce36}\label{class_engineering_a0b4a85c8193498c234982105342bce36}} 
+\index{Engineering@{Engineering}!getAreodynamics@{getAreodynamics}}
+\index{getAreodynamics@{getAreodynamics}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{getAreodynamics()}{getAreodynamics()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_aerodynamics}{Aerodynamics}}$\ast$ Engineering\+::get\+Areodynamics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the instance of \mbox{\hyperlink{class_aerodynamics}{Aerodynamics}} in the \mbox{\hyperlink{class_engineering}{Engineering}} class used to unify access 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_engineering_a31e3c33b61eb873537921684b34eeb7c}\label{class_engineering_a31e3c33b61eb873537921684b34eeb7c}} 
+\index{Engineering@{Engineering}!getChassis@{getChassis}}
+\index{getChassis@{getChassis}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{getChassis()}{getChassis()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_chassis}{Chassis}}$\ast$ Engineering\+::get\+Chassis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the instance of \mbox{\hyperlink{class_chassis}{Chassis}} in the \mbox{\hyperlink{class_engineering}{Engineering}} class used to unify access 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_engineering_aa03d0ff3c5ba30b42fe87ddc1d131e83}\label{class_engineering_aa03d0ff3c5ba30b42fe87ddc1d131e83}} 
+\index{Engineering@{Engineering}!getElectronics@{getElectronics}}
+\index{getElectronics@{getElectronics}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{getElectronics()}{getElectronics()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_electronics}{Electronics}}$\ast$ Engineering\+::get\+Electronics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the instance of \mbox{\hyperlink{class_electronics}{Electronics}} in the \mbox{\hyperlink{class_engineering}{Engineering}} class used to unify access 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_engineering_a882126d24ce3f9fcf3ddd234e25fe339}\label{class_engineering_a882126d24ce3f9fcf3ddd234e25fe339}} 
+\index{Engineering@{Engineering}!getEngine@{getEngine}}
+\index{getEngine@{getEngine}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{getEngine()}{getEngine()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_engine}{Engine}}$\ast$ Engineering\+::get\+Engine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the instance of \mbox{\hyperlink{class_engine}{Engine}} in the \mbox{\hyperlink{class_engineering}{Engineering}} class used to unify access 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_engineering_a8ccb9d6e90e52326ad0e89fe815078f6}\label{class_engineering_a8ccb9d6e90e52326ad0e89fe815078f6}} 
+\index{Engineering@{Engineering}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_engineering}{Engineering}} $\ast$ Engineering\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Singleton class to provide unified access to parts factory and develops parts for testing purposes. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+instance of \mbox{\hyperlink{class_engineering}{Engineering}} to fulfill the singleton design pattern 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_engineering_aba82993c96f17f1d220dfc5d5238388e}\label{class_engineering_aba82993c96f17f1d220dfc5d5238388e}} 
+\index{Engineering@{Engineering}!setBest@{setBest}}
+\index{setBest@{setBest}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{setBest()}{setBest()}}
+{\footnotesize\ttfamily void Engineering\+::set\+Best (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Best }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Best} & set the default part in the correct factory depending on the type of the part \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_engineering_a74a1a292d11c386c42576c89c64da2ad}\label{class_engineering_a74a1a292d11c386c42576c89c64da2ad}} 
+\index{Engineering@{Engineering}!setBudget@{setBudget}}
+\index{setBudget@{setBudget}!Engineering@{Engineering}}
+\doxysubsubsection{\texorpdfstring{setBudget()}{setBudget()}}
+{\footnotesize\ttfamily void Engineering\+::set\+Budget (\begin{DoxyParamCaption}\item[{double}]{budget }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em budget} & the value to set the budget member to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+R\&\+D/include/Engineering.\+h\item 
+R\&\+D/src/Engineering.\+cpp\end{DoxyCompactItemize}

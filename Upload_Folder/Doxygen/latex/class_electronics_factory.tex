@@ -1,0 +1,97 @@
+\hypertarget{class_electronics_factory}{}\doxysection{Electronics\+Factory Class Reference}
+\label{class_electronics_factory}\index{ElectronicsFactory@{ElectronicsFactory}}
+Inheritance diagram for Electronics\+Factory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_electronics_factory}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_electronics_factory_adba818969fbe01dd98fc3072e9c489c1}{produce}} (std\+::string type)=0
+\item 
+void \mbox{\hyperlink{class_electronics_factory_a8e5fb770184995f352065c6b4a42727a}{set\+Default}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Def)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_electronics_factory_a22e35c75e831a846badaf0ef117246ae}\label{class_electronics_factory_a22e35c75e831a846badaf0ef117246ae}} 
+\mbox{\hyperlink{class_electronics_part}{Electronics\+Part}} $\ast$ {\bfseries default\+ERS}
+\item 
+\mbox{\Hypertarget{class_electronics_factory_a467d8270105efef2752ad037cd5ac128}\label{class_electronics_factory_a467d8270105efef2752ad037cd5ac128}} 
+\mbox{\hyperlink{class_electronics_part}{Electronics\+Part}} $\ast$ {\bfseries default\+MGUH}
+\item 
+\mbox{\Hypertarget{class_electronics_factory_a2be2b0ebe30208e4b489cc468d2ccd5f}\label{class_electronics_factory_a2be2b0ebe30208e4b489cc468d2ccd5f}} 
+\mbox{\hyperlink{class_electronics_part}{Electronics\+Part}} $\ast$ {\bfseries default\+MGUK}
+\item 
+\mbox{\Hypertarget{class_electronics_factory_a73a15dea87afddf3ad3839e9035814ed}\label{class_electronics_factory_a73a15dea87afddf3ad3839e9035814ed}} 
+\mbox{\hyperlink{class_electronics_part}{Electronics\+Part}} $\ast$ {\bfseries default\+Energy\+Store}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_electronics_factory_aed0edb3ec3b0972be97873ce983382e6}{Electronics}}
+\begin{DoxyCompactList}\small\item\em Superclass for \mbox{\hyperlink{class_electronics}{Electronics}} parts factories. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_electronics_factory_adba818969fbe01dd98fc3072e9c489c1}\label{class_electronics_factory_adba818969fbe01dd98fc3072e9c489c1}} 
+\index{ElectronicsFactory@{ElectronicsFactory}!produce@{produce}}
+\index{produce@{produce}!ElectronicsFactory@{ElectronicsFactory}}
+\doxysubsubsection{\texorpdfstring{produce()}{produce()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Electronics\+Factory\+::produce (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of part to produce \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the instantiated part 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_parts_factory_acf06ad92bbfd7a705bf388c2a5cdb7b4}{Parts\+Factory}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_elec_factory_experimental_ae8a8483c278abf1d1ebdec8fd48371b2}{Elec\+Factory\+Experimental}}, and \mbox{\hyperlink{class_elec_factory_a99349703752221109a48df5f85d07a8e}{Elec\+Factory}}.
+
+\mbox{\Hypertarget{class_electronics_factory_a8e5fb770184995f352065c6b4a42727a}\label{class_electronics_factory_a8e5fb770184995f352065c6b4a42727a}} 
+\index{ElectronicsFactory@{ElectronicsFactory}!setDefault@{setDefault}}
+\index{setDefault@{setDefault}!ElectronicsFactory@{ElectronicsFactory}}
+\doxysubsubsection{\texorpdfstring{setDefault()}{setDefault()}}
+{\footnotesize\ttfamily void Electronics\+Factory\+::set\+Default (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Def }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Def} & \+: the new part to set as default prototype for the factories \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_parts_factory_ae9ed8050459467bd29b7d5ce65492a2d}{Parts\+Factory}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_electronics_factory_aed0edb3ec3b0972be97873ce983382e6}\label{class_electronics_factory_aed0edb3ec3b0972be97873ce983382e6}} 
+\index{ElectronicsFactory@{ElectronicsFactory}!Electronics@{Electronics}}
+\index{Electronics@{Electronics}!ElectronicsFactory@{ElectronicsFactory}}
+\doxysubsubsection{\texorpdfstring{Electronics}{Electronics}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_electronics}{Electronics}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Superclass for \mbox{\hyperlink{class_electronics}{Electronics}} parts factories. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Parts\+Factory/include/Electronics\+Factory.\+h\item 
+Parts\+Factory/src/Electronics\+Factory.\+cpp\end{DoxyCompactItemize}

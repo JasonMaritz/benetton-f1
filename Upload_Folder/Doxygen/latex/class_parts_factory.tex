@@ -1,0 +1,63 @@
+\hypertarget{class_parts_factory}{}\doxysection{Parts\+Factory Class Reference}
+\label{class_parts_factory}\index{PartsFactory@{PartsFactory}}
+Inheritance diagram for Parts\+Factory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.478261cm]{class_parts_factory}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_parts_factory_acf06ad92bbfd7a705bf388c2a5cdb7b4}{produce}} (std\+::string type)=0
+\begin{DoxyCompactList}\small\item\em Parts Factory superclass to define a common interface. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_parts_factory_ae9ed8050459467bd29b7d5ce65492a2d}{set\+Default}} (\mbox{\hyperlink{class_part}{Part}} $\ast$new\+Def)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_parts_factory_acf06ad92bbfd7a705bf388c2a5cdb7b4}\label{class_parts_factory_acf06ad92bbfd7a705bf388c2a5cdb7b4}} 
+\index{PartsFactory@{PartsFactory}!produce@{produce}}
+\index{produce@{produce}!PartsFactory@{PartsFactory}}
+\doxysubsubsection{\texorpdfstring{produce()}{produce()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Parts\+Factory\+::produce (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Parts Factory superclass to define a common interface. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \+: type of part to produce \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the initialised part 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_engine_factory_ae55d3c1d9f3bda1358f8eefbceff9255}{Engine\+Factory}}, \mbox{\hyperlink{class_electronics_factory_adba818969fbe01dd98fc3072e9c489c1}{Electronics\+Factory}}, \mbox{\hyperlink{class_chassis_factory_a1c3caacabd6cb8bfc30e416724b9e2ef}{Chassis\+Factory}}, \mbox{\hyperlink{class_aero_factory_a20f27882f0e66a9255ee495b75d0eae8}{Aero\+Factory}}, \mbox{\hyperlink{class_eng_factory_a87f206792840793b2c297db434323ecb}{Eng\+Factory}}, \mbox{\hyperlink{class_eng_factory_experimental_a0ad5bc4b41da04659d7333a9859ea144}{Eng\+Factory\+Experimental}}, \mbox{\hyperlink{class_elec_factory_experimental_ae8a8483c278abf1d1ebdec8fd48371b2}{Elec\+Factory\+Experimental}}, \mbox{\hyperlink{class_elec_factory_a99349703752221109a48df5f85d07a8e}{Elec\+Factory}}, \mbox{\hyperlink{class_cha_factory_experimental_a5b68d4a8ba566dc61a20baba6abe11c2}{Cha\+Factory\+Experimental}}, \mbox{\hyperlink{class_cha_factory_a81725dbc57cf0f2faf9243333f123090}{Cha\+Factory}}, \mbox{\hyperlink{class_a_factory_experimental_ac07d451c15979bb09df1e6f8ea8d671d}{AFactory\+Experimental}}, and \mbox{\hyperlink{class_a_factory_a411c7cd4377d3475f8b23c128f6f6e8a}{AFactory}}.
+
+\mbox{\Hypertarget{class_parts_factory_ae9ed8050459467bd29b7d5ce65492a2d}\label{class_parts_factory_ae9ed8050459467bd29b7d5ce65492a2d}} 
+\index{PartsFactory@{PartsFactory}!setDefault@{setDefault}}
+\index{setDefault@{setDefault}!PartsFactory@{PartsFactory}}
+\doxysubsubsection{\texorpdfstring{setDefault()}{setDefault()}}
+{\footnotesize\ttfamily virtual void Parts\+Factory\+::set\+Default (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_part}{Part}} $\ast$}]{new\+Def }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Def} & \+: new part to set default prototypes to in the factories \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_engine_factory_a4375a511fddf7728e63e25d24b23bc2b}{Engine\+Factory}}, \mbox{\hyperlink{class_electronics_factory_a8e5fb770184995f352065c6b4a42727a}{Electronics\+Factory}}, \mbox{\hyperlink{class_chassis_factory_a8e2d48afa94def0aaaab94beec245090}{Chassis\+Factory}}, and \mbox{\hyperlink{class_aero_factory_ac812c0ff1fc82340661c585e81889c1c}{Aero\+Factory}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Parts\+Factory/include/Parts\+Factory.\+h\end{DoxyCompactItemize}

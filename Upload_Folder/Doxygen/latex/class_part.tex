@@ -1,0 +1,174 @@
+\hypertarget{class_part}{}\doxysection{Part Class Reference}
+\label{class_part}\index{Part@{Part}}
+Inheritance diagram for Part\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_part}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \mbox{\hyperlink{class_part_ab6bcdf81e8f282de05e6be20545a2149}{get\+Performance}} ()=0
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_part}{Part}} superclass defining how parts should act. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_part_a022de15fd03970410a6f811bfca5ddcf}{set\+Result}} (\mbox{\hyperlink{class_result}{Result}} $\ast$res)
+\item 
+void \mbox{\hyperlink{class_part_ab999440c725f37470f44b75a877aa98e}{set\+Testing\+Center}} (\mbox{\hyperlink{class_testing_center}{Testing\+Center}} $\ast$tc)
+\item 
+std\+::string \mbox{\hyperlink{class_part_a52c7fe3d25635b5f273585a502d609f1}{get\+Type}} ()
+\item 
+virtual \mbox{\hyperlink{class_part}{Part}} $\ast$ \mbox{\hyperlink{class_part_a4bbe8015c11062b36ba1b445e149fc00}{clone}} ()=0
+\item 
+void \mbox{\hyperlink{class_part_a89a6d38f1fe17c24b0555f0b9091d9e6}{mutate\+PC}} (double mut)
+\item 
+void \mbox{\hyperlink{class_part_a93962fdf506fac6d87c436c862dd2b26}{mutate\+PD}} (double mut)
+\item 
+void \mbox{\hyperlink{class_part_af15e811b01625537abd23768e770e6f2}{mutate\+Ef}} (double mut)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_part_a22cf1b3f3c2ead361d437110eb9e5f46}\label{class_part_a22cf1b3f3c2ead361d437110eb9e5f46}} 
+void {\bfseries mutate} (double power\+Contribution\+Mut, double efficiency\+Mut, double power\+Draw\+Mut)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_part_a8a7254c9b4d72b1e04e0b973ed26848e}\label{class_part_a8a7254c9b4d72b1e04e0b973ed26848e}} 
+std\+::string {\bfseries type}
+\item 
+\mbox{\Hypertarget{class_part_ac06a531c104f1857b28e6cf116e0b138}\label{class_part_ac06a531c104f1857b28e6cf116e0b138}} 
+\mbox{\hyperlink{class_testing_center}{Testing\+Center}} $\ast$ {\bfseries TC} = nullptr
+\item 
+\mbox{\Hypertarget{class_part_a052cd825d36a6e4111c04f2c6ccf969d}\label{class_part_a052cd825d36a6e4111c04f2c6ccf969d}} 
+double {\bfseries wear}
+\item 
+\mbox{\Hypertarget{class_part_a0e1e5eb58e1e4cce77053965bda882f5}\label{class_part_a0e1e5eb58e1e4cce77053965bda882f5}} 
+double {\bfseries power\+Contribution}
+\item 
+\mbox{\Hypertarget{class_part_a8448d22609eb328222ba56eb7dae2571}\label{class_part_a8448d22609eb328222ba56eb7dae2571}} 
+double {\bfseries power\+Draw}
+\item 
+\mbox{\Hypertarget{class_part_ab3c0a6c3b902c2a143a24bb9c19d4bd0}\label{class_part_ab3c0a6c3b902c2a143a24bb9c19d4bd0}} 
+double {\bfseries efficiency}
+\item 
+\mbox{\Hypertarget{class_part_a7320dbf80f95128bc7ff3daa1ec233a4}\label{class_part_a7320dbf80f95128bc7ff3daa1ec233a4}} 
+int {\bfseries power\+Contribution\+Mut\+Value} = -\/1
+\item 
+\mbox{\Hypertarget{class_part_a46c31055a5047cd58ad967d17dbfae2e}\label{class_part_a46c31055a5047cd58ad967d17dbfae2e}} 
+int {\bfseries power\+Draw\+Mut\+Value} = -\/1
+\item 
+\mbox{\Hypertarget{class_part_a5d1a33c9f55991fcfaa73bc54cbf46b2}\label{class_part_a5d1a33c9f55991fcfaa73bc54cbf46b2}} 
+int {\bfseries efficiency\+Mut\+Value} = -\/1
+\item 
+\mbox{\Hypertarget{class_part_ac6e771a162d7f2dc504b76493e9cfba3}\label{class_part_ac6e771a162d7f2dc504b76493e9cfba3}} 
+\mbox{\hyperlink{class_result}{Result}} $\ast$ {\bfseries result} = nullptr
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_part_a4bbe8015c11062b36ba1b445e149fc00}\label{class_part_a4bbe8015c11062b36ba1b445e149fc00}} 
+\index{Part@{Part}!clone@{clone}}
+\index{clone@{clone}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_part}{Part}}$\ast$ Part\+::clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+\begin{DoxyReturn}{Returns}
+a deep copy of this 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_packed_item_a3dcb596fd7268fbd5f4b7290c6bf24fb}{Packed\+Item}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_engine_part_a67cdec59a4ffb86156b6b95c370362f4}{Engine\+Part}}, \mbox{\hyperlink{class_electronics_part_a19df8c105d6252754049c3e307a5c672}{Electronics\+Part}}, \mbox{\hyperlink{class_aero_part_a859967a59980760714d0d1d595ab90c6}{Aero\+Part}}, \mbox{\hyperlink{class_turbo_charger_a46af6e69b4a408f6ecbbd53895177674}{Turbo\+Charger}}, \mbox{\hyperlink{class_m_g_u_k_a86b3eb56e771283abe103ddbb97b184d}{MGUK}}, \mbox{\hyperlink{class_m_g_u_h_ae413c6180eacc17fcb842ff84e91befc}{MGUH}}, \mbox{\hyperlink{class_i_c_e_a8f8bd4fbebc5bd17cd3c970191b18e23}{ICE}}, \mbox{\hyperlink{class_e_r_s_a37ebf437ac531ed4ed9c176ad0b7d671}{ERS}}, \mbox{\hyperlink{class_energy_store_aece89025b45b6af11b5aa424b639d360}{Energy\+Store}}, \mbox{\hyperlink{class_d_r_s_acaf8a8bd142aa05bc0afa921553bff65}{DRS}}, \mbox{\hyperlink{class_chassis_part_a033e787aafa3b1bfdeeea54f29a92355}{Chassis\+Part}}, and \mbox{\hyperlink{class_bargeboard_aa90e487743461b8cb851c9c7501828f5}{Bargeboard}}.
+
+\mbox{\Hypertarget{class_part_ab6bcdf81e8f282de05e6be20545a2149}\label{class_part_ab6bcdf81e8f282de05e6be20545a2149}} 
+\index{Part@{Part}!getPerformance@{getPerformance}}
+\index{getPerformance@{getPerformance}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{getPerformance()}{getPerformance()}}
+{\footnotesize\ttfamily virtual double Part\+::get\+Performance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+\mbox{\hyperlink{class_part}{Part}} superclass defining how parts should act. 
+
+\begin{DoxyAuthor}{Author}
+Jason Maritz u19053292 
+\end{DoxyAuthor}
+
+
+Implemented in \mbox{\hyperlink{class_engine_part_af1f9083394f5876a1ed5eb65a9460530}{Engine\+Part}}, \mbox{\hyperlink{class_electronics_part_a7d242751c4ba8929548644b2ae813db8}{Electronics\+Part}}, \mbox{\hyperlink{class_aero_part_a7865872d31d29e27dbc9d6ae336ea1da}{Aero\+Part}}, \mbox{\hyperlink{class_turbo_charger_a48c956d41363af4332b7a1a1c2bdd9fa}{Turbo\+Charger}}, \mbox{\hyperlink{class_m_g_u_k_a1e39c354671b38a90ab4f33a0ccc1c32}{MGUK}}, \mbox{\hyperlink{class_m_g_u_h_a802598a45ef8b592a20c9d9849ffb9c9}{MGUH}}, \mbox{\hyperlink{class_i_c_e_ac70ea6444c82e77ca5e384e89f9b6128}{ICE}}, \mbox{\hyperlink{class_e_r_s_a534c444e5f9d58637a6cc469ab86463f}{ERS}}, \mbox{\hyperlink{class_energy_store_a67926dd45d9048574c249b61f86f60d2}{Energy\+Store}}, \mbox{\hyperlink{class_d_r_s_ae72541b0906dbf749b8584f8cbecf485}{DRS}}, \mbox{\hyperlink{class_chassis_part_a37ec567530b5d08a2587f348d4fba940}{Chassis\+Part}}, and \mbox{\hyperlink{class_bargeboard_adf52c2a934c388e653d29090caef91db}{Bargeboard}}.
+
+\mbox{\Hypertarget{class_part_a52c7fe3d25635b5f273585a502d609f1}\label{class_part_a52c7fe3d25635b5f273585a502d609f1}} 
+\index{Part@{Part}!getType@{getType}}
+\index{getType@{getType}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily std\+::string Part\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+a string representing the type of the part 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_part_af15e811b01625537abd23768e770e6f2}\label{class_part_af15e811b01625537abd23768e770e6f2}} 
+\index{Part@{Part}!mutateEf@{mutateEf}}
+\index{mutateEf@{mutateEf}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{mutateEf()}{mutateEf()}}
+{\footnotesize\ttfamily void Part\+::mutate\+Ef (\begin{DoxyParamCaption}\item[{double}]{mut }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+mutates the efficiency member 
+\begin{DoxyParams}{Parameters}
+{\em mut} & \+: value to mutate by \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_part_a89a6d38f1fe17c24b0555f0b9091d9e6}\label{class_part_a89a6d38f1fe17c24b0555f0b9091d9e6}} 
+\index{Part@{Part}!mutatePC@{mutatePC}}
+\index{mutatePC@{mutatePC}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{mutatePC()}{mutatePC()}}
+{\footnotesize\ttfamily void Part\+::mutate\+PC (\begin{DoxyParamCaption}\item[{double}]{mut }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+mutates the power\+Contribution member 
+\begin{DoxyParams}{Parameters}
+{\em mut} & \+: value to mutate by \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_part_a93962fdf506fac6d87c436c862dd2b26}\label{class_part_a93962fdf506fac6d87c436c862dd2b26}} 
+\index{Part@{Part}!mutatePD@{mutatePD}}
+\index{mutatePD@{mutatePD}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{mutatePD()}{mutatePD()}}
+{\footnotesize\ttfamily void Part\+::mutate\+PD (\begin{DoxyParamCaption}\item[{double}]{mut }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+mutates the power\+Draw member 
+\begin{DoxyParams}{Parameters}
+{\em mut} & \+: value to mutate by \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_part_a022de15fd03970410a6f811bfca5ddcf}\label{class_part_a022de15fd03970410a6f811bfca5ddcf}} 
+\index{Part@{Part}!setResult@{setResult}}
+\index{setResult@{setResult}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{setResult()}{setResult()}}
+{\footnotesize\ttfamily void Part\+::set\+Result (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_result}{Result}} $\ast$}]{res }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em res} & \+: set the result member to the parameter provided \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_part_ab999440c725f37470f44b75a877aa98e}\label{class_part_ab999440c725f37470f44b75a877aa98e}} 
+\index{Part@{Part}!setTestingCenter@{setTestingCenter}}
+\index{setTestingCenter@{setTestingCenter}!Part@{Part}}
+\doxysubsubsection{\texorpdfstring{setTestingCenter()}{setTestingCenter()}}
+{\footnotesize\ttfamily void Part\+::set\+Testing\+Center (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_testing_center}{Testing\+Center}} $\ast$}]{tc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em tc} & \+: set the TC member to the \mbox{\hyperlink{class_testing_center}{Testing\+Center}} provided \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Parts/include/Part.\+h\item 
+Parts/src/Part.\+cpp\end{DoxyCompactItemize}
